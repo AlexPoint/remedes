@@ -23,6 +23,12 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 ## site.relative_url
 {{ site.relative_url }}
 
+## site.github.build_revision 
+{{ site.github.build_revision }}
+
+## '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url
+{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}
+
 ## [](#header-2)Header 2
 
 > This is a blockquote following a header.
