@@ -14,20 +14,14 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
-## site.baseurl
-{{ site.baseurl }}
-
-## site.url
-{{ site.url }}
-
-## site.relative_url
-{{ site.relative_url }}
-
-## site.github.build_revision 
-{{ site.github.build_revision }}
-
-## '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url
-{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}
+## Tous les médicaments
+<ul>
+{% for drug in site.data.drugs %}
+  <li>
+    {{ drug.name }}
+  </li>
+{% endfor %}
+</ul>
 
 ## [](#header-2)Header 2
 

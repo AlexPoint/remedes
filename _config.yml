@@ -27,6 +27,7 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+encoding: utf-8
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
