@@ -1,7 +1,8 @@
 # Setup
 title:        Project or Site name
 tagline:      A responsive theme for your project on GitHub Pages
-baseurl:      ""
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 paginate:     1
 
 # About/contact
@@ -13,5 +14,12 @@ author:
 gems:
   - jekyll-paginate
 
-#Others
+# Others
 markdown: kramdown
+
+# Page generator plugin
+page_gen:
+  - data: 'drugs'
+    template: 'medicament'
+    name: 'cis_code'
+    dir: 'medicament'

@@ -1,9 +1,0 @@
-
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-
-page_gen:
-  - data: 'drugs'
-    template: 'medicament'
-    name: 'cis_code'
-    dir: 'medicament'
