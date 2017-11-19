@@ -17,7 +17,7 @@ gems:
 # Others
 markdown: kramdown
 
-# Page generator plugin
+# Page generator plugin - see https://github.com/avillafiorita/jekyll-datapage_gen
 page_gen:
   - data: 'drugs'
     template: 'medicament'

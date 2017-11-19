@@ -14,8 +14,16 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
-## Test plugin
-Testing plugin output of '_plugins/testplugin.rb': {% testplugin %}
+## Tous les médicaments
+<ul>
+{% for drug in site.data.drugs limit:10 %}
+  <li>
+    <a href="/medicament/{{drug.cis_code}}">
+      {{ drug.name }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
 
 ## [](#header-2)Header 2
 
