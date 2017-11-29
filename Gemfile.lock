@@ -17,7 +17,7 @@ GEM
       pathutil (~> 0.9)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
-    jekyll-paginate (1.1.0)
+    jekyll-analytics (0.1.5)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
     jekyll-watch (1.5.0)
@@ -50,7 +50,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
-  jekyll-paginate
+  jekyll-analytics
   kramdown
   pygments.rb
 
