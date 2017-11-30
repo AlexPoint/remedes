@@ -2,5 +2,22 @@
 layout: page
 ---
 
-# {{page.name}}
-Cis code: {{page.cis_code}}
+{% assign drug = site.data.drugs | where:"cis_code", page.cis_code  | first %}
+{% assign presentations = site.data.presentations | where:"cis_code", drug.cis_code %}
+
+
+<div>
+	<h2>Médicament</h2>
+	<ul>
+		<li>Cis code: {{drug.cis_code}}</li>
+		<li>Name: {{drug.name}}</li>
+	</ul>
+</div>
+
+<div>
+	<h2>Présentation</h2>
+	<ul>
+		{% for presentation in presentations %}
+		{{presentation.label}}: {{presentation.full_price}}€
+		{% endfor %}
+	</ul>
