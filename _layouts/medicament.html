@@ -15,9 +15,15 @@ layout: page
 </div>
 
 <div>
-	<h2>Présentation</h2>
+	<h2>Présentations</h2>
 	<ul>
 		{% for presentation in presentations %}
-		{{presentation.label}}: {{presentation.full_price}}€
+		<li>
+			<div>{{presentation.label}}: {{presentation.full_price}}€.</div>
+			<div>Taux de remboursement SECU: {{presentation.reimbursement_rate}}.</div>
+			<!-- Liquid filters are applied from left to right hence the convoluted code below to compute the (1 - reimbursement_rate) * price -->
+			<div>Reste à charge (incuant mutuelle): {{ presentation.reimbursement_rate | replace: '%', '' | plus: 0 | times: presentation.full_price | divided_by: 100 | minus: presentation.full_price | abs }}€</div>
+		</li>
 		{% endfor %}
 	</ul>
+</div>
