@@ -19,10 +19,19 @@ layout: page
 	<ul>
 		{% for presentation in presentations %}
 		<li>
-			<div>{{presentation.label}}: {{presentation.full_price}}€.</div>
+			<div>
+				{{presentation.label}}
+				{% if presentation.full_price != "" and presentation.full_price != nil %}: {{presentation.full_price}}€{% endif %}
+			</div>
 			<div>Taux de remboursement SECU: {{presentation.reimbursement_rate}}.</div>
 			<!-- Liquid filters are applied from left to right hence the convoluted code below to compute the (1 - reimbursement_rate) * price -->
-			<div>Reste à charge (incuant mutuelle): {{ presentation.reimbursement_rate | replace: '%', '' | plus: 0 | times: presentation.full_price | divided_by: 100 | minus: presentation.full_price | abs }}€</div>
+			<div>
+				{% if presentation.full_price == "" or presentation.full_price == nil %}
+					Prix non réglementé, médicament non remboursé
+				{% else %}
+					Reste à charge (incuant mutuelle): {{ presentation.reimbursement_rate | replace: '%', '' | plus: 0 | times: presentation.full_price | divided_by: 100 | minus: presentation.full_price | abs }}€
+				{% endif %}
+			</div>
 		</li>
 		{% endfor %}
 	</ul>
