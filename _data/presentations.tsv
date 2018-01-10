@@ -1,4 +1,4 @@
-cis_code	cip7_code	label	admin_status	commercialization_status	commercialization_date	cip13_code	coll_agreement	reimbursement_rate	price_wo_dispensing	full_price	price_wo_dispensing	additional_precision
+cis_code	cip7_code	label	admin_status	commercialization_status	commercialization_date	cip13_code	coll_agreement	reimbursement_rate	price_wo_dispensing	full_price	price_dispensing	additional_precision
 61266250	3000147	1 tube(s) aluminium verni de 50 g	Présentation active	Déclaration de commercialisation	19/01/1965	3400930001479	non	30%	1.49	2.51	1.02	
 62869109	3000064	1 flacon(s) polystyrène de 30 capsule(s)	Présentation active	Déclaration de commercialisation	19/07/1971	3400930000649	oui	65%	2.37	3.39	1.02	
 62170486	3008345	plaquette(s) PVC (ACLAR RX) polytrifluorochloroéthylène aluminium de 30 comprimé(s)	Présentation active	Déclaration de commercialisation	20/06/2017	3400930083451	oui	100%	160.89	161.91	1.02	
