@@ -52,6 +52,7 @@ layout: page
 <!-- Whether the drug is considered generic, and the related drugs. -->
 <div>
 	<h2>Groupe générique</h2>
+
 	{% unless generic_info == empty %}
 		<!-- Information on the current drug -->
 		<div>
@@ -84,7 +85,7 @@ layout: page
 						{% else %}
 							/!\ code inconnu ({{ elt.generic_type}})
 						{% endif %}
-						- {{ elt.label }} - {{ elt.cis_code }}
+						- <a href="{{ "/medicament/" | relative_url }}{{ elt.cis_code }}">{{ elt.label }}</a>
 					</li>
 				{% endfor %}
 			</ul>
