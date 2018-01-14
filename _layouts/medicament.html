@@ -5,7 +5,11 @@ layout: page
 {% assign drug = site.data.drugs | where:"cis_code", page.cis_code  | first %}
 {% assign presentations = site.data.presentations | where:"cis_code", drug.cis_code %}
 
+{% assign generic_info = site.data.generic_groups | where:"cis_code", drug.cis_code | first %}
+{% assign generic_group = site.data.generic_groups | where:"id", generic_info.id %}
 
+
+<!-- Main information on the drug -->
 <div>
 	<h2>Médicament</h2>
 	<ul>
@@ -14,6 +18,7 @@ layout: page
 	</ul>
 </div>
 
+<!-- The different "presentations", i.e. the form that the drug can take (syrup, pill etc.) -->
 <div>
 	<h2>Présentations</h2>
 	<ul>
@@ -24,7 +29,7 @@ layout: page
 				{% if presentation.full_price != "" and presentation.full_price != nil %}: {{presentation.full_price}}€{% endif %}
 			</div>
 			<div>Taux de remboursement SECU: {{presentation.reimbursement_rate}}.</div>
-			<!-- Liquid filters are applied from left to right hence the convoluted code below to compute the (1 - reimbursement_rate) * price -->
+			Liquid filters are applied from left to right hence the convoluted code below to compute the (1 - reimbursement_rate) * price
 			<div>
 				{% if presentation.full_price == "" or presentation.full_price == nil %}
 					Prix non réglementé, médicament non remboursé
@@ -32,7 +37,62 @@ layout: page
 					Reste à charge (incuant mutuelle): {{ presentation.reimbursement_rate | replace: '%', '' | plus: 0 | times: presentation.full_price | divided_by: 100 | minus: presentation.full_price | abs }}€
 				{% endif %}
 			</div>
+			<div>
+				{% if presentation.coll_agreement == "oui" %}
+					Utilisé à l'hôpital (agrément aux collectivités)
+				{% elsif presentation.coll_agreement == "non" %}
+					Non agréé aux collectivités
+				{% endif %}
+			</div>
 		</li>
 		{% endfor %}
 	</ul>
+</div>
+
+<!-- Whether the drug is considered generic, and the related drugs. -->
+<div>
+	<h2>Groupe générique</h2>
+	{% unless generic_info == empty %}
+		<!-- Information on the current drug -->
+		<div>
+			{% if generic_info.generic_type == "0" %}
+				princeps
+			{% elsif generic_info.generic_type == "1" %}
+				générique
+			{% elsif generic_info.generic_type == "2" %}
+				générique par complémentarité posologique
+			{% elsif generic_info.generic_type == "4" %}
+				générique substituable
+			{% else %}
+				<!-- TODO: make sure this never happens -->
+				/!\ code inconnu ({{ generic_info.generic_type}})
+			{% endif %}
+		</div>
+		<div>
+			{{ generic_group | size }} médicaments dans ce groupe générique :
+			<ul>
+				{% for elt in generic_group %}
+					<li>
+						{% if elt.generic_type == "0" %}
+							princeps
+						{% elsif elt.generic_type == "1" %}
+							générique
+						{% elsif elt.generic_type == "2" %}
+							générique par complémentarité posologique
+						{% elsif elt.generic_type == "4" %}
+							générique substituable
+						{% else %}
+							/!\ code inconnu ({{ elt.generic_type}})
+						{% endif %}
+						- {{ elt.label }} - {{ elt.cis_code }}
+					</li>
+				{% endfor %}
+			</ul>
+		</div>
+	{% else %}
+		<!-- TODO: understand whether this can happen and under which conditions -->
+		<div>
+			Pas d'informations sur le groupe générique de ce médicament
+		</div>
+	{% endunless %}
 </div>
