@@ -13,8 +13,22 @@ layout: page
 <div>
 	<h2>Médicament</h2>
 	<ul>
-		<li>Cis code: {{drug.cis_code}}</li>
-		<li>Name: {{drug.name}}</li>
+		<li>Code CIS : {{drug.cis_code}}</li>
+		<li>Nom : {{drug.name}}</li>
+		<li>Laboratoire : {{drug.owner}}</li>
+		<li>Forme pharmaceutique: {{drug.pharmaceutical_form}} / Mode d'administration : {{drug.admin_mode}}</li>
+		{% if drug.reinforced_monitoring == "Oui" %}
+		<li>Surveillance renforcée</li>
+		{% endif %}
+		{% if drug.amm_status != "Autorisation active" %}
+		<li>Cette presentation n'est pas active</li>
+		{% endif %}
+		{% if drug.eu_auth_nb %}
+		<li>Ce médicament est approuvé dans plusieurs pays de l'Union Européenne</li>
+		{% endif %}
+		{% if drug.bdm_status %}
+		<li>{{ drug.bdm_status }}</li>
+		{% endif %}
 	</ul>
 </div>
 
