@@ -8,6 +8,8 @@ layout: page
 {% assign generic_info = site.data.generic_groups | where:"cis_code", drug.cis_code | first %}
 {% assign generic_group = site.data.generic_groups | where:"id", generic_info.id %}
 
+{% assign compositions = site.data.compositions | where:"cis_code", drug.cis_code %}
+
 
 <!-- Main information on the drug -->
 <div>
@@ -43,12 +45,12 @@ layout: page
 				{% if presentation.full_price != "" and presentation.full_price != nil %}: {{presentation.full_price}}€{% endif %}
 			</div>
 			<div>Taux de remboursement SECU: {{presentation.reimbursement_rate}}.</div>
-			Liquid filters are applied from left to right hence the convoluted code below to compute the (1 - reimbursement_rate) * price
+			<!-- Liquid filters are applied from left to right hence the convoluted code below to compute the (1 - reimbursement_rate) * price -->
 			<div>
 				{% if presentation.full_price == "" or presentation.full_price == nil %}
 					Prix non réglementé, médicament non remboursé
 				{% else %}
-					Reste à charge (incuant mutuelle): {{ presentation.reimbursement_rate | replace: '%', '' | plus: 0 | times: presentation.full_price | divided_by: 100 | minus: presentation.full_price | abs }}€
+					Reste à charge (incuant mutuelle): {{ presentation.reimbursement_rate | replace: '%', '' | plus: 0 | times: presentation.full_price | divided_by: 100 | minus: presentation.full_price | abs | round: 2 }}€
 				{% endif %}
 			</div>
 			<div>
@@ -58,6 +60,9 @@ layout: page
 					Non agréé aux collectivités
 				{% endif %}
 			</div>
+			{% if presentation.admin_status != "Présentation active" %}
+				<div>Cette présentation n'est plus active</div>
+			{% endif %}
 		</li>
 		{% endfor %}
 	</ul>
@@ -110,4 +115,23 @@ layout: page
 			Pas d'informations sur le groupe générique de ce médicament
 		</div>
 	{% endunless %}
+</div>
+
+<!-- The composition of the drug -->
+<div>
+	<h2>Composition</h2>
+	<ul>
+		{% for composition in compositions %}
+			<li>
+				<div>
+					{{ composition.substance_dosing }} {{ composition.substance_name}} ({{ composition.dosing_ref }}) - 
+					{% if composition.comp_nature == "SA" %}
+						principe actif
+					{% else %}
+						fraction thérapeutique
+					{% endif %}
+				</div>
+			</li>
+		{% endfor %}
+	</ul>
 </div>
