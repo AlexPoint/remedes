@@ -118,20 +118,26 @@ layout: page
 </div>
 
 <!-- The composition of the drug -->
+{% assign composition_by_dosing_ref = compositions | group_by: "dosing_ref" %}
 <div>
 	<h2>Composition</h2>
-	<ul>
-		{% for composition in compositions %}
-			<li>
-				<div>
-					{{ composition.substance_dosing }} {{ composition.substance_name}} ({{ composition.dosing_ref }}) - 
-					{% if composition.comp_nature == "SA" %}
-						principe actif
-					{% else %}
-						fraction thérapeutique
-					{% endif %}
-				</div>
-			</li>
-		{% endfor %}
-	</ul>
+	{% for dosing_ref in composition_by_dosing_ref %}
+		<div>
+			<h3>[pour] {{ dosing_ref.name }}</h3>
+			<ul>
+				{% for composition in compositions %}
+					<li>
+						<div>
+							{{ composition.substance_dosing }} {{ composition.substance_name}} - 
+							{% if composition.comp_nature == "SA" %}
+								principe actif
+							{% else %}
+								fraction thérapeutique
+							{% endif %}
+						</div>
+					</li>
+				{% endfor %}
+			</ul>
+		</div>
+	{% endfor %}
 </div>
