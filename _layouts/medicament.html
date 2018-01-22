@@ -10,6 +10,8 @@ layout: page
 
 {% assign compositions = site.data.compositions | where:"cis_code", drug.cis_code %}
 
+{% assign delivery_conditions = site.data.delivery_conditions | where:"cis_code", drug.cis_code %}
+
 
 <!-- Main information on the drug -->
 <div>
@@ -31,6 +33,18 @@ layout: page
 		{% if drug.bdm_status %}
 		<li>{{ drug.bdm_status }}</li>
 		{% endif %}
+		<li>
+			<!-- See http://base-donnees-publique.medicaments.gouv.fr/glossaire.php (liste I et II) for delivery conditions -->
+			{% for delivery_condition in delivery_conditions %}
+				{% if delivery_condition.condition == "liste I" %}
+					délivré sur ordonnance, pour la durée du traitement
+				{% elsif delivery_condition.condition == "liste II" %}
+					délivré sur ordonnance, plusieurs fois sur une période maximum de 12 mois
+				{% else %}
+					{{ delivery_condition.condition }}
+				{% endif %}
+			{% endfor %}
+		</li>
 	</ul>
 </div>
 
