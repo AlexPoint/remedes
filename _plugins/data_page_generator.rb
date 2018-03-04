@@ -1,3 +1,5 @@
+# Downloaded from http://jimpravetz.com/blog/2011/12/generating-jekyll-pages-from-data/
+
 # Generate pages from individual records in yml files
 # (c) 2014-2016 Adolfo Villafiorita
 # Distributed under the conditions of the MIT License

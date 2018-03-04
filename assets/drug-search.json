@@ -1,0 +1,12 @@
+---
+---
+[
+    {% for drug in site.data.drugs %}
+    {% assign tokens = drug.name | split:' ' %}
+    {
+        "name": "{{ drug.name }}",
+        "url": "/medicament/{{ drug.cis_code }}"
+    },
+    {% endfor %}
+    false
+]
