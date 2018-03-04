@@ -5,7 +5,7 @@
     {% assign tokens = drug.name | split:' ' %}
     {
         "name": "{{ drug.name }}",
-        "url": "/medicament/{{ drug.cis_code }}"
+        "url": "/{{ site.baseurl }}/medicament/{{ drug.cis_code }}"
     },
     {% endfor %}
     false
