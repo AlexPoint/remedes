@@ -18,7 +18,12 @@ var search = $('#drug-search').typeahead({
 },
 {
     name: 'drugs',
-    source: drugs
+    display: 'name',
+    source: drugs,
+    templates: {
+    	empty: '<div class="empty-message">Aucun médicament trouvé</div>',
+    	suggestion: Handlebars.compile('<div>{{name}}</div>')
+    }
 });
 
 search.on('typeahead:selected', function (evt, data) {
