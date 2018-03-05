@@ -1,3 +1,6 @@
+---
+---
+
 // Use the library typeahead.js for the auto-complete suggestions
 // See https://twitter.github.io/typeahead.js/examples/
 
@@ -6,7 +9,8 @@ var drugs = new Bloodhound({
         return Bloodhound.tokenizers.whitespace(drug.name);
     },
    	queryTokenizer: Bloodhound.tokenizers.whitespace,
-  	prefetch: '/assets/drug-search.json'
+  	prefetch: '/assets/drug-search.json',
+  	ttl: {{site.disable-auto-suggest-cache}} 
 });
 drugs.initialize();
 

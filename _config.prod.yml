@@ -4,3 +4,6 @@ data_dir: _data_prod
 
 # Current hosting on Github Pages requires an additional /remedes before all URLs
 baseurl: "/remedes"
+
+# Enable the local storage cache for auto-suggestions in production
+disable-auto-suggest-cache: 0
