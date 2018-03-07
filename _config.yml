@@ -9,8 +9,6 @@ disable-auto-suggest-cache: 1 # disable the local storage cache for auto-suggest
 # Exclude the following folders from the build to reduce (drastically) the build time
 exclude:
   - docs
-  - _data_prod
-  - _data/raw
 
 # Google Analytics
 # Set environment to production to include Google Analytics code snippet:
