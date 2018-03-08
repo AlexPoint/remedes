@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<!-- Search boc -->
+<div>
+  <h2>Search drug</h2>
+  <input id="drug-search" type="text" placeholder="Rechercher un médicament" />
+</div>
+
+<div>
+  <h2>First 10 drugs</h2>
+  <ul>
+  {% for drug in site.data.drugs limit:10 %}
+    <li>
+      <a href="/medicament/{{drug.cis_code}}">
+        {{ drug.name }}
+      </a>
+    </li>
+  {% endfor %}
+  </ul>
+</div>
