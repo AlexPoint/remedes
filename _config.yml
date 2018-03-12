@@ -1,6 +1,6 @@
 # Setup
 title:        Pharmacodex
-tagline:      A responsive theme for your project on GitHub Pages
+tagline:      Votre allié pour s'y retrouver parmi tous ces médicaments
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 disable-auto-suggest-cache: 1 # disable the local storage cache for auto-suggestions in debug mode
