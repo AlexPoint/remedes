@@ -1,9 +1,49 @@
 ---
-layout: default
+layout: home
 ---
 
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-absolute navbar-transparent">
+  <div class="container">
+    <a href="/"><div class="logo"></div></a>
+  </div>
+</nav>
+<!-- End Navbar -->
+
+<!-- style="background-image: url(&quot;assets/img/kit/pro/bg0.jpg&quot;); transform: translate3d(0px, 0px, 0px);" -->
+<div class="page-header header-filter clear-filter" data-parallax="true">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 ml-auto mr-auto">
+                <div class="brand">
+                    <h1 class="project-name">{{ site.title }}</h1>
+                    <h3 class="project-tagline">{{ site.tagline }}</h3>
+                    <div class="input-group">
+                      <input id="drug-search" class="form-control" type="text" placeholder="Rechercher un médicament" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <div class="wrapper">
+  <div class="page-header header-filter clear-filter">
+    <div class="home-header" data-parallax="true"></div>
+    <div class="content-center">
+      <div class="row">
+        <div class="col-md-8 ml-auto mr-auto">
+          <h1 class="title">About Us</h1>
+          <h4>Meet the amazing team behind this project and find out more about how we work.</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+
 <!-- Search boc -->
-<div>
+<!-- <div>
   <h2>Search drug</h2>
   <input id="drug-search" type="text" placeholder="Rechercher un médicament" />
 </div>
@@ -11,12 +51,13 @@ layout: default
 <div>
   <h2>First 10 drugs</h2>
   <ul>
-  {% for drug in site.data.drugs limit:10 %}
+    {% for drug in site.data.drugs limit:10 %}
     <li>
       <a href="/medicament/{{drug.cis_code}}">
         {{ drug.name }}
       </a>
     </li>
-  {% endfor %}
+    {% endfor %}
   </ul>
 </div>
+ -->
