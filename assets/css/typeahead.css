@@ -1,3 +1,9 @@
+/* 
+ * The typeahead.js stylesheet overlaps with the bootstrap stylesheet.
+ * As a result, a custom stylesheet is needed.
+ * See: https://github.com/bassjobsen/typeahead.js-bootstrap4-css 
+ */
+
 span.twitter-typeahead .tt-menu {
   cursor: pointer;
 }

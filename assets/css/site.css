@@ -38,3 +38,46 @@
 .project-name{
 	margin-bottom: 1.1rem;
 }
+
+.argument-section{
+	padding: 4.5rem 0;
+}
+
+/* Footer */
+
+.footer{
+	background: #222;
+}
+
+.footer-widgets {
+    padding: 90px 0 30px;
+}
+
+.footer-widgets + .footer-bar {
+    border-top: 1px solid #2c2c2c;
+}
+
+.footer-bar {
+    text-align: center;
+    font-size: .75rem;
+    padding: 22px 0;
+}
+
+.widget {
+    margin-bottom: 60px;
+    font-size: .8125rem;
+}
+
+.footer h1, .footer .h1, .footer h2, .footer .h2, .footer h3, .footer .h3, .footer h4, .footer .h4, .footer h5, .footer .h5, .footer h6, .footer .h6{
+    color: #fff;
+}
+
+.footer a, .footer .social-icons > li > a {
+    color: #cecece;
+}
+
+.widget ul {
+    margin-bottom: 0;
+    list-style: none;
+    padding-left: 0;
+}
