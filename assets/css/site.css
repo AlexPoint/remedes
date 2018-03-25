@@ -1,6 +1,5 @@
 .page-header{
 	background-color: #159957;
-    /*background-image: linear-gradient(to left, #155799, #159957);*/
     background-image: linear-gradient(120deg, #155799, #159957);
     /*    position: absolute;
     background-size: cover;
@@ -23,6 +22,11 @@
     padding-top: 20px;
 }
 
+.navbar-regular{
+	background-color: #159957;
+    background-image: linear-gradient(120deg, #155799, #159957);
+}
+
 .logo{
 	width: 60px;
 	height: 40px;
@@ -40,7 +44,19 @@
 }
 
 .argument-section{
-	padding: 4.5rem 0;
+	padding: 2.5rem 0rem;
+}
+
+.argument{
+	padding: 3rem 0rem;
+}
+
+.argument-gray{
+	background-color: #f1f1f1;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #159957;
 }
 
 /* Footer */
@@ -50,7 +66,7 @@
 }
 
 .footer-widgets {
-    padding: 90px 0 30px;
+    padding: 5rem 0 1.5rem;
 }
 
 .footer-widgets + .footer-bar {
