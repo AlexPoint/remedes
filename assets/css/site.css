@@ -59,6 +59,19 @@ h1, h2, h3, h4, h5, h6{
     color: #159957;
 }
 
+.main-content{
+	padding: 5rem 0rem;
+}
+
+.main-content .main-drug-info li{
+	margin-bottom: 1rem;
+}
+
+/* To override cayman's theme */
+.main-content .main-drug-info li p{
+	margin-bottom: 0rem;
+}
+
 /* Footer */
 
 .footer{

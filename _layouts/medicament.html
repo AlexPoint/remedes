@@ -12,148 +12,166 @@ layout: page
 
 {% assign delivery_conditions = site.data.delivery_conditions | where:"cis_code", drug.cis_code %}
 
+{% assign composition_by_dosing_ref = compositions | group_by: "dosing_ref" %}
 
-<div class="container">
+
+<div class="container main-content">
 	<!-- Main information on the drug -->
 	<div>
-		<h2>Médicament</h2>
-		<ul>
-			<li>Code CIS : {{drug.cis_code}}</li>
-			<li>Nom : {{drug.name}}</li>
-			<li>Laboratoire : {{drug.owner}}</li>
-			<li>Forme pharmaceutique: {{drug.pharmaceutical_form}} / Mode d'administration : {{drug.admin_mode}}</li>
-			{% if drug.reinforced_monitoring == "Oui" %}
-			<li>Surveillance renforcée</li>
-			{% endif %}
-			{% if drug.amm_status != "Autorisation active" %}
-			<li>Cette presentation n'est pas active</li>
-			{% endif %}
-			{% if drug.eu_auth_nb %}
-			<li>Ce médicament est approuvé dans plusieurs pays de l'Union Européenne</li>
-			{% endif %}
-			{% if drug.bdm_status %}
-			<li>{{ drug.bdm_status }}</li>
-			{% endif %}
-			<li>
-				<!-- See http://base-donnees-publique.medicaments.gouv.fr/glossaire.php (liste I et II) for delivery conditions -->
-				{% for delivery_condition in delivery_conditions %}
-					{% if delivery_condition.condition == "liste I" %}
-						délivré sur ordonnance, pour la durée du traitement
-					{% elsif delivery_condition.condition == "liste II" %}
-						délivré sur ordonnance, plusieurs fois sur une période maximum de 12 mois
-					{% else %}
-						{{ delivery_condition.condition }}
-					{% endif %}
-				{% endfor %}
-			</li>
-		</ul>
-	</div>
+		<h1>{{drug.name}}</h1>
+		<!-- Alerts -->
 
-	<!-- The different "presentations", i.e. the form that the drug can take (syrup, pill etc.) -->
-	<div>
-		<h2>Présentations</h2>
-		<ul>
-			{% for presentation in presentations %}
+		<!-- Drug approved in several countries of the EU -->
+		{% if drug.eu_auth_nb %}
+			<div class="bs-callout bs-callout-info">
+				Ce médicament est approuvé dans plusieurs pays de l'Union Européenne
+			</div>
+		{% endif %}
+		<!-- Inactive "presentation"; TODO: precise the meaning of this warning -->
+		{% if drug.amm_status != "Autorisation active" %}
+			<div class="bs-callout bs-callout-warning">
+				Cette presentation n'est pas active
+			</div>
+		{% endif %}
+
+		<!-- Warning disponibilité -->
+		{% if drug.bdm_status %}
+			<div class="bs-callout bs-callout-warning">{{ drug.bdm_status }}</div>
+		{% endif %}
+		
+		<!-- Reinforced monitoring - see what information can be collected in addition to this simple flag -->
+		{% if drug.reinforced_monitoring == "Oui" %}
+			<div class="bs-callout bs-callout-danger">
+				<h4>Surveillance renforcée</h4>
+				<p>Ce médicament fait l'objet d'une surveillance renforcée.</p>
+			</div>
+		{% endif %}
+
+		<!-- Main info in pills -->
+		<ul class="list-inline main-drug-info">
+			<li>Forme pharmaceutique : {{drug.pharmaceutical_form}}</li>
+			<li>Mode d'administration : {{drug.admin_mode}}</li>
 			<li>
-				<div>
-					{{presentation.label}}
-					{% if presentation.full_price != "" and presentation.full_price != nil %}: {{presentation.full_price}}€{% endif %}
-				</div>
-				<div>Taux de remboursement SECU: {{presentation.reimbursement_rate}}.</div>
-				<!-- Liquid filters are applied from left to right hence the convoluted code below to compute the (1 - reimbursement_rate) * price -->
-				<div>
-					{% if presentation.full_price == "" or presentation.full_price == nil %}
+				{% if delivery_conditions.size == 0 %}
+					Disponible sans ordonnance
+				{% else %}
+					{% for delivery_condition in delivery_conditions %}
+						{% if delivery_condition.condition == "liste I" %}
+							délivré sur ordonnance, pour la durée du traitement
+						{% elsif delivery_condition.condition == "liste II" %}
+							délivré sur ordonnance, plusieurs fois sur une période maximum de 12 mois
+						{% else %}
+							{{ delivery_condition.condition }}
+						{% endif %}
+					{% endfor %}
+				{% endif %}
+			</li>
+			<li>Laboratoire : {{drug.owner}}</li>
+
+			<!-- Show info on price if only one presentation -->
+			{% if presentations.size == 1 %}
+				<li>
+					{% if presentations[0].full_price == "" or presentations[0].full_price == nil %}
 						Prix non réglementé, médicament non remboursé
 					{% else %}
-						Reste à charge (incuant mutuelle): {{ presentation.reimbursement_rate | replace: '%', '' | plus: 0 | times: presentation.full_price | divided_by: 100 | minus: presentation.full_price | abs | round: 2 }}€
+						<p>Prix : {{ presentations[0].full_price }}€</p>
+						<p>↳ Remboursement SECU: {{ presentations[0].reimbursement_rate | replace: '%', '' | plus: 0 | times: presentations[0].full_price | divided_by: 100 | round: 2 }}€ ({{presentations[0].reimbursement_rate}})</p>
+						<!-- Liquid filters are applied from left to right hence the convoluted code below to compute the (1 - reimbursement_rate) * price -->
+						<p>↳ Reste à charge (incluant mutuelle): {{ presentations[0].reimbursement_rate | replace: '%', '' | plus: 0 | times: presentations[0].full_price | divided_by: 100 | minus: presentations[0].full_price | abs | round: 2 }}€</p>
+					{% endif %}
+				</li>
+			{% elsif presentations.size > 1 %}
+				<li>
+					{{ presentations.size }} présentations pour ce médicament:
+					<ul>
+					{% for presentation in presentations %}
+						<li>
+							<div>
+								{{presentation.label}}
+								{% if presentation.full_price != "" and presentation.full_price != nil %}: {{presentation.full_price}}€{% endif %}
+							</div>
+							<div>Taux de remboursement SECU: {{presentation.reimbursement_rate}}.</div>
+							<!-- Liquid filters are applied from left to right hence the convoluted code below to compute the (1 - reimbursement_rate) * price -->
+							<div>
+								{% if presentation.full_price == "" or presentation.full_price == nil %}
+									Prix non réglementé, médicament non remboursé
+								{% else %}
+									Reste à charge (incuant mutuelle): {{ presentation.reimbursement_rate | replace: '%', '' | plus: 0 | times: presentation.full_price | divided_by: 100 | minus: presentation.full_price | abs | round: 2 }}€
+								{% endif %}
+							</div>
+							<div>
+								{% if presentation.coll_agreement == "oui" %}
+									Utilisé à l'hôpital (agrément aux collectivités)
+								{% elsif presentation.coll_agreement == "non" %}
+									Non agréé aux collectivités
+								{% endif %}
+							</div>
+							{% if presentation.admin_status != "Présentation active" %}
+								<div>Cette présentation n'est plus active</div>
+							{% endif %}
+						</li>
+					{% endfor %}
+					</ul>
+				</li>
+			{% endif %}
+
+			<li>
+				{% for dosing_ref in composition_by_dosing_ref %}
+					<p>Composition pour {{ dosing_ref.name }}:</p>
+					{% for composition in compositions %}
+						<p>
+							↳ {{ composition.substance_dosing }} {{ composition.substance_name}}
+							{% if composition.comp_nature == "SA" %}
+								(principe actif)
+							{% else %}
+								(fraction thérapeutique)
+							{% endif %}
+						</p>
+					{% endfor %}
+				{% endfor %}
+			</li>
+
+			{% if generic_group.size > 0 %}
+			<li>
+				<!-- Information on the current drug -->
+				<div>
+					{% if generic_info.generic_type == "0" %}
+						Princeps
+					{% elsif generic_info.generic_type == "1" %}
+						Générique
+					{% elsif generic_info.generic_type == "2" %}
+						Générique par complémentarité posologique
+					{% elsif generic_info.generic_type == "4" %}
+						Générique substituable
+					{% else %}
+						<!-- TODO: make sure this never happens -->
+						/!\ code inconnu ({{ generic_info.generic_type}})
 					{% endif %}
 				</div>
 				<div>
-					{% if presentation.coll_agreement == "oui" %}
-						Utilisé à l'hôpital (agrément aux collectivités)
-					{% elsif presentation.coll_agreement == "non" %}
-						Non agréé aux collectivités
-					{% endif %}
+					{{ generic_group.size }} médicaments similaires :
+					<ul>
+						{% for elt in generic_group %}
+							<li>
+								{% if elt.generic_type == "0" %}
+									princeps
+								{% elsif elt.generic_type == "1" %}
+									générique
+								{% elsif elt.generic_type == "2" %}
+									générique par complémentarité posologique
+								{% elsif elt.generic_type == "4" %}
+									générique substituable
+								{% else %}
+									/!\ code inconnu ({{ elt.generic_type}})
+								{% endif %}
+								- <a href="{{ "/medicament/" | relative_url }}{{ elt.cis_code }}">{{ elt.label }}</a>
+							</li>
+						{% endfor %}
+					</ul>
 				</div>
-				{% if presentation.admin_status != "Présentation active" %}
-					<div>Cette présentation n'est plus active</div>
-				{% endif %}
 			</li>
-			{% endfor %}
+			{% endif %}
 		</ul>
 	</div>
 
-	<!-- Whether the drug is considered generic, and the related drugs. -->
-	<div>
-		<h2>Groupe générique</h2>
-
-		{% unless generic_info == empty %}
-			<!-- Information on the current drug -->
-			<div>
-				{% if generic_info.generic_type == "0" %}
-					princeps
-				{% elsif generic_info.generic_type == "1" %}
-					générique
-				{% elsif generic_info.generic_type == "2" %}
-					générique par complémentarité posologique
-				{% elsif generic_info.generic_type == "4" %}
-					générique substituable
-				{% else %}
-					<!-- TODO: make sure this never happens -->
-					/!\ code inconnu ({{ generic_info.generic_type}})
-				{% endif %}
-			</div>
-			<div>
-				{{ generic_group | size }} médicaments dans ce groupe générique :
-				<ul>
-					{% for elt in generic_group %}
-						<li>
-							{% if elt.generic_type == "0" %}
-								princeps
-							{% elsif elt.generic_type == "1" %}
-								générique
-							{% elsif elt.generic_type == "2" %}
-								générique par complémentarité posologique
-							{% elsif elt.generic_type == "4" %}
-								générique substituable
-							{% else %}
-								/!\ code inconnu ({{ elt.generic_type}})
-							{% endif %}
-							- <a href="{{ "/medicament/" | relative_url }}{{ elt.cis_code }}">{{ elt.label }}</a>
-						</li>
-					{% endfor %}
-				</ul>
-			</div>
-		{% else %}
-			<!-- TODO: understand whether this can happen and under which conditions -->
-			<div>
-				Pas d'informations sur le groupe générique de ce médicament
-			</div>
-		{% endunless %}
-	</div>
-
-	<!-- The composition of the drug -->
-	{% assign composition_by_dosing_ref = compositions | group_by: "dosing_ref" %}
-	<div>
-		<h2>Composition</h2>
-		{% for dosing_ref in composition_by_dosing_ref %}
-			<div>
-				<h3>[pour] {{ dosing_ref.name }}</h3>
-				<ul>
-					{% for composition in compositions %}
-						<li>
-							<div>
-								{{ composition.substance_dosing }} {{ composition.substance_name}} - 
-								{% if composition.comp_nature == "SA" %}
-									principe actif
-								{% else %}
-									fraction thérapeutique
-								{% endif %}
-							</div>
-						</li>
-					{% endfor %}
-				</ul>
-			</div>
-		{% endfor %}
-	</div>
 </div>
