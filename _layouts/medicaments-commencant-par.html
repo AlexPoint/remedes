@@ -1,0 +1,40 @@
+---
+layout: page
+---
+
+<div class="container main-content">
+	<ul class="nav nav-pills nav-fill">
+		{% for l in site.data.letters %}
+			<!-- Count the number of drugs starting with this letter -->
+			{% assign counter = 0 %}
+			{% for drug in site.data.drugs %}
+				{% assign first_letter = drug.name | slice: 0 | downcase %}
+				{% if l.letter == first_letter %}
+					{% assign counter = counter | plus: 1 %}
+				{% endif %}
+			{% endfor %}
+
+			<!-- Only display the letters for which we have at least one drug -->
+			{% if counter > 0 %}
+			  <li class="nav-item">
+			    <a class="nav-link{% if l.letter == page.letter %} active{% endif %}" href="{{ "/liste-medicaments/" | relative_url }}{{ l.letter }}">{{ l.letter | capitalize }} ({{ counter }})</a>
+	  		  </li>
+	  		{% endif %}
+  		{% endfor %}
+	</ul>
+
+	<div class="drug-list">
+		<h1>Médicaments commençant par la lettre "{{ page.letter | capitalize }}"</h1>
+		<ul>
+			{% for drug in site.data.drugs %}
+				{% assign first_letter = drug.name | slice: 0 | downcase %}
+				{% if first_letter == page.letter %}
+					<li>
+						<a href="{{ "/medicament/" | relative_url }}{{ drug.cis_code }}">{{ drug.name }}</a>
+					</li>
+				{% endif %}
+			{% endfor %}
+		</ul>
+	</div>
+
+</div>

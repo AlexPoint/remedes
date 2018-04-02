@@ -39,3 +39,7 @@ page_gen:
     template: 'medicament'
     name: 'cis_code'
     dir: 'medicament'
+  - data: 'letters'
+    template: 'medicaments-commencant-par'
+    name: 'letter'
+    dir: 'medicaments-commencant-par'
