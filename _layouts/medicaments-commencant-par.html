@@ -17,7 +17,7 @@ layout: page
 			<!-- Only display the letters for which we have at least one drug -->
 			{% if counter > 0 %}
 			  <li class="nav-item">
-			    <a class="nav-link{% if l.letter == page.letter %} active{% endif %}" href="{{ "/liste-medicaments/" | relative_url }}{{ l.letter }}">{{ l.letter | capitalize }} ({{ counter }})</a>
+			    <a class="nav-link{% if l.letter == page.letter %} active{% endif %}" href="{{ "/medicaments-commencant-par/" | relative_url }}{{ l.letter }}">{{ l.letter | capitalize }} ({{ counter }})</a>
 	  		  </li>
 	  		{% endif %}
   		{% endfor %}

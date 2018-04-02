@@ -11,7 +11,7 @@
 						</div>
 						<ul>
 							<li><a href="mailto:contact@pharmacodex.fr?body=Envoyez-nous vos remarques par email (oui, nous lisons nos emails ;))">Nous contacter</a></li>
-							<li><a href="#">Données utilisées</a></li>
+							<li><a href="{{ "/les-donnees.html" | relative_url }}">Données utilisées</a></li>
 							<!-- <li><a href="#"></li> -->
 						</ul>
 					</aside>
@@ -23,8 +23,12 @@
 							<h6>Parcourir le site</h6>
 						</div>
 						<ul>
-							<li><a href="/medicaments-commencant-par/a">Tous les médicaments (ordre alphabétique)</a></li>
-							<li><a href="#">Les catégories de médicaments</a></li>
+							<li><a href="{{ "/medicaments-commencant-par/a" | relative_url }}">Tous les médicaments (ordre alphabétique)</a></li>
+							<li>
+								<!-- <a href="#"> -->
+									Les catégories de médicaments (en construction...)
+								<!-- </a> -->
+							</li>
 							<!-- <li><a href="#"></li> -->
 						</ul>
 					</aside>
