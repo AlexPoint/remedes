@@ -115,6 +115,21 @@ h1, h2, h3, h4, h5, h6{
     padding-left: 0;
 }
 
+/* home page (index) */
+.img-drug-info{
+    /*width: 60px;
+    height: 40px;*/
+    background: url("/assets/img/info-drugs.svg") center no-repeat;
+}
+
+.img-drug-price{
+    background: url("/assets/img/euro-icon.svg") center no-repeat;
+}
+
+.img-compare-drug{
+    background: url("/assets/img/compare-drugs.svg") center no-repeat;
+}
+
 /* Pages "medicaments-commencant-par" */
 .drug-list{
     padding: 2.5rem 0rem;
