@@ -6,23 +6,33 @@
   <title>Pharmacodex</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#157878">
-  <link rel="stylesheet" href="/remedes/css/normalize.css">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="/remedes/assets/css/bootstrap.css">
+  <link rel="stylesheet" href="/remedes/assets/css/docs.css">
+  <link rel="stylesheet" href="/remedes/assets/css/normalize.css">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="/remedes/css/cayman.css">
+  <link rel="stylesheet" href="/remedes/assets/css/cayman.css">
+  <link rel="stylesheet" href="/remedes/assets/css/typeahead.css">
+  <link rel="stylesheet" href="/remedes/assets/css/site.css">
 </head>
 
   <body>
-    <section class="page-header">
-  <h1 class="project-name">Pharmacodex</h1>
-  <h2 class="project-tagline">A responsive theme for your project on GitHub Pages</h2>
-<!--   <a href="#" class="btn">View on GitHub</a>
-  <a href="#" class="btn">Download .zip</a>
-  <a href="#" class="btn">Download .tar.gz</a> -->
-</section>
+      <!-- navbar is the only difference between the home page and a regular page -->
+      <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-regular">
+  <div class="container">
+		<div class="col-md-2">
+			<a href="/"><div class="logo"></div></a>
+		</div>
+	    <div class="col-md-8">
+    		<input id="drug-search" class="form-control" type="text" placeholder="Rechercher un médicament" />
+		</div>
+		<div class="col-md-2"></div>
+  </div>
+</nav>
+<!-- End Navbar -->
 
-    <section class="main-content">
       
-      
 
 
 
@@ -33,206 +43,285 @@
 
 
 
-<!-- Main information on the drug -->
-<div>
-	<h2>Médicament</h2>
-	<ul>
-		<li>Code CIS : 68852892</li>
-		<li>Nom : NICOPASS 1,5 mg SANS SUCRE MENTHE FRAICHEUR, pastille édulcorée à l'aspartam et à l'acésulfame potassique</li>
-		<li>Laboratoire :  PIERRE FABRE MEDICAMENT</li>
-		<li>Forme pharmaceutique: pastille / Mode d'administration : voie buccale autre</li>
+
+
+<div class="container main-content">
+	<!-- Main information on the drug -->
+	<div>
+		<h1>NICOPASS 1,5 mg SANS SUCRE MENTHE FRAICHEUR, pastille édulcorée à l'aspartam et à l'acésulfame potassique</h1>
+		<!-- Alerts -->
+
+		<!-- Drug approved in several countries of the EU -->
+		
+		<!-- Inactive "presentation"; TODO: precise the meaning of this warning -->
+		
+
+		<!-- Warning disponibilité -->
 		
 		
+		<!-- Reinforced monitoring - see what information can be collected in addition to this simple flag -->
 		
-		
-		<li>
-			<!-- See http://base-donnees-publique.medicaments.gouv.fr/glossaire.php (liste I et II) for delivery conditions -->
+
+		<!-- Main info in pills -->
+		<ul class="list-inline main-drug-info">
+			<li>Forme pharmaceutique : pastille</li>
+			<li>Mode d'administration : voie buccale autre</li>
+			<li>
+				
+					Disponible sans ordonnance
+				
+			</li>
+			<li>Laboratoire :  PIERRE FABRE MEDICAMENT</li>
+
+			<!-- Show info on price if only one presentation -->
 			
-		</li>
-	</ul>
-</div>
-
-<!-- The different "presentations", i.e. the form that the drug can take (syrup, pill etc.) -->
-<div>
-	<h2>Présentations</h2>
-	<ul>
-		
-		<li>
-			<div>
-				plaquette(s) thermoformée(s) PVC polyéthylène PVDC aluminium de 144 pastille(s)
-				
-			</div>
-			<div>Taux de remboursement SECU: .</div>
-			<!-- Liquid filters are applied from left to right hence the convoluted code below to compute the (1 - reimbursement_rate) * price -->
-			<div>
-				
-					Prix non réglementé, médicament non remboursé
-				
-			</div>
-			<div>
-				
-					Utilisé à l'hôpital (agrément aux collectivités)
-				
-			</div>
-			
-		</li>
-		
-		<li>
-			<div>
-				2 plaquette(s) thermoformée(s) PVC polyéthylène PVDC aluminium de 6 pastille(s)
-				
-			</div>
-			<div>Taux de remboursement SECU: .</div>
-			<!-- Liquid filters are applied from left to right hence the convoluted code below to compute the (1 - reimbursement_rate) * price -->
-			<div>
-				
-					Prix non réglementé, médicament non remboursé
-				
-			</div>
-			<div>
-				
-					Utilisé à l'hôpital (agrément aux collectivités)
-				
-			</div>
-			
-		</li>
-		
-		<li>
-			<div>
-				plaquette(s) thermoformée(s) PVC polyéthylène PVDC aluminium de 12 pastille(s)
-				
-			</div>
-			<div>Taux de remboursement SECU: .</div>
-			<!-- Liquid filters are applied from left to right hence the convoluted code below to compute the (1 - reimbursement_rate) * price -->
-			<div>
-				
-					Prix non réglementé, médicament non remboursé
-				
-			</div>
-			<div>
-				
-					Utilisé à l'hôpital (agrément aux collectivités)
-				
-			</div>
-			
-		</li>
-		
-		<li>
-			<div>
-				plaquette(s) thermoformée(s) PVC polyéthylène PVDC aluminium de 36 pastille(s)
-				
-			</div>
-			<div>Taux de remboursement SECU: .</div>
-			<!-- Liquid filters are applied from left to right hence the convoluted code below to compute the (1 - reimbursement_rate) * price -->
-			<div>
-				
-					Prix non réglementé, médicament non remboursé
-				
-			</div>
-			<div>
-				
-					Utilisé à l'hôpital (agrément aux collectivités)
-				
-			</div>
-			
-		</li>
-		
-		<li>
-			<div>
-				plaquette(s) thermoformée(s) PVC polyéthylène PVDC aluminium de 96 pastille(s)
-				
-			</div>
-			<div>Taux de remboursement SECU: .</div>
-			<!-- Liquid filters are applied from left to right hence the convoluted code below to compute the (1 - reimbursement_rate) * price -->
-			<div>
-				
-					Prix non réglementé, médicament non remboursé
-				
-			</div>
-			<div>
-				
-					Utilisé à l'hôpital (agrément aux collectivités)
-				
-			</div>
-			
-		</li>
-		
-	</ul>
-</div>
-
-<!-- Whether the drug is considered generic, and the related drugs. -->
-<div>
-	<h2>Groupe générique</h2>
-
-	
-		<!-- Information on the current drug -->
-		<div>
-			
-				princeps
-			
-		</div>
-		<div>
-			2 médicaments dans ce groupe générique :
-			<ul>
-				
-					<li>
-						
-							princeps
-						
-						- <a href="/remedes/medicament/68852892">NICOTINE (RÉSINATE DE) équivalant à NICOTINE 1,5 mg - NICOPASS 1,5 mg SANS SUCRE MENTHE FRAICHEUR, pastille édulcorée à l'aspartam et à l'acésulfame potassique</a>
-					</li>
-				
-					<li>
-						
-							générique
-						
-						- <a href="/remedes/medicament/63563115">NICOTINE (RÉSINATE DE) équivalant à NICOTINE 1,5 mg - NICOPASS 1,5 mg SANS SUCRE MENTHE FRAICHEUR, pastille édulcorée à l'aspartam et à l'acésulfame potassique</a>
-					</li>
-				
-			</ul>
-		</div>
-	
-</div>
-
-<!-- The composition of the drug -->
-
-<div>
-	<h2>Composition</h2>
-	
-		<div>
-			<h3>[pour] une pastille</h3>
-			<ul>
-				
-					<li>
-						<div>
-							8,33 mg CATIORÉSINE CARBOXYLATE DE NICOTINE - 
+				<li>
+					5 présentations pour ce médicament:
+					<ul>
+					
+						<li>
+							<div>
+								plaquette(s) thermoformée(s) PVC polyéthylène PVDC aluminium de 144 pastille(s)
+								
+							</div>
+							<div>Taux de remboursement SECU: .</div>
+							<!-- Liquid filters are applied from left to right hence the convoluted code below to compute the (1 - reimbursement_rate) * price -->
+							<div>
+								
+									Prix non réglementé, médicament non remboursé
+								
+							</div>
+							<div>
+								
+									Utilisé à l'hôpital (agrément aux collectivités)
+								
+							</div>
 							
-								principe actif
+						</li>
+					
+						<li>
+							<div>
+								2 plaquette(s) thermoformée(s) PVC polyéthylène PVDC aluminium de 6 pastille(s)
+								
+							</div>
+							<div>Taux de remboursement SECU: .</div>
+							<!-- Liquid filters are applied from left to right hence the convoluted code below to compute the (1 - reimbursement_rate) * price -->
+							<div>
+								
+									Prix non réglementé, médicament non remboursé
+								
+							</div>
+							<div>
+								
+									Utilisé à l'hôpital (agrément aux collectivités)
+								
+							</div>
 							
+						</li>
+					
+						<li>
+							<div>
+								plaquette(s) thermoformée(s) PVC polyéthylène PVDC aluminium de 12 pastille(s)
+								
+							</div>
+							<div>Taux de remboursement SECU: .</div>
+							<!-- Liquid filters are applied from left to right hence the convoluted code below to compute the (1 - reimbursement_rate) * price -->
+							<div>
+								
+									Prix non réglementé, médicament non remboursé
+								
+							</div>
+							<div>
+								
+									Utilisé à l'hôpital (agrément aux collectivités)
+								
+							</div>
+							
+						</li>
+					
+						<li>
+							<div>
+								plaquette(s) thermoformée(s) PVC polyéthylène PVDC aluminium de 36 pastille(s)
+								
+							</div>
+							<div>Taux de remboursement SECU: .</div>
+							<!-- Liquid filters are applied from left to right hence the convoluted code below to compute the (1 - reimbursement_rate) * price -->
+							<div>
+								
+									Prix non réglementé, médicament non remboursé
+								
+							</div>
+							<div>
+								
+									Utilisé à l'hôpital (agrément aux collectivités)
+								
+							</div>
+							
+						</li>
+					
+						<li>
+							<div>
+								plaquette(s) thermoformée(s) PVC polyéthylène PVDC aluminium de 96 pastille(s)
+								
+							</div>
+							<div>Taux de remboursement SECU: .</div>
+							<!-- Liquid filters are applied from left to right hence the convoluted code below to compute the (1 - reimbursement_rate) * price -->
+							<div>
+								
+									Prix non réglementé, médicament non remboursé
+								
+							</div>
+							<div>
+								
+									Utilisé à l'hôpital (agrément aux collectivités)
+								
+							</div>
+							
+						</li>
+					
+					</ul>
+				</li>
+			
+
+			<li>
+				
+					<p>Composition pour une pastille:</p>
+					
+						<p>
+							↳ 8,33 mg CATIORÉSINE CARBOXYLATE DE NICOTINE
+							
+								(principe actif)
+							
+						</p>
+					
+						<p>
+							↳ 1,5 mg NICOTINE
+							
+								(fraction thérapeutique)
+							
+						</p>
+					
+				
+			</li>
+
+			
+			<li>
+				<!-- Information on the current drug -->
+				<div>
+					
+						Princeps
+					
+				</div>
+				<div>
+					2 médicaments similaires :
+					<ul>
+						
+							<li>
+								
+									princeps
+								
+								- <a href="/remedes/medicament/68852892">NICOTINE (RÉSINATE DE) équivalant à NICOTINE 1,5 mg - NICOPASS 1,5 mg SANS SUCRE MENTHE FRAICHEUR, pastille édulcorée à l'aspartam et à l'acésulfame potassique</a>
+							</li>
+						
+							<li>
+								
+									générique
+								
+								- <a href="/remedes/medicament/63563115">NICOTINE (RÉSINATE DE) équivalant à NICOTINE 1,5 mg - NICOPASS 1,5 mg SANS SUCRE MENTHE FRAICHEUR, pastille édulcorée à l'aspartam et à l'acésulfame potassique</a>
+							</li>
+						
+					</ul>
+				</div>
+			</li>
+			
+		</ul>
+	</div>
+
+</div>
+
+      <footer class="footer">
+	<!-- Footer inspired by http://themes.getbootstrap.com/preview/?theme_id=1679 -->
+	<div class="footer-widgets">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<!-- Text widget-->
+					<aside class="widget widget-text">
+						<div class="widget-title">
+							<h6>A propos de Pharmacodex</h6>
 						</div>
-					</li>
-				
-					<li>
-						<div>
-							1,5 mg NICOTINE - 
-							
-								fraction thérapeutique
-							
+						<ul>
+							<li><a href="mailto:contact@pharmacodex.fr?body=Envoyez-nous vos remarques par email (oui, nous lisons nos emails ;))">Nous contacter</a></li>
+							<li><a href="/remedes/les-donnees.html">Données utilisées</a></li>
+							<!-- <li><a href="#"></li> -->
+						</ul>
+					</aside>
+				</div>
+				<div class="col-md-4">
+					<!-- Recent entries widget-->
+					<aside class="widget widget-recent-entries">
+						<div class="widget-title">
+							<h6>Parcourir le site</h6>
 						</div>
-					</li>
-				
-			</ul>
+						<ul>
+							<li><a href="/remedes/medicaments-commencant-par/a">Tous les médicaments (ordre alphabétique)</a></li>
+							<li>
+								<!-- <a href="#"> -->
+									Les catégories de médicaments (en construction...)
+								<!-- </a> -->
+							</li>
+							<!-- <li><a href="#"></li> -->
+						</ul>
+					</aside>
+				</div>
+				<!-- TODO: Add column in footer when first blog posts are written -->
+				<div class="col-md-4">
+					<aside class="widget twitter-feed-widget">
+						<div class="widget-title">
+							<h6>Derniers articles</h6>
+						</div>
+						<ul>
+							<!-- <li><a href="#">article 1</a></li>
+							<li><a href="#">article 2</a></li> -->
+							<li>à venir...</li>
+						</ul>
+					</aside>
+				</div>
+			</div>
 		</div>
-	
-</div>
-
-      <footer class="site-footer">
-  <span class="site-footer-owner"><a href="http://localhost:4000">Pharmacodex</a> is maintained by <a href="http://yourhomepage.com">Author name</a>.</span>
-  <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+	</div>
+	<div class="footer-bar">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="copyright">
+						<p>© Tous droits réservés - Pharmacodex 2018</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </footer>
 
 
-    </section>
-
   </body>
+
+    <!-- Scripts at the end for fast loading.
+	 All the libraries below are used in all pages (search box on every page of the site)
+ -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110429644-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110429644-1');
+</script>
+<script src="/assets/js/jquery-3.3.1.min.js" type="text/javascript"></script>
+<script src="/assets/js/handlebars-v4.0.11.js" type="text/javascript"></script>
+<script src="/assets/js/typeahead.js" type="text/javascript"></script>
+<!-- No need for bootstrap.js for now -->
+<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>-->
+<script src="/assets/js/drug-search.js" type="text/javascript"></script>
 </html>

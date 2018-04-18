@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="311 -183 542 536" style="enable-background:new 311 -183 542 536;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#XMLID_5_);stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;}
+	.st2{font-family:'BerlinSansFB-Reg';}
+	.st3{font-size:382px;}
+	.st4{opacity:0.36;fill:none;stroke:#FFFFFF;stroke-width:9;stroke-miterlimit:10;enable-background:new    ;}
+	.st5{opacity:0.15;fill:none;stroke:#000000;stroke-miterlimit:10;enable-background:new    ;}
+</style>
+<linearGradient id="XMLID_5_" gradientUnits="userSpaceOnUse" x1="706.2705" y1="299.3715" x2="460.9295" y2="-125.5715">
+	<stop  offset="0" style="stop-color:#003D66"/>
+	<stop  offset="6.660753e-002" style="stop-color:#004566"/>
+	<stop  offset="0.2138" style="stop-color:#005466"/>
+	<stop  offset="0.3644" style="stop-color:#006064"/>
+	<stop  offset="0.5168" style="stop-color:#006961"/>
+	<stop  offset="0.6717" style="stop-color:#00705E"/>
+	<stop  offset="0.8307" style="stop-color:#00755D"/>
+	<stop  offset="1" style="stop-color:#00775C"/>
+</linearGradient>
+<circle id="XMLID_2_" class="st0" cx="583.6" cy="86.9" r="245.3"/>
+<text id="XMLID_1_" transform="matrix(1 0 0 1 485.1239 198.5324)" class="st1 st2 st3">€</text>
+<line id="XMLID_3_" class="st4" x1="414" y1="253" x2="751.8" y2="-77.1"/>
+<line class="st5" x1="414" y1="253" x2="751.8" y2="-77.1"/>
+</svg>
