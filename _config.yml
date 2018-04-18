@@ -1,34 +1,13 @@
 # Setup
 title:        Pharmacodex
-tagline:      Votre allié pour s'y retrouver parmi tous ces médicaments
+tagline:      Les informations pour mieux prendre soin de sa santé
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 disable-auto-suggest-cache: 1 # disable the local storage cache for auto-suggestions in debug mode
-#paginate:     1
 
 # Exclude the following folders from the build to reduce (drastically) the build time
 exclude:
   - docs
-
-# Google Analytics
-# Set environment to production to include Google Analytics code snippet:
-# JEKYLL_ENV=production bundle exec jekyll serve
-plugins:
-  - jekyll-analytics
-
-jekyll_analytics: 
-  GoogleAnalytics:          # Add, if you want to track with Google Analytics
-    id: UA-110429644-1      # Required - replace with your tracking id
-    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
-
-
-# About/contact
-author:
-  name:       Author name
-  url:        http://yourhomepage.com 
-
-# Gems
-#gems: - jekyll-paginate
 
 # Others
 markdown: kramdown
