@@ -3,6 +3,7 @@
 
 // Set js variables which need the liquid engine at the beginning of the file
 var disableAutoSuggestCache = {{site.disable-auto-suggest-cache}};
+var drugsJsonUrl = '{{ site.baseurl }}/assets/drug-search.json';
 
 // Then write all the js code in a raw section to avoid potential conflicts between liquid and other templating engines.
 {% raw %}
@@ -14,7 +15,7 @@ var drugs = new Bloodhound({
         return Bloodhound.tokenizers.whitespace(drug.name);
     },
    	queryTokenizer: Bloodhound.tokenizers.whitespace,
-  	prefetch: '/assets/drug-search.json',
+  	prefetch: drugsJsonUrl,
   	ttl: disableAutoSuggestCache
 });
 drugs.initialize();
