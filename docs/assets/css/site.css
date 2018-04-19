@@ -30,7 +30,7 @@
 .logo{
 	width: 60px;
 	height: 40px;
-	background: url("/assets/img/p9x-logo.svg") center no-repeat;
+	background: url("/remedes/assets/img/p9x-logo.svg") center no-repeat;
 }
 
 .header{
@@ -119,15 +119,15 @@ h1, h2, h3, h4, h5, h6{
 .img-drug-info{
     /*width: 60px;
     height: 40px;*/
-    background: url("/assets/img/info-drugs.svg") center no-repeat;
+    background: url("/remedes/assets/img/info-drugs.svg") center no-repeat;
 }
 
 .img-drug-price{
-    background: url("/assets/img/euro-icon.svg") center no-repeat;
+    background: url("/remedes/assets/img/euro-icon.svg") center no-repeat;
 }
 
 .img-compare-drug{
-    background: url("/assets/img/compare-drugs.svg") center no-repeat;
+    background: url("/remedes/assets/img/compare-drugs.svg") center no-repeat;
 }
 
 /* Pages "medicaments-commencant-par" */
