@@ -1,12 +1,37 @@
+/**************** Imported from cayman ******************/
+body { 
+    padding: 0; 
+    margin: 0; 
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-size: 16px; 
+    line-height: 1.5; 
+    color: #606c71; 
+}
+
+.page-header { color: #fff; text-align: center; background-color: #159957; background-image: linear-gradient(120deg, #155799, #159957); }
+@media screen and (min-width: 64em) { .page-header { padding: 5rem 6rem; } }
+@media screen and (min-width: 42em) and (max-width: 64em) { .page-header { padding: 5rem 4rem; } }
+@media screen and (max-width: 42em) { .page-header { padding: 5rem 1rem; } }
+
+.project-name { margin-top: 0; margin-bottom: 0.1rem; }
+@media screen and (min-width: 64em) { .project-name { font-size: 3.25rem; } }
+@media screen and (min-width: 42em) and (max-width: 64em) { .project-name { font-size: 2.25rem; } }
+@media screen and (max-width: 42em) { .project-name { font-size: 1.75rem; } }
+
+.project-tagline { margin-bottom: 2rem; font-weight: normal; opacity: 0.7; }
+@media screen and (min-width: 64em) { .project-tagline { font-size: 1.25rem; } }
+@media screen and (min-width: 42em) and (max-width: 64em) { .project-tagline { font-size: 1.15rem; } }
+@media screen and (max-width: 42em) { .project-tagline { font-size: 1rem; } }
+
+/**************** Custom ******************/
+
 .page-header{
 	background-color: #159957;
     background-image: linear-gradient(120deg, #155799, #159957);
-    /*    position: absolute;
-    background-size: cover;
-    background-position: center center;
-    width: 100%;
-    height: 100%;
-    z-index: -1;*/
+}
+
+.navbar{
+    padding: 1.5rem 1rem;
 }
 
 .navbar-absolute{
@@ -27,10 +52,13 @@
     background-image: linear-gradient(120deg, #155799, #159957);
 }
 
-.logo{
-	width: 60px;
-	height: 40px;
-	background: url("/assets/img/p9x-logo.svg") center no-repeat;
+.navbar .row{
+    width: 100%;
+}
+
+.logo-p9x img{
+    width: 100%;
+    height: auto;
 }
 
 .header{
@@ -48,7 +76,7 @@
 }
 
 .argument{
-	padding: 3rem 0rem;
+	padding: 3.5rem 1rem;
 }
 
 .argument-gray{
@@ -64,7 +92,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .main-content{
-	padding: 5rem 0rem;
+	padding: 3.5rem 1rem;
 }
 
 .main-content .main-drug-info li{
@@ -80,10 +108,15 @@ h1, h2, h3, h4, h5, h6{
 
 .footer{
 	background: #222;
+    padding: 0rem 1rem;
 }
 
 .footer-widgets {
-    padding: 5rem 0 1.5rem;
+    padding: 3.5rem 0 1.5rem;
+}
+
+.footer-widgets .container{
+    font-size: .8125rem;
 }
 
 .footer-widgets + .footer-bar {
@@ -97,8 +130,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .widget {
-    margin-bottom: 60px;
-    font-size: .8125rem;
+    margin-bottom: 2rem;
 }
 
 .footer h1, .footer .h1, .footer h2, .footer .h2, .footer h3, .footer .h3, .footer h4, .footer .h4, .footer h5, .footer .h5, .footer h6, .footer .h6{
@@ -117,17 +149,18 @@ h1, h2, h3, h4, h5, h6{
 
 /* home page (index) */
 .img-drug-info{
-    /*width: 60px;
-    height: 40px;*/
+    min-height: 160px;
     background: url("/assets/img/info-drugs.svg") center no-repeat;
 }
 
 .img-drug-price{
     background: url("/assets/img/euro-icon.svg") center no-repeat;
+    min-height: 160px;
 }
 
 .img-compare-drug{
     background: url("/assets/img/compare-drugs.svg") center no-repeat;
+    min-height: 160px;
 }
 
 /* Pages "medicaments-commencant-par" */
