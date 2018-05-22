@@ -24,7 +24,7 @@ layout: default
 		<!-- Drug approved in several countries of the EU -->
 		{% if drug.eu_auth_nb %}
 			<div class="bs-callout bs-callout-info">
-				Ce médicament est approuvé dans plusieurs pays de l'Union Européenne
+				Ce médicament est approuvé dans plusieurs pays de l'Union Européenne.
 			</div>
 		{% endif %}
 		<!-- Inactive "presentation"; TODO: precise the meaning of this warning -->
@@ -36,7 +36,17 @@ layout: default
 
 		<!-- Warning disponibilité -->
 		{% if drug.bdm_status %}
-			<div class="bs-callout bs-callout-warning">{{ drug.bdm_status }}</div>
+			<div class="bs-callout bs-callout-warning">
+				{% if drug.bdm_status == "Alerte" %}
+					Ce médicament fait l'objet d'un retrait ou d'une suspension d'autorisation ou d'utilisation pour des raisons de santé publique. 
+					Si vous prenez ce médicament, il est recommandé de prendre contact, dans les meilleurs délais, avec votre médecin ou avec votre pharmacien qui vous indiquera la conduite à tenir.
+				{% elsif drug.bdm_status == "Warning disponibilité" %}
+					Ce médicament n'est ou ne sera bientôt plus disponible sur le marché. 
+				{% else %}
+					<!-- This case should never happen -->
+					{{ drug.bdm_status }}
+				{% endif %}
+			</div>
 		{% endif %}
 		
 		<!-- Reinforced monitoring - see what information can be collected in addition to this simple flag -->
