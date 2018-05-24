@@ -1,4 +1,4 @@
-cis_code	name	substance_code	substance_name	substance_dosing	dosing_ref	comp_nature	number
+cis_code	name	substance_code	substance_name	substance_dosing	dosing_ref	comp_nature	number	test
 60002283	comprimé	42215	ANASTROZOLE	1,00 mg	un comprimé	SA	1	
 60002504	comprimé	25783	RANITIDINE (CHLORHYDRATE DE)	168 mg	un comprimé	SA	1	
 60002504	comprimé	49632	RANITIDINE BASE	150 mg	un comprimé	FT	1	

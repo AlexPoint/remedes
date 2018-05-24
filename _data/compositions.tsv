@@ -1,4 +1,4 @@
-cis_code	name	substance_code	substance_name	substance_dosing	dosing_ref	comp_nature	number
+cis_code	name	substance_code	substance_name	substance_dosing	dosing_ref	comp_nature	number	test
 60538772	comprimé	76051	ABIES CANADENSIS POUR PRÉPARATIONS HOMÉOPATHIQUES	2CH à 30CH et 4DH à 60DH	un comprimé	SA	18
 60538772	granules	76051	ABIES CANADENSIS POUR PRÉPARATIONS HOMÉOPATHIQUES	2CH à 30CH et 4DH à 60DH	un comprimé	SA	17
 60538772	pommade	76051	ABIES CANADENSIS POUR PRÉPARATIONS HOMÉOPATHIQUES	2CH à 30CH et 4DH à 60DH (pommade à 4 %)	un comprimé	SA	24
