@@ -25923,9 +25923,7 @@
 69620181	comprimé	14049	CHLORHYDRATE DE BÉNAZÉPRIL	10 mg	un comprimé	SA	1	
 69620320	comprimé	17723	OLANZAPINE	15 mg	un comprimé	SA	1	
 69620338	comprimé	07436	FUMARATE DE BISOPROLOL	10 mg	un comprimé	SA	1	
-69620498	solution	00529	GLUCOSE ANHYDRE	50 g	100 ml de solution pour perfusion
-
-</p>	FT	1	
+69620498	solution	00529	GLUCOSE ANHYDRE	50 g	100 ml de solution pour perfusion	FT	1	
 69620498	solution	17150	GLUCOSE MONOHYDRATÉ			SA	1	
 69620719	comprimé	00428	CARBONATE DE CALCIUM	1375 mg	un comprimé	SA	1	
 69620719	comprimé	72723	CALCIUM ÉLÉMENT	500, 00 mg	un comprimé	FT	1	
