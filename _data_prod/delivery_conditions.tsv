@@ -689,6 +689,7 @@ cis_code	condition
 63339238	prescription réservée aux spécialistes autorisés RADIOPHARMACEUTIQUES
 63521034	prescription réservée aux spécialistes autorisés RADIOPHARMACEUTIQUES
 63802451	prescription réservée aux spécialistes autorisés RADIOPHARMACEUTIQUES
+60826422	prescription limitée à 4 semaines
 63885956	prescription réservée aux spécialistes autorisés RADIOPHARMACEUTIQUES
 63938775	prescription réservée aux spécialistes autorisés RADIOPHARMACEUTIQUES
 64060864	prescription réservée aux spécialistes autorisés RADIOPHARMACEUTIQUES
@@ -848,6 +849,7 @@ cis_code	condition
 62813345	prescription réservée aux spécialistes et services NEUROLOGIE
 63000533	prescription réservée aux spécialistes et services NEUROLOGIE
 63067336	prescription réservée aux spécialistes et services NEUROLOGIE
+60874417	prescription limitée à 4 semaines
 63093669	prescription réservée aux spécialistes et services NEUROLOGIE
 63104681	prescription réservée aux spécialistes et services NEUROLOGIE
 63122238	prescription réservée aux spécialistes et services NEUROLOGIE
@@ -929,6 +931,7 @@ cis_code	condition
 66031320	prescription réservée aux spécialistes et services NEUROLOGIE
 66072114	prescription réservée aux spécialistes et services NEUROLOGIE
 66093293	prescription réservée aux spécialistes et services NEUROLOGIE
+60907447	prescription limitée à 4 semaines
 66169741	prescription réservée aux spécialistes et services NEUROLOGIE
 66197477	prescription réservée aux spécialistes et services NEUROLOGIE
 66263176	prescription réservée aux spécialistes et services NEUROLOGIE
@@ -1010,6 +1013,7 @@ cis_code	condition
 68808796	prescription réservée aux spécialistes et services NEUROLOGIE
 69050347	prescription réservée aux spécialistes et services NEUROLOGIE
 69158091	prescription réservée aux spécialistes et services NEUROLOGIE
+60913012	prescription limitée à 4 semaines
 69202221	prescription réservée aux spécialistes et services NEUROLOGIE
 69285352	prescription réservée aux spécialistes et services NEUROLOGIE
 69319897	prescription réservée aux spécialistes et services NEUROLOGIE
@@ -1091,6 +1095,7 @@ cis_code	condition
 64316662	prescription réservée aux spécialistes et services PEDIATRIE
 64348400	prescription réservée aux spécialistes et services PEDIATRIE
 64361814	prescription réservée aux spécialistes et services PEDIATRIE
+60914025	prescription limitée à 4 semaines
 64588580	prescription réservée aux spécialistes et services PEDIATRIE
 64679852	prescription réservée aux spécialistes et services PEDIATRIE
 64809018	prescription réservée aux spécialistes et services PEDIATRIE
@@ -1172,6 +1177,7 @@ cis_code	condition
 69582503	prescription réservée aux spécialistes et services PEDIATRIE
 69672961	prescription réservée aux spécialistes et services PEDIATRIE
 69720897	prescription réservée aux spécialistes et services PEDIATRIE
+60976557	prescription limitée à 4 semaines
 69847318	prescription réservée aux spécialistes et services PEDIATRIE
 69900322	prescription réservée aux spécialistes et services PEDIATRIE
 60006246	médicament nécessitant une surveillance particulière pendant le traitement
@@ -1242,6 +1248,7 @@ cis_code	condition
 60522572	médicament nécessitant une surveillance particulière pendant le traitement
 60549797	médicament nécessitant une surveillance particulière pendant le traitement
 60557826	médicament nécessitant une surveillance particulière pendant le traitement
+60998856	prescription limitée à 4 semaines
 60561269	médicament nécessitant une surveillance particulière pendant le traitement
 60598673	médicament nécessitant une surveillance particulière pendant le traitement
 60618161	médicament nécessitant une surveillance particulière pendant le traitement
@@ -2238,6 +2245,7 @@ cis_code	condition
 64708108	prescription réservée aux spécialistes et services PSYCHIATRIE
 64760254	prescription réservée aux spécialistes et services PSYCHIATRIE
 64814983	prescription réservée aux spécialistes et services PSYCHIATRIE
+61001138	prescription limitée à 4 semaines
 64874592	prescription réservée aux spécialistes et services PSYCHIATRIE
 64898084	prescription réservée aux spécialistes et services PSYCHIATRIE
 64980720	prescription réservée aux spécialistes et services PSYCHIATRIE
@@ -2319,6 +2327,7 @@ cis_code	condition
 69642982	prescription réservée aux spécialistes et services PSYCHIATRIE
 69661139	prescription réservée aux spécialistes et services PSYCHIATRIE
 69847994	prescription réservée aux spécialistes et services PSYCHIATRIE
+61007415	prescription limitée à 4 semaines
 69850613	prescription réservée aux spécialistes et services PSYCHIATRIE
 69972923	prescription réservée aux spécialistes et services PSYCHIATRIE
 69978449	prescription réservée aux spécialistes et services PSYCHIATRIE
@@ -2394,6 +2403,7 @@ cis_code	condition
 61483364	prescription réservée aux spécialistes et services ONCOLOGIE MEDICALE
 61506083	prescription réservée aux spécialistes et services ONCOLOGIE MEDICALE
 61571729	prescription réservée aux spécialistes et services ONCOLOGIE MEDICALE
+61115864	prescription limitée à 4 semaines
 61631635	prescription réservée aux spécialistes et services ONCOLOGIE MEDICALE
 61637983	prescription réservée aux spécialistes et services ONCOLOGIE MEDICALE
 61673260	prescription réservée aux spécialistes et services ONCOLOGIE MEDICALE
@@ -2469,6 +2479,7 @@ cis_code	condition
 63816522	prescription réservée aux spécialistes et services ONCOLOGIE MEDICALE
 63841059	prescription réservée aux spécialistes et services ONCOLOGIE MEDICALE
 63848228	prescription réservée aux spécialistes et services ONCOLOGIE MEDICALE
+61145640	prescription limitée à 4 semaines
 63901015	prescription réservée aux spécialistes et services ONCOLOGIE MEDICALE
 63915004	prescription réservée aux spécialistes et services ONCOLOGIE MEDICALE
 63957170	prescription réservée aux spécialistes et services ONCOLOGIE MEDICALE
@@ -2544,6 +2555,7 @@ cis_code	condition
 65789903	prescription réservée aux spécialistes et services ONCOLOGIE MEDICALE
 65808531	prescription réservée aux spécialistes et services ONCOLOGIE MEDICALE
 65894174	prescription réservée aux spécialistes et services ONCOLOGIE MEDICALE
+61170825	prescription limitée à 4 semaines
 65918903	prescription réservée aux spécialistes et services ONCOLOGIE MEDICALE
 65925659	prescription réservée aux spécialistes et services ONCOLOGIE MEDICALE
 65964950	prescription réservée aux spécialistes et services ONCOLOGIE MEDICALE
@@ -2619,6 +2631,7 @@ cis_code	condition
 67713231	prescription réservée aux spécialistes et services ONCOLOGIE MEDICALE
 67728062	prescription réservée aux spécialistes et services ONCOLOGIE MEDICALE
 67728176	prescription réservée aux spécialistes et services ONCOLOGIE MEDICALE
+61200108	prescription limitée à 4 semaines
 67737086	prescription réservée aux spécialistes et services ONCOLOGIE MEDICALE
 67758269	prescription réservée aux spécialistes et services ONCOLOGIE MEDICALE
 67802057	prescription réservée aux spécialistes et services ONCOLOGIE MEDICALE
@@ -2694,6 +2707,7 @@ cis_code	condition
 69756861	prescription réservée aux spécialistes et services ONCOLOGIE MEDICALE
 69760411	prescription réservée aux spécialistes et services ONCOLOGIE MEDICALE
 69771849	prescription réservée aux spécialistes et services ONCOLOGIE MEDICALE
+61227030	prescription limitée à 4 semaines
 69817346	prescription réservée aux spécialistes et services ONCOLOGIE MEDICALE
 69833133	prescription réservée aux spécialistes et services ONCOLOGIE MEDICALE
 69862722	prescription réservée aux spécialistes et services ONCOLOGIE MEDICALE
@@ -2919,6 +2933,7 @@ cis_code	condition
 67308293	prescription réservée aux spécialistes et services GERIATRIE
 67332981	prescription réservée aux spécialistes et services GERIATRIE
 67402045	prescription réservée aux spécialistes et services GERIATRIE
+61270455	prescription limitée à 4 semaines
 67410387	prescription réservée aux spécialistes et services GERIATRIE
 67457433	prescription réservée aux spécialistes et services GERIATRIE
 67468515	prescription réservée aux spécialistes et services GERIATRIE
@@ -3000,6 +3015,7 @@ cis_code	condition
 61168991	prescription réservée aux spécialistes et services CANCEROLOGIE
 61174122	prescription réservée aux spécialistes et services CANCEROLOGIE
 61174695	prescription réservée aux spécialistes et services CANCEROLOGIE
+61287223	prescription limitée à 4 semaines
 61276045	prescription réservée aux spécialistes et services CANCEROLOGIE
 61307028	prescription réservée aux spécialistes et services CANCEROLOGIE
 61324127	prescription réservée aux spécialistes et services CANCEROLOGIE
@@ -3081,6 +3097,7 @@ cis_code	condition
 63612555	prescription réservée aux spécialistes et services CANCEROLOGIE
 63613333	prescription réservée aux spécialistes et services CANCEROLOGIE
 63616817	prescription réservée aux spécialistes et services CANCEROLOGIE
+61300005	prescription limitée à 4 semaines
 63627532	prescription réservée aux spécialistes et services CANCEROLOGIE
 63675185	prescription réservée aux spécialistes et services CANCEROLOGIE
 63803884	prescription réservée aux spécialistes et services CANCEROLOGIE
@@ -3162,6 +3179,7 @@ cis_code	condition
 65808531	prescription réservée aux spécialistes et services CANCEROLOGIE
 65894174	prescription réservée aux spécialistes et services CANCEROLOGIE
 65918903	prescription réservée aux spécialistes et services CANCEROLOGIE
+61407060	prescription limitée à 4 semaines
 65925659	prescription réservée aux spécialistes et services CANCEROLOGIE
 65964950	prescription réservée aux spécialistes et services CANCEROLOGIE
 65970775	prescription réservée aux spécialistes et services CANCEROLOGIE
@@ -3243,6 +3261,7 @@ cis_code	condition
 67904083	prescription réservée aux spécialistes et services CANCEROLOGIE
 67939209	prescription réservée aux spécialistes et services CANCEROLOGIE
 68016146	prescription réservée aux spécialistes et services CANCEROLOGIE
+61417784	prescription limitée à 4 semaines
 68184425	prescription réservée aux spécialistes et services CANCEROLOGIE
 68196114	prescription réservée aux spécialistes et services CANCEROLOGIE
 68214968	prescription réservée aux spécialistes et services CANCEROLOGIE
@@ -3323,6 +3342,7 @@ cis_code	condition
 60650426	prescription réservée aux spécialistes et services ENDOCRINOLOGIE
 60664365	prescription réservée aux spécialistes et services ENDOCRINOLOGIE
 60698990	prescription réservée aux spécialistes et services ENDOCRINOLOGIE
+61707595	prescription initiale hospitalière annuelle
 60727755	prescription réservée aux spécialistes et services ENDOCRINOLOGIE
 60749100	prescription réservée aux spécialistes et services ENDOCRINOLOGIE
 61067266	prescription réservée aux spécialistes et services ENDOCRINOLOGIE
@@ -3398,6 +3418,7 @@ cis_code	condition
 68822746	prescription réservée aux spécialistes et services ENDOCRINOLOGIE
 68906742	prescription réservée aux spécialistes et services ENDOCRINOLOGIE
 68937442	prescription réservée aux spécialistes et services ENDOCRINOLOGIE
+61435939	prescription limitée à 4 semaines
 68954979	prescription réservée aux spécialistes et services ENDOCRINOLOGIE
 68963451	prescription réservée aux spécialistes et services ENDOCRINOLOGIE
 68990053	prescription réservée aux spécialistes et services ENDOCRINOLOGIE
@@ -3479,6 +3500,7 @@ cis_code	condition
 66263258	prescription réservée aux spécialistes et services MALADIES METABOLIQUES
 66311151	prescription réservée aux spécialistes et services MALADIES METABOLIQUES
 66457697	prescription réservée aux spécialistes et services MALADIES METABOLIQUES
+61724662	prescription initiale hospitalière annuelle
 66579174	prescription réservée aux spécialistes et services MALADIES METABOLIQUES
 66610050	prescription réservée aux spécialistes et services MALADIES METABOLIQUES
 66623496	prescription réservée aux spécialistes et services MALADIES METABOLIQUES
@@ -3554,6 +3576,7 @@ cis_code	condition
 61927584	prescription réservée aux spécialistes et services MEDECINE INTERNE
 61969188	prescription réservée aux spécialistes et services MEDECINE INTERNE
 62002638	prescription réservée aux spécialistes et services MEDECINE INTERNE
+60714918	prescription limitée à 4 semaines
 62005716	prescription réservée aux spécialistes et services MEDECINE INTERNE
 62007329	prescription réservée aux spécialistes et services MEDECINE INTERNE
 62048799	prescription réservée aux spécialistes et services MEDECINE INTERNE
@@ -3629,6 +3652,7 @@ cis_code	condition
 65186111	prescription réservée aux spécialistes et services MEDECINE INTERNE
 65340488	prescription réservée aux spécialistes et services MEDECINE INTERNE
 65340755	prescription réservée aux spécialistes et services MEDECINE INTERNE
+60756917	prescription limitée à 4 semaines
 65344586	prescription réservée aux spécialistes et services MEDECINE INTERNE
 65348481	prescription réservée aux spécialistes et services MEDECINE INTERNE
 65380148	prescription réservée aux spécialistes et services MEDECINE INTERNE
@@ -3704,6 +3728,7 @@ cis_code	condition
 68499606	prescription réservée aux spécialistes et services MEDECINE INTERNE
 68512046	prescription réservée aux spécialistes et services MEDECINE INTERNE
 68563329	prescription réservée aux spécialistes et services MEDECINE INTERNE
+60774438	prescription limitée à 4 semaines
 68638461	prescription réservée aux spécialistes et services MEDECINE INTERNE
 68749248	prescription réservée aux spécialistes et services MEDECINE INTERNE
 68903689	prescription réservée aux spécialistes et services MEDECINE INTERNE
@@ -3789,8 +3814,6 @@ cis_code	condition
 61615809	prescription initiale hospitalière annuelle
 61681780	prescription initiale hospitalière annuelle
 61685711	prescription initiale hospitalière annuelle
-61707595	prescription initiale hospitalière annuelle
-61724662	prescription initiale hospitalière annuelle
 61748827	prescription initiale hospitalière annuelle
 61751780	prescription initiale hospitalière annuelle
 61810983	prescription initiale hospitalière annuelle
@@ -4387,29 +4410,6 @@ cis_code	condition
 60693281	prescription limitée à 4 semaines
 60696651	prescription limitée à 4 semaines
 60698008	prescription limitée à 4 semaines
-60714918	prescription limitée à 4 semaines
-60756917	prescription limitée à 4 semaines
-60774438	prescription limitée à 4 semaines
-60826422	prescription limitée à 4 semaines
-60874417	prescription limitée à 4 semaines
-60907447	prescription limitée à 4 semaines
-60913012	prescription limitée à 4 semaines
-60914025	prescription limitée à 4 semaines
-60976557	prescription limitée à 4 semaines
-60998856	prescription limitée à 4 semaines
-61001138	prescription limitée à 4 semaines
-61007415	prescription limitée à 4 semaines
-61115864	prescription limitée à 4 semaines
-61145640	prescription limitée à 4 semaines
-61170825	prescription limitée à 4 semaines
-61200108	prescription limitée à 4 semaines
-61227030	prescription limitée à 4 semaines
-61270455	prescription limitée à 4 semaines
-61287223	prescription limitée à 4 semaines
-61300005	prescription limitée à 4 semaines
-61407060	prescription limitée à 4 semaines
-61417784	prescription limitée à 4 semaines
-61435939	prescription limitée à 4 semaines
 61438166	prescription limitée à 4 semaines
 61464150	prescription limitée à 4 semaines
 61558728	prescription limitée à 4 semaines
@@ -4644,6 +4644,7 @@ cis_code	condition
 60148167	prescription réservée aux spécialistes et services HEMATOLOGIE
 60155667	prescription réservée aux spécialistes et services HEMATOLOGIE
 60158154	prescription réservée aux spécialistes et services HEMATOLOGIE
+68866867	prescription limitée à 7 jours
 60177724	prescription réservée aux spécialistes et services HEMATOLOGIE
 60195398	prescription réservée aux spécialistes et services HEMATOLOGIE
 60219803	prescription réservée aux spécialistes et services HEMATOLOGIE
@@ -4725,6 +4726,7 @@ cis_code	condition
 62179268	prescription réservée aux spécialistes et services HEMATOLOGIE
 62188712	prescription réservée aux spécialistes et services HEMATOLOGIE
 62282407	prescription réservée aux spécialistes et services HEMATOLOGIE
+69040591	prescription limitée à 7 jours
 62334786	prescription réservée aux spécialistes et services HEMATOLOGIE
 62361751	prescription réservée aux spécialistes et services HEMATOLOGIE
 62362369	prescription réservée aux spécialistes et services HEMATOLOGIE
@@ -4806,6 +4808,7 @@ cis_code	condition
 64598731	prescription réservée aux spécialistes et services HEMATOLOGIE
 64599534	prescription réservée aux spécialistes et services HEMATOLOGIE
 64622919	prescription réservée aux spécialistes et services HEMATOLOGIE
+69077903	prescription limitée à 7 jours
 64643856	prescription réservée aux spécialistes et services HEMATOLOGIE
 64645120	prescription réservée aux spécialistes et services HEMATOLOGIE
 64661854	prescription réservée aux spécialistes et services HEMATOLOGIE
@@ -4887,6 +4890,7 @@ cis_code	condition
 66523859	prescription réservée aux spécialistes et services HEMATOLOGIE
 66602114	prescription réservée aux spécialistes et services HEMATOLOGIE
 66612044	prescription réservée aux spécialistes et services HEMATOLOGIE
+69249527	prescription limitée à 7 jours
 66731714	prescription réservée aux spécialistes et services HEMATOLOGIE
 66746278	prescription réservée aux spécialistes et services HEMATOLOGIE
 66768812	prescription réservée aux spécialistes et services HEMATOLOGIE
@@ -4968,6 +4972,7 @@ cis_code	condition
 69118428	prescription réservée aux spécialistes et services HEMATOLOGIE
 69122316	prescription réservée aux spécialistes et services HEMATOLOGIE
 69139187	prescription réservée aux spécialistes et services HEMATOLOGIE
+69466477	prescription limitée à 7 jours
 69140809	prescription réservée aux spécialistes et services HEMATOLOGIE
 69161632	prescription réservée aux spécialistes et services HEMATOLOGIE
 69164614	prescription réservée aux spécialistes et services HEMATOLOGIE
@@ -5049,6 +5054,7 @@ cis_code	condition
 60269037	prescription réservée aux spécialistes et services CARDIOLOGIE
 60479174	prescription réservée aux spécialistes et services CARDIOLOGIE
 60518136	prescription réservée aux spécialistes et services CARDIOLOGIE
+69819023	prescription limitée à 7 jours
 60598673	prescription réservée aux spécialistes et services CARDIOLOGIE
 60783533	prescription réservée aux spécialistes et services CARDIOLOGIE
 60789290	prescription réservée aux spécialistes et services CARDIOLOGIE
@@ -5130,6 +5136,7 @@ cis_code	condition
 65601415	prescription réservée aux spécialistes et services CARDIOLOGIE
 65658665	prescription réservée aux spécialistes et services CARDIOLOGIE
 65664668	prescription réservée aux spécialistes et services CARDIOLOGIE
+69954238	prescription limitée à 7 jours
 65937298	prescription réservée aux spécialistes et services CARDIOLOGIE
 66048871	prescription réservée aux spécialistes et services CARDIOLOGIE
 66086562	prescription réservée aux spécialistes et services CARDIOLOGIE
@@ -5211,6 +5218,7 @@ cis_code	condition
 62410629	prescription réservée aux spécialistes et services PNEUMOLOGIE
 62497388	prescription réservée aux spécialistes et services PNEUMOLOGIE
 62960765	prescription réservée aux spécialistes et services PNEUMOLOGIE
+60259993	prescription hospitalière
 63196690	prescription réservée aux spécialistes et services PNEUMOLOGIE
 63206355	prescription réservée aux spécialistes et services PNEUMOLOGIE
 63269327	prescription réservée aux spécialistes et services PNEUMOLOGIE
@@ -5345,6 +5353,7 @@ cis_code	condition
 64033301	réservé à l'usage en situation d'urgence selon l'article R5121-96 du code de la santé publique
 64168402	réservé à l'usage en situation d'urgence selon l'article R5121-96 du code de la santé publique
 64245247	réservé à l'usage en situation d'urgence selon l'article R5121-96 du code de la santé publique
+63860433	délivrance fractionnée de 14 jours
 64333487	réservé à l'usage en situation d'urgence selon l'article R5121-96 du code de la santé publique
 64352719	réservé à l'usage en situation d'urgence selon l'article R5121-96 du code de la santé publique
 64387061	réservé à l'usage en situation d'urgence selon l'article R5121-96 du code de la santé publique
@@ -5406,6 +5415,7 @@ cis_code	condition
 67455336	réservé à l'usage en situation d'urgence selon l'article R5121-96 du code de la santé publique
 67537203	réservé à l'usage en situation d'urgence selon l'article R5121-96 du code de la santé publique
 67560127	réservé à l'usage en situation d'urgence selon l'article R5121-96 du code de la santé publique
+63983293	délivrance fractionnée de 14 jours
 67705850	réservé à l'usage en situation d'urgence selon l'article R5121-96 du code de la santé publique
 67708864	réservé à l'usage en situation d'urgence selon l'article R5121-96 du code de la santé publique
 67732872	réservé à l'usage en situation d'urgence selon l'article R5121-96 du code de la santé publique
@@ -5478,8 +5488,6 @@ cis_code	condition
 63646109	délivrance fractionnée de 14 jours
 63658264	délivrance fractionnée de 14 jours
 63687885	délivrance fractionnée de 14 jours
-63860433	délivrance fractionnée de 14 jours
-63983293	délivrance fractionnée de 14 jours
 64119540	délivrance fractionnée de 14 jours
 64364397	délivrance fractionnée de 14 jours
 64400555	délivrance fractionnée de 14 jours
@@ -5591,6 +5599,7 @@ cis_code	condition
 63953179	prescription réservée aux médecins spécialistes ou qualifiés en médecine générale titulaires de la capacité de gérontologie
 64024786	prescription réservée aux médecins spécialistes ou qualifiés en médecine générale titulaires de la capacité de gérontologie
 64069183	prescription réservée aux médecins spécialistes ou qualifiés en médecine générale titulaires de la capacité de gérontologie
+68115596	prescription limitée à 7 jours
 64267973	prescription réservée aux médecins spécialistes ou qualifiés en médecine générale titulaires de la capacité de gérontologie
 64282911	prescription réservée aux médecins spécialistes ou qualifiés en médecine générale titulaires de la capacité de gérontologie
 64312190	prescription réservée aux médecins spécialistes ou qualifiés en médecine générale titulaires de la capacité de gérontologie
@@ -5638,6 +5647,7 @@ cis_code	condition
 66978508	prescription réservée aux médecins spécialistes ou qualifiés en médecine générale titulaires de la capacité de gérontologie
 66998037	prescription réservée aux médecins spécialistes ou qualifiés en médecine générale titulaires de la capacité de gérontologie
 67014879	prescription réservée aux médecins spécialistes ou qualifiés en médecine générale titulaires de la capacité de gérontologie
+68136868	prescription limitée à 7 jours
 67024873	prescription réservée aux médecins spécialistes ou qualifiés en médecine générale titulaires de la capacité de gérontologie
 67070657	prescription réservée aux médecins spécialistes ou qualifiés en médecine générale titulaires de la capacité de gérontologie
 67216133	prescription réservée aux médecins spécialistes ou qualifiés en médecine générale titulaires de la capacité de gérontologie
@@ -5775,6 +5785,7 @@ cis_code	condition
 63775495	prescription initiale annuelle réservée à certains spécialistes
 63878584	prescription initiale annuelle réservée à certains spécialistes
 63912232	prescription initiale annuelle réservée à certains spécialistes
+68201593	prescription limitée à 7 jours
 63927615	prescription initiale annuelle réservée à certains spécialistes
 63943758	prescription initiale annuelle réservée à certains spécialistes
 63953179	prescription initiale annuelle réservée à certains spécialistes
@@ -5856,6 +5867,7 @@ cis_code	condition
 67308293	prescription initiale annuelle réservée à certains spécialistes
 67332981	prescription initiale annuelle réservée à certains spécialistes
 67369481	prescription initiale annuelle réservée à certains spécialistes
+68514289	prescription limitée à 7 jours
 67402045	prescription initiale annuelle réservée à certains spécialistes
 67410387	prescription initiale annuelle réservée à certains spécialistes
 67457433	prescription initiale annuelle réservée à certains spécialistes
@@ -6242,6 +6254,7 @@ cis_code	condition
 60288137	renouvellement de la prescription réservé aux spécialistes en ONCOLOGIE MEDICALE
 60462965	renouvellement de la prescription réservé aux spécialistes en ONCOLOGIE MEDICALE
 60663441	renouvellement de la prescription réservé aux spécialistes en ONCOLOGIE MEDICALE
+68620762	prescription limitée à 7 jours
 60709020	renouvellement de la prescription réservé aux spécialistes en ONCOLOGIE MEDICALE
 60890841	renouvellement de la prescription réservé aux spécialistes en ONCOLOGIE MEDICALE
 60973899	renouvellement de la prescription réservé aux spécialistes en ONCOLOGIE MEDICALE
@@ -6671,6 +6684,7 @@ cis_code	condition
 66614262	prescription initiale réservée à certains spécialistes
 66647757	prescription initiale réservée à certains spécialistes
 66674494	prescription initiale réservée à certains spécialistes
+68622560	prescription limitée à 7 jours
 66684652	prescription initiale réservée à certains spécialistes
 66687082	prescription initiale réservée à certains spécialistes
 66720194	prescription initiale réservée à certains spécialistes
@@ -6844,19 +6858,6 @@ cis_code	condition
 67827968	prescription limitée à 7 jours
 67986059	prescription limitée à 7 jours
 68104646	prescription limitée à 7 jours
-68115596	prescription limitée à 7 jours
-68136868	prescription limitée à 7 jours
-68201593	prescription limitée à 7 jours
-68514289	prescription limitée à 7 jours
-68620762	prescription limitée à 7 jours
-68622560	prescription limitée à 7 jours
-68866867	prescription limitée à 7 jours
-69040591	prescription limitée à 7 jours
-69077903	prescription limitée à 7 jours
-69249527	prescription limitée à 7 jours
-69466477	prescription limitée à 7 jours
-69819023	prescription limitée à 7 jours
-69954238	prescription limitée à 7 jours
 60249903	renouvellement de la prescription réservé aux spécialistes en HEMATOLOGIE
 60288137	renouvellement de la prescription réservé aux spécialistes en HEMATOLOGIE
 60462965	renouvellement de la prescription réservé aux spécialistes en HEMATOLOGIE
@@ -6948,7 +6949,6 @@ cis_code	condition
 60245253	prescription hospitalière
 60248840	prescription hospitalière
 60251352	prescription hospitalière
-60259993	prescription hospitalière
 60292267	prescription hospitalière
 60306813	prescription hospitalière
 60321676	prescription hospitalière
@@ -7876,6 +7876,8 @@ cis_code	condition
 66170398	renouvellement de la prescription réservé aux spécialistes en DERMATOLOGIE
 66393935	renouvellement de la prescription réservé aux spécialistes en DERMATOLOGIE
 66684652	renouvellement de la prescription réservé aux spécialistes en DERMATOLOGIE
+60044492	liste I
+60044784	liste I
 67422076	renouvellement de la prescription réservé aux spécialistes en DERMATOLOGIE
 67522169	renouvellement de la prescription réservé aux spécialistes en DERMATOLOGIE
 68667580	renouvellement de la prescription réservé aux spécialistes en DERMATOLOGIE
@@ -7965,8 +7967,6 @@ cis_code	condition
 60040572	liste I
 60040608	liste I
 60041560	liste I
-60044492	liste I
-60044784	liste I
 60044987	liste I
 60045217	liste I
 60047271	liste I
@@ -19193,6 +19193,7 @@ cis_code	condition
 61654491	pour les femmes en âge de procréer : voir programme de prévention de la grossesse
 62121489	pour les femmes en âge de procréer : voir programme de prévention de la grossesse
 62318935	pour les femmes en âge de procréer : voir programme de prévention de la grossesse
+61446889	délivrance après vérification du recueil de l'accord de soins
 62872308	pour les femmes en âge de procréer : voir programme de prévention de la grossesse
 62899611	pour les femmes en âge de procréer : voir programme de prévention de la grossesse
 63918395	pour les femmes en âge de procréer : voir programme de prévention de la grossesse
@@ -19259,7 +19260,6 @@ cis_code	condition
 60797287	délivrance après vérification du recueil de l'accord de soins
 61174492	délivrance après vérification du recueil de l'accord de soins
 61358994	délivrance après vérification du recueil de l'accord de soins
-61446889	délivrance après vérification du recueil de l'accord de soins
 61698947	délivrance après vérification du recueil de l'accord de soins
 61926144	délivrance après vérification du recueil de l'accord de soins
 62173094	délivrance après vérification du recueil de l'accord de soins

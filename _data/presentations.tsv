@@ -1,11 +1,4 @@
 cis_code	cip7_code	label	admin_status	commercialization_status	commercialization_date	cip13_code	coll_agreement	additional_precision	price_wo_dispensing	full_price	price_dispensing	reimbursement_rate	ss_reimbursement	excess_to_be_paid
-69855489	3657284	plaquette(s) thermoformée(s) PVC PVDC aluminium de 30 comprimé(s)	Présentation active	Déclaration de commercialisation	2005-06-27	3400936572843	oui		362.86	363.88	1.02	1	363.88	0
-69466146	3430698	plaquette(s) polyamide aluminium PVC-Aluminium de 28 comprimé(s)	Présentation active	Déclaration de commercialisation	1998-06-01	3400934306983	oui		10.84	11.86	1.02	0.65	7.71	4.15
-69466146	3719944	plaquette(s) polyamide aluminium PVC-Aluminium polyester de 90 comprimé(s)	Présentation active	Déclaration de commercialisation	2006-10-02	3400937199445	non		34.39	37.15	2.76	0.65	24.15	13
-69466146	5603068	plaquette(s) polyamide aluminium PVC-Aluminium de 50 comprimé(s)	Présentation active	Déclaration de commercialisation	1998-05-19	3400956030682	oui							
-69902323	3430681	plaquette(s) polyamide aluminium PVC-Aluminium de 28 comprimé(s)	Présentation active	Déclaration de commercialisation	2001-03-27	3400934306815	oui		10.84	11.86	1.02	0.65	7.71	4.15
-69902323	3719938	plaquette(s) polyamide aluminium PVC-Aluminium de 90 comprimé(s)	Présentation active	Déclaration de commercialisation	2006-10-02	3400937199384	non		34.39	37.15	2.76	0.65	24.15	13
-69902323	5603045	plaquette(s) polyamide aluminium PVC-Aluminium de 50 comprimé(s)	Présentation active	Déclaration de commercialisation	2004-03-09	3400956030453	oui							
 60599533	3640697	28 plaquette(s) thermoformée(s) aluminium de 1 comprimé(s)	Présentation active	Déclaration de commercialisation	2007-05-02	3400936406971	oui		67.99	69.01	1.02	0.65	44.86	24.15
 60599533	4950010	28 plaquette(s) thermoformée(s) aluminium de 1 comprimé(s) (distributeur parallèle :  MEDIWIN Limited)	Présentation active	Déclaration de commercialisation	2016-04-01	3400949500109	oui		64.77	65.79	1.02	0.65	42.76	23.03
 60599533	4950019	28 plaquette(s) thermoformée(s) aluminium de 1 comprimé(s) (distributeur parallèle :  BB FARMA s.r.l.)	Présentation active	Déclaration de commercialisation	2016-11-21	3400949500192	oui		64.77	65.79	1.02	0.65	42.76	23.03
@@ -24,3 +17,10 @@ cis_code	cip7_code	label	admin_status	commercialization_status	commercialization
 65198099	4950020	28 plaquette(s) thermoformée(s) aluminium de 1 comprimé(s) (distributeur parallèle :  BB Farma s.r.l)	Présentation active	Déclaration de commercialisation	2016-11-14	3400949500208	oui		64.77	65.79	1.02	0.65	42.76	23.03
 66791654	3692174	28 plaquette(s) formée(s) à froid aluminium de 1 comprimé(s)	Présentation active	Déclaration de commercialisation	2006-09-14	3400936921740	oui		77.21	78.23	1.02	0.65	50.85	27.38
 66805883	3346466	plaquette(s) thermoformée(s) PVC PVDC aluminium de 30 comprimé(s)	Présentation active	Déclaration de commercialisation	1994-10-19	3400933464660	oui		55.64	56.66	1.02	0.65	36.83	19.83
+69466146	3430698	plaquette(s) polyamide aluminium PVC-Aluminium de 28 comprimé(s)	Présentation active	Déclaration de commercialisation	1998-06-01	3400934306983	oui		10.84	11.86	1.02	0.65	7.71	4.15
+69466146	3719944	plaquette(s) polyamide aluminium PVC-Aluminium polyester de 90 comprimé(s)	Présentation active	Déclaration de commercialisation	2006-10-02	3400937199445	non		34.39	37.15	2.76	0.65	24.15	13
+69466146	5603068	plaquette(s) polyamide aluminium PVC-Aluminium de 50 comprimé(s)	Présentation active	Déclaration de commercialisation	1998-05-19	3400956030682	oui							
+69855489	3657284	plaquette(s) thermoformée(s) PVC PVDC aluminium de 30 comprimé(s)	Présentation active	Déclaration de commercialisation	2005-06-27	3400936572843	oui		362.86	363.88	1.02	1	363.88	0
+69902323	3430681	plaquette(s) polyamide aluminium PVC-Aluminium de 28 comprimé(s)	Présentation active	Déclaration de commercialisation	2001-03-27	3400934306815	oui		10.84	11.86	1.02	0.65	7.71	4.15
+69902323	3719938	plaquette(s) polyamide aluminium PVC-Aluminium de 90 comprimé(s)	Présentation active	Déclaration de commercialisation	2006-10-02	3400937199384	non		34.39	37.15	2.76	0.65	24.15	13
+69902323	5603045	plaquette(s) polyamide aluminium PVC-Aluminium de 50 comprimé(s)	Présentation active	Déclaration de commercialisation	2004-03-09	3400956030453	oui							
