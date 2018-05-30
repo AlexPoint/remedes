@@ -164,7 +164,6 @@ layout: default
 					{{ generic_group.size }} médicaments similaires :
 					<ul>
 						{% for elt in generic_group %}
-							{% assign alt_drug = site.data.drugs | where:"cis_code", elt.cis_code  | first %}
 							<li>
 								{% if elt.generic_type == "0" %}
 									princeps
@@ -177,7 +176,7 @@ layout: default
 								{% else %}
 									/!\ code inconnu ({{ elt.generic_type}})
 								{% endif %}
-								- <a href="{{ "/medicament/" | relative_url }}{{ elt.cis_code }}">{{ alt_drug.name }}</a>
+								- <a href="{{ "/medicament/" | relative_url }}{{ elt.cis_code }}">{{ elt.drug_name }}</a>
 							</li>
 						{% endfor %}
 					</ul>

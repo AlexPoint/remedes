@@ -1,13 +1,13 @@
-id	label	cis_code	generic_type	elt_number
-553	MODAFINIL 100 mg - MODIODAL 100 mg, comprimé.	66805883	0	1
-637	LEVODOPA 100 mg + BENSERAZIDE (CHLORHYDRATE DE) équivalant à BENSERAZIDE 25 mg - MODOPAR 125 (100 mg/25 mg), gélule.	65122219	0	1
-914	ATORVASTATINE CALCIQUE TRIHYDRATEE équivalant à 20 mg ATORVASTATINE  - TAHOR 20 mg, comprimé pelliculé.	69902323	0	1
-914	ATORVASTATINE CALCIQUE TRIHYDRATEE équivalant à 20 mg ATORVASTATINE  - TAHOR 20 mg, comprimé pelliculé.	63998110	0	2
-915	ATORVASTATINE CALCIQUE TRIHYDRATEE équivalant à 40 mg ATORVASTATINE  - TAHOR 40 mg, comprimé pelliculé.	69466146	0	1
-917	ATORVASTATINE CALCIQUE TRIHYDRATEE équivalant à 80 mg ATORVASTATINE  - TAHOR 80 mg, comprimé pelliculé.	60703487	0	1
-1246	ARIPIPRAZOLE 5 mg - ABILIFY 5 mg, comprimé	60599533	0	1
-1247	ARIPIPRAZOLE 10 mg - ABILIFY 10 mg, comprimé	65198099	0	1
-1248	ARIPIPRAZOLE 15 mg - ABILIFY 15 mg, comprimé	64224801	0	1
-1282	ARIPIPRAZOLE 10 mg - ABILIFY 10 mg, comprimé orodispersible	61815891	0	1
-1283	ARIPIPRAZOLE 15 mg - ABILIFY 15 mg, comprimé orodispersible	66791654	0	1
-1362	ABACAVIR (SULFATE D') équivalant à ABACAVIR 600 mg + LAMIVUDINE 300 mg - ABACAVIR 600 mg + LAMIVUDINE 300 mg - KIVEXA 600 mg/300 mg, comprimé pelliculé	69855489	0	1
+id	label	cis_code	generic_type	elt_number	drug_name
+1246	ARIPIPRAZOLE 5 mg - ABILIFY 5 mg, comprimé	60599533	0	1	ABILIFY 5 mg, comprimé
+917	ATORVASTATINE CALCIQUE TRIHYDRATEE équivalant à 80 mg ATORVASTATINE  - TAHOR 80 mg, comprimé pelliculé.	60703487	0	1	TAHOR 80 mg, comprimé pelliculé
+1282	ARIPIPRAZOLE 10 mg - ABILIFY 10 mg, comprimé orodispersible	61815891	0	1	ABILIFY 10 mg, comprimé orodispersible
+914	ATORVASTATINE CALCIQUE TRIHYDRATEE équivalant à 20 mg ATORVASTATINE  - TAHOR 20 mg, comprimé pelliculé.	63998110	0	2	TAHOR 20 mg, comprimé à croquer
+1248	ARIPIPRAZOLE 15 mg - ABILIFY 15 mg, comprimé	64224801	0	1	ABILIFY 15 mg, comprimé
+637	LEVODOPA 100 mg + BENSERAZIDE (CHLORHYDRATE DE) équivalant à BENSERAZIDE 25 mg - MODOPAR 125 (100 mg/25 mg), gélule.	65122219	0	1	MODOPAR 125 (100 mg/25 mg), gélule
+1247	ARIPIPRAZOLE 10 mg - ABILIFY 10 mg, comprimé	65198099	0	1	ABILIFY 10 mg, comprimé
+1283	ARIPIPRAZOLE 15 mg - ABILIFY 15 mg, comprimé orodispersible	66791654	0	1	ABILIFY 15 mg, comprimé orodispersible
+553	MODAFINIL 100 mg - MODIODAL 100 mg, comprimé.	66805883	0	1	MODIODAL 100 mg, comprimé
+915	ATORVASTATINE CALCIQUE TRIHYDRATEE équivalant à 40 mg ATORVASTATINE  - TAHOR 40 mg, comprimé pelliculé.	69466146	0	1	TAHOR 40 mg, comprimé pelliculé
+1362	ABACAVIR (SULFATE D') équivalant à ABACAVIR 600 mg + LAMIVUDINE 300 mg - ABACAVIR 600 mg + LAMIVUDINE 300 mg - KIVEXA 600 mg/300 mg, comprimé pelliculé	69855489	0	1	KIVEXA 600 mg/300 mg, comprimé pelliculé
+914	ATORVASTATINE CALCIQUE TRIHYDRATEE équivalant à 20 mg ATORVASTATINE  - TAHOR 20 mg, comprimé pelliculé.	69902323	0	1	TAHOR 20 mg, comprimé pelliculé
