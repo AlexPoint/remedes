@@ -1,22 +1,22 @@
 cis_code	name	pharmaceutical_form	admin_mode	amm_status	amm_procedure_type	marketing_status	amm_date	bdm_status	eu_auth_nb	owner	reinforced_monitoring
-62869109	A 313 50 000 U.I., capsule molle	capsule molle	orale	Autorisation active	Procédure nationale	Commercialisée	1997-07-07			 PHARMA DEVELOPPEMENT	Non
-66513085	ABASAGLAR 100 unités/ml, solution injectable en cartouche	solution injectable	sous-cutanée	Autorisation active	Procédure centralisée	Commercialisée	2014-09-09		EU/1/14/944	 ELI LILLY REGIONAL OPERATIONS (AUTRICHE)	Oui
-64332894	ABASAGLAR 100 unités/ml, solution injectable en stylo prérempli	solution injectable	sous-cutanée	Autorisation active	Procédure centralisée	Commercialisée	2014-09-09		EU/1/14/944	 ELI LILLY REGIONAL OPERATIONS (AUTRICHE)	Oui
-64055988	ABILIFY 1 mg/ml, solution buvable	solution buvable	orale	Autorisation active	Procédure centralisée	Commercialisée	2005-10-28		EU/1/04/276	 OTSUKA PHARMACEUTICAL EUROPE (ROYAUME-UNI)	Non
-65198099	ABILIFY 10 mg, comprimé	comprimé	orale	Autorisation active	Procédure centralisée	Commercialisée	2004-06-04		EU/1/04/276	 OTSUKA PHARMACEUTICAL EUROPE (ROYAUME-UNI)	Non
-61815891	ABILIFY 10 mg, comprimé orodispersible	comprimé orodispersible	orale	Autorisation active	Procédure centralisée	Commercialisée	2005-06-20		EU/1/04/276	 OTSUKA PHARMACEUTICAL EUROPE (ROYAUME-UNI)	Non
-64224801	ABILIFY 15 mg, comprimé	comprimé	orale	Autorisation active	Procédure centralisée	Commercialisée	2004-06-04		EU/1/04/276	 OTSUKA PHARMACEUTICAL EUROPE (ROYAUME-UNI)	Non
-66791654	ABILIFY 15 mg, comprimé orodispersible	comprimé orodispersible	orale	Autorisation active	Procédure centralisée	Commercialisée	2005-06-20		EU/1/04/276	 OTSUKA PHARMACEUTICAL EUROPE (ROYAUME-UNI)	Non
 60599533	ABILIFY 5 mg, comprimé	comprimé	orale	Autorisation active	Procédure centralisée	Commercialisée	2004-06-04		EU/1/04/276	 OTSUKA PHARMACEUTICAL EUROPE (ROYAUME-UNI)	Non
-69641873	ABILIFY 7,5 mg/ml, solution injectable	solution injectable	intramusculaire	Autorisation active	Procédure centralisée	Commercialisée	2006-10-04		EU/1/04/276	 OTSUKA PHARMACEUTICAL EUROPE (ROYAUME-UNI)	Non
-68729480	ABILIFY MAINTENA 300 mg, poudre et solvant pour suspension injectable à libération prolongée	poudre et  solvant pour suspension injectable à libération prolongée	intramusculaire	Autorisation active	Procédure centralisée	Commercialisée	2013-11-15		EU/1/13/882	 OTSUKA PHARMACEUTICAL EUROPE (ROYAUME-UNI)	Non
 60667087	ABILIFY MAINTENA 400 mg, poudre et solvant pour suspension injectable à libération prolongée	poudre et  solvant pour suspension injectable à libération prolongée	intramusculaire	Autorisation active	Procédure centralisée	Non commercialisée	2013-11-15	Warning disponibilité	EU/1/13/882	 OTSUKA PHARMACEUTICAL EUROPE (ROYAUME-UNI)	Non
-69855489	KIVEXA 600 mg/300 mg, comprimé pelliculé	comprimé pelliculé	orale	Autorisation active	Procédure centralisée	Commercialisée	2004-12-17		EU/1/04/298	 VIIV HEALTHCARE UK (ROYAUME-UNI)	Non
-66805883	MODIODAL 100 mg, comprimé	comprimé	orale	Autorisation active	Procédure de reconnaissance mutuelle	Commercialisée	1992-06-24			 TEVA PHARMA (PAYS-BAS)	Non
-63278664	MODIXIS 75 mg, poudre pour solution buvable en sachet-dose	poudre pour solution buvable	orale	Autorisation active	Procédure nationale	Commercialisée	1999-08-23			 SANOFI AVENTIS FRANCE	Non
-65122219	MODOPAR 125 (100 mg/25 mg), gélule	gélule	orale	Autorisation active	Procédure nationale	Commercialisée	1988-05-06			 ROCHE	Non
-66384181	MODOPAR 125 DISPERSIBLE (100 mg/25 mg), comprimé sécable pour suspension buvable	comprimé sécable pour suspension buvable	orale	Autorisation active	Procédure nationale	Commercialisée	1990-10-01			 ROCHE	Non
-69902323	TAHOR 20 mg, comprimé pelliculé	comprimé pelliculé	orale	Autorisation active	Procédure de reconnaissance mutuelle	Commercialisée	1997-03-21			 PFIZER HOLDING FRANCE	Non
-63998110	TAHOR 20 mg, comprimé à croquer	comprimé à croquer	orale	Autorisation active	Procédure de reconnaissance mutuelle	Commercialisée	2010-10-04			 PFIZER HOLDING FRANCE	Non
-69466146	TAHOR 40 mg, comprimé pelliculé	comprimé pelliculé	orale	Autorisation active	Procédure de reconnaissance mutuelle	Commercialisée	1997-03-21			 PFIZER HOLDING FRANCE	Non
 60703487	TAHOR 80 mg, comprimé pelliculé	comprimé pelliculé	orale	Autorisation active	Procédure de reconnaissance mutuelle	Commercialisée	2000-10-09			 PFIZER HOLDING FRANCE	Non
+61815891	ABILIFY 10 mg, comprimé orodispersible	comprimé orodispersible	orale	Autorisation active	Procédure centralisée	Commercialisée	2005-06-20		EU/1/04/276	 OTSUKA PHARMACEUTICAL EUROPE (ROYAUME-UNI)	Non
+62869109	A 313 50 000 U.I., capsule molle	capsule molle	orale	Autorisation active	Procédure nationale	Commercialisée	1997-07-07			 PHARMA DEVELOPPEMENT	Non
+63278664	MODIXIS 75 mg, poudre pour solution buvable en sachet-dose	poudre pour solution buvable	orale	Autorisation active	Procédure nationale	Commercialisée	1999-08-23			 SANOFI AVENTIS FRANCE	Non
+63998110	TAHOR 20 mg, comprimé à croquer	comprimé à croquer	orale	Autorisation active	Procédure de reconnaissance mutuelle	Commercialisée	2010-10-04			 PFIZER HOLDING FRANCE	Non
+64055988	ABILIFY 1 mg/ml, solution buvable	solution buvable	orale	Autorisation active	Procédure centralisée	Commercialisée	2005-10-28		EU/1/04/276	 OTSUKA PHARMACEUTICAL EUROPE (ROYAUME-UNI)	Non
+64224801	ABILIFY 15 mg, comprimé	comprimé	orale	Autorisation active	Procédure centralisée	Commercialisée	2004-06-04		EU/1/04/276	 OTSUKA PHARMACEUTICAL EUROPE (ROYAUME-UNI)	Non
+64332894	ABASAGLAR 100 unités/ml, solution injectable en stylo prérempli	solution injectable	sous-cutanée	Autorisation active	Procédure centralisée	Commercialisée	2014-09-09		EU/1/14/944	 ELI LILLY REGIONAL OPERATIONS (AUTRICHE)	Oui
+65122219	MODOPAR 125 (100 mg/25 mg), gélule	gélule	orale	Autorisation active	Procédure nationale	Commercialisée	1988-05-06			 ROCHE	Non
+65198099	ABILIFY 10 mg, comprimé	comprimé	orale	Autorisation active	Procédure centralisée	Commercialisée	2004-06-04		EU/1/04/276	 OTSUKA PHARMACEUTICAL EUROPE (ROYAUME-UNI)	Non
+66384181	MODOPAR 125 DISPERSIBLE (100 mg/25 mg), comprimé sécable pour suspension buvable	comprimé sécable pour suspension buvable	orale	Autorisation active	Procédure nationale	Commercialisée	1990-10-01			 ROCHE	Non
+66513085	ABASAGLAR 100 unités/ml, solution injectable en cartouche	solution injectable	sous-cutanée	Autorisation active	Procédure centralisée	Commercialisée	2014-09-09		EU/1/14/944	 ELI LILLY REGIONAL OPERATIONS (AUTRICHE)	Oui
+66791654	ABILIFY 15 mg, comprimé orodispersible	comprimé orodispersible	orale	Autorisation active	Procédure centralisée	Commercialisée	2005-06-20		EU/1/04/276	 OTSUKA PHARMACEUTICAL EUROPE (ROYAUME-UNI)	Non
+66805883	MODIODAL 100 mg, comprimé	comprimé	orale	Autorisation active	Procédure de reconnaissance mutuelle	Commercialisée	1992-06-24			 TEVA PHARMA (PAYS-BAS)	Non
+68729480	ABILIFY MAINTENA 300 mg, poudre et solvant pour suspension injectable à libération prolongée	poudre et  solvant pour suspension injectable à libération prolongée	intramusculaire	Autorisation active	Procédure centralisée	Commercialisée	2013-11-15		EU/1/13/882	 OTSUKA PHARMACEUTICAL EUROPE (ROYAUME-UNI)	Non
+69466146	TAHOR 40 mg, comprimé pelliculé	comprimé pelliculé	orale	Autorisation active	Procédure de reconnaissance mutuelle	Commercialisée	1997-03-21			 PFIZER HOLDING FRANCE	Non
+69641873	ABILIFY 7,5 mg/ml, solution injectable	solution injectable	intramusculaire	Autorisation active	Procédure centralisée	Commercialisée	2006-10-04		EU/1/04/276	 OTSUKA PHARMACEUTICAL EUROPE (ROYAUME-UNI)	Non
+69855489	KIVEXA 600 mg/300 mg, comprimé pelliculé	comprimé pelliculé	orale	Autorisation active	Procédure centralisée	Commercialisée	2004-12-17		EU/1/04/298	 VIIV HEALTHCARE UK (ROYAUME-UNI)	Non
+69902323	TAHOR 20 mg, comprimé pelliculé	comprimé pelliculé	orale	Autorisation active	Procédure de reconnaissance mutuelle	Commercialisée	1997-03-21			 PFIZER HOLDING FRANCE	Non

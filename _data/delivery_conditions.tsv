@@ -1,9 +1,4 @@
 cis_code	condition
-66805883	prescription réservée aux spécialistes et services NEUROLOGIE
-66805883	médicament nécessitant une surveillance particulière pendant le traitement
-69855489	prescription initiale hospitalière annuelle
-66805883	prescription initiale annuelle réservée à certains spécialistes
-66805883	prescription réservée aux médecins exerçant dans les centres du sommeil
 60599533	liste I
 60667087	liste I
 60703487	liste I
@@ -12,15 +7,20 @@ cis_code	condition
 63998110	liste I
 64055988	liste I
 64224801	liste I
+64332894	liste II
 65122219	liste I
 65198099	liste I
 66384181	liste I
+66513085	liste II
 66791654	liste I
+66805883	prescription initiale annuelle réservée à certains spécialistes
+66805883	prescription réservée aux médecins exerçant dans les centres du sommeil
 66805883	liste I
+66805883	médicament nécessitant une surveillance particulière pendant le traitement
+66805883	prescription réservée aux spécialistes et services NEUROLOGIE
 68729480	liste I
 69466146	liste I
 69641873	liste I
 69855489	liste I
+69855489	prescription initiale hospitalière annuelle
 69902323	liste I
-64332894	liste II
-66513085	liste II
