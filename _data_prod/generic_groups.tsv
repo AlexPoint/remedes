@@ -391,8 +391,8 @@ id	label	cis_code	generic_type	elt_number	drug_name
 704	OLANZAPINE 7,5 mg - ZYPREXA 7,5 mg, comprimé enrobé.	60457822	1	2	OLANZAPINE ACCORD 7,5 mg, comprimé enrobé
 1311	OLMESARTAN MEDOXOMIL 40 mg - OLMETEC 40 mg, comprimé pelliculé	60458109	1	2	
 1455	NITISINONE 5 mg -  ORFADIN 5 mg, gélule	60459499	0	1	ORFADIN 5 mg, gélule
-359	SUFENTANIL (CITRATE DE) équivalant à SUFENTANIL 50 µg/10 ml - SUFENTA 50 microgrammes/10 ml, solution injectable (I.V. ou péridurale) (AMPOULE de 10 ml).	60460398	1	3	SUFENTANIL MYLAN 5 microgrammes/ml, solution injectable (IV ou péridurale)
 358	SUFENTANIL (CITRATE DE) équivalant à SUFENTANIL 10 µg/2 ml - SUFENTA 10 microgrammes/2 ml, solution injectable (I.V. ou péridurale) (AMPOULE de 2 ml).	60460398	1	3	SUFENTANIL MYLAN 5 microgrammes/ml, solution injectable (IV ou péridurale)
+359	SUFENTANIL (CITRATE DE) équivalant à SUFENTANIL 50 µg/10 ml - SUFENTA 50 microgrammes/10 ml, solution injectable (I.V. ou péridurale) (AMPOULE de 10 ml).	60460398	1	3	SUFENTANIL MYLAN 5 microgrammes/ml, solution injectable (IV ou péridurale)
 911	ZOLMITRIPTAN 2,5 mg - ZOMIGORO 2,5 mg, comprimé orodispersible.	60462513	1	7	ZOLMITRIPTAN CRISTERS 2,5 mg, comprimé orodispersible
 736	MACROGOL 4000 10 g - FORLAX 10 g, poudre pour solution buvable en sachet.	60462538	1	5	MACROGOL BIOGARAN 10 g, poudre pour solution buvable en sachet
 1024	LAMIVUDINE 150 mg + ZIDOVUDINE 300 mg - COMBIVIR 150 mg/300 mg, comprimé pelliculé.	60462659	1	3	LAMIVUDINE/ZIDOVUDINE ARROW 150 mg/300 mg, comprimé pelliculé sécable
@@ -580,8 +580,8 @@ id	label	cis_code	generic_type	elt_number	drug_name
 38	ACIDE TRANEXAMIQUE 500 mg - EXACYL 500 mg, comprimé pelliculé	60662019	1	2	SPOTOF 500 mg, comprimé pelliculé
 82	BISOPROLOL (HEMIFUMARATE DE) 10 mg - DETENSIEL 10 mg, comprimé pelliculé sécable - SOPROL 10 mg, comprimé pelliculé sécable.	60663142	1	7	BISOPROLOL EG 10 mg, comprimé pelliculé sécable
 1323	IMATINIB (MESILATE D') équivalant à IMATINIB 400 mg - GLIVEC 400 mg, comprimé pelliculé	60663441	1	15	IMATINIB SANDOZ 400 mg, comprimé pelliculé
-520	EPIRUBICINE (CHLORHYDRATE D') 50 mg/25 ml - FARMORUBICINE 50 mg/25 ml, solution pour perfusion (FLACON de 25 ml).	60664326	1	5	
 432	EPIRUBICINE (CHLORHYDRATE D') 200 mg/100 ml - FARMORUBICINE 200 mg/100 ml, solution pour perfusion (FLACON de 100 ml).	60664326	1	6	
+520	EPIRUBICINE (CHLORHYDRATE D') 50 mg/25 ml - FARMORUBICINE 50 mg/25 ml, solution pour perfusion (FLACON de 25 ml).	60664326	1	5	
 14	OMEPRAZOLE 20 mg - MOPRAL 20 mg, gélule gastro-résistante - ZOLTUM 20 mg, gélule gastro-résistante	60670215	1	9	OMEPRAZOLE ARROW GENERIQUES 20 mg, gélule gastro-résistante
 942	MEROPENEM TRIHYDRATE équivalant à MEROPENEM 1 g - MERONEM 1 g,  poudre pour solution injectable ou pour perfusion.	60670336	1	2	KIRAVEM 1 g, poudre pour solution injectable ou pour perfusion
 711	PANTOPRAZOLE SODIQUE SESQUIHYDRATE équivalant à PANTOPRAZOLE 20 mg - EUPANTOL 20 mg, comprimé gastro-résistant - INIPOMP 20 mg, comprimé gastro-résistant - PANTIPP 20 mg, comprimé gastro-résistant - PANTOZOL CONTROL 20 mg, comprimé gastro-résistant	60670457	1	33	PANTOPRAZOLE ZENTIVA 20 mg, comprimé gastro-résistant
@@ -855,8 +855,8 @@ id	label	cis_code	generic_type	elt_number	drug_name
 1036	DESOGESTREL 0,075 mg - CERAZETTE 0,075 mg, comprimé pelliculé.	60956736	1	12	
 713	FLUVASTATINE SODIQUE équivalant à FLUVASTATINE 80 mg - LESCOL L.P. 80 mg, comprimé pelliculé à libération prolongée - FRACTAL L.P. 80 mg, comprimé pelliculé à libération prolongée.	60958826	1	3	FLUVASTATINE ACCORD LP 80 mg, comprimé pelliculé à libération prolongée
 1106	ESCITALOPRAM (OXALATE D') équivalant à ESCITALOPRAM 5 mg - SEROPLEX 5 mg, comprimé pelliculé	60958897	0	1	SEROPLEX 5 mg, comprimé pelliculé
-809	ROPINIROLE (CHLORHYDRATE DE) équivalant à ROPINIROLE 0,50 mg - ADARTREL 0,50 mg, comprimé pelliculé.	60959675	1	2	ROPINIROLE ARROW 0,50 mg, comprimé pelliculé
 677	ROPINIROLE (CHLORHYDRATE DE) équivalant à ROPINIROLE 0,50 mg - REQUIP 0,50 mg, comprimé pelliculé.	60959675	1	2	ROPINIROLE ARROW 0,50 mg, comprimé pelliculé
+809	ROPINIROLE (CHLORHYDRATE DE) équivalant à ROPINIROLE 0,50 mg - ADARTREL 0,50 mg, comprimé pelliculé.	60959675	1	2	ROPINIROLE ARROW 0,50 mg, comprimé pelliculé
 243	IBUPROFENE 200 mg - NUREFLEX 200 mg, comprimé enrobé.	60961886	1	12	IBUPROFENE SANDOZ CONSEIL 200 mg, comprimé enrobé
 199	ACICLOVIR 800 mg - ZOVIRAX 800 mg, comprimé	60964409	1	10	ACICLOVIR ZENTIVA 800 mg, comprimé
 306	CARBOCISTEINE 5 % - MUCOPLEXIL 5 % ADULTES SANS SUCRE, sirop édulcoré à la saccharine sodique.	60966659	1	2	BRONCHOKOD SANS SUCRE ADULTES 5 POUR CENT, solution buvable édulcorée à la saccharine sodique
@@ -923,16 +923,16 @@ id	label	cis_code	generic_type	elt_number	drug_name
 32	METFORMINE (CHLORHYDRATE DE) 850 mg - GLUCOPHAGE 850 mg, comprimé pelliculé	61037255	1	9	METFORMINE CRISTERS 850 mg, comprimé pelliculé
 1078	DOCETAXEL TRIHYDRATE équivalant à DOCETAXEL 20 mg/1 ml - DOCETAXEL 20 mg/1 ml - TAXOTERE 20 mg/1 ml, solution à diluer  pour perfusion	61038713	1	4	DOCETAXEL KABI 20 mg/1 ml, solution à diluer pour perfusion
 415	CEFTAZIDIME 1 g - FORTUM 1 g, poudre pour solution injectable (IM, IV) ou pour perfusion.	61039384	1	5	CEFTAZIDIME MYLAN 1 g, poudre pour solution injectable
-599	EPIRUBICINE (CHLORHYDRATE D') 20 mg/10 ml - FARMORUBICINE 20 mg/10 ml, solution pour perfusion (FLACON de 10 ml).	61040251	1	4	
-520	EPIRUBICINE (CHLORHYDRATE D') 50 mg/25 ml - FARMORUBICINE 50 mg/25 ml, solution pour perfusion (FLACON de 25 ml).	61040251	1	4	
 432	EPIRUBICINE (CHLORHYDRATE D') 200 mg/100 ml - FARMORUBICINE 200 mg/100 ml, solution pour perfusion (FLACON de 100 ml).	61040251	1	4	
 519	EPIRUBICINE (CHLORHYDRATE D') 10 mg /5ml - FARMORUBICINE 10 mg/5 ml, solution pour perfusion (FLACON de 5 ml).	61040251	1	5	
+520	EPIRUBICINE (CHLORHYDRATE D') 50 mg/25 ml - FARMORUBICINE 50 mg/25 ml, solution pour perfusion (FLACON de 25 ml).	61040251	1	4	
+599	EPIRUBICINE (CHLORHYDRATE D') 20 mg/10 ml - FARMORUBICINE 20 mg/10 ml, solution pour perfusion (FLACON de 10 ml).	61040251	1	4	
 917	ATORVASTATINE CALCIQUE TRIHYDRATEE équivalant à 80 mg ATORVASTATINE  - TAHOR 80 mg, comprimé pelliculé.	61041022	1	9	ATORVASTATINE EG 80 mg, comprimé pelliculé
 186	ROXITHROMYCINE 150 mg - CLARAMID 150 mg, comprimé pelliculé - RULID 150 mg, comprimé enrobé	61042206	1	4	ROXITHROMYCINE BIOGARAN 150 mg, comprimé pelliculé
 158	AMOXICILLINE + CLAVULANATE DE POTASSIUM équivalant à AMOXICILLINE + ACIDE CLAVULANIQUE 500 mg +  62,5 mg ADULTES (Rapport amoxicilline/acide clavulanique : 8/1) - AUGMENTIN 500 mg/62,5 mg ADULTES, comprimé pelliculé (rapport amoxicilline/acide clavulanique : 8/1) - CIBLOR 500 mg/62,5 mg ADULTES, comprimé pelliculé (rapport amoxicilline/acide clavulanique : 8/1).	61043151	1	12	AMOXICILLINE/ACIDE CLAVULANIQUE TEVA 500 mg/62,5 mg ADULTES, comprimé pelliculé (rapport amoxicilline/acide clavulanique : 8/1)
 1125	TELMISARTAN  40 mg +  HYDROCHLOROTHIAZIDE 12,5 mg - MICARDISPLUS 40 mg/12,5 mg, comprimé - PRITORPLUS 40 mg/12,5 mg, comprimé	61045227	1	3	
-326	CARVEDILOL 6,25 mg - KREDEX 6,25 mg, comprimé sécable.	61045978	1	3	CARVEDILOL BIOGARAN 6,25 mg, comprimé sécable
 317	CARVEDILOL 12,5 mg - KREDEX 12,5 mg, comprimé sécable.	61045978	2	4	CARVEDILOL BIOGARAN 6,25 mg, comprimé sécable
+326	CARVEDILOL 6,25 mg - KREDEX 6,25 mg, comprimé sécable.	61045978	1	3	CARVEDILOL BIOGARAN 6,25 mg, comprimé sécable
 1045	RIZATRIPTAN (BENZOATE DE) équivalant à RIZATRIPTAN 10 mg - MAXALT 10 mg, comprimé.	61049439	1	3	RIZATRIPTAN ARROW LAB 10 mg, comprimé
 1304	AMYLMETACRESOL 0,6 mg + ALCOOL DICHLORO-2,4-BENZYLIQUE 1,2 mg + CHLORHYDRATE DE LIDOCAÏNE 2 mg - STREPSILS LIDOCAINE, pastille	61052442	1	3	HUMEX MAL DE GORGE LIDOCAINE/ALCOOL DICHLOROBENZYLIQUE/AMYLMETACRESOL 2 mg/1,2 mg/0,6 mg MENTHE, pastille
 33	METFORMINE (CHLORHYDRATE DE) 1000 mg - GLUCOPHAGE 1000 mg, comprimé pelliculé sécable.	61052830	0	1	GLUCOPHAGE 1000 mg, comprimé pelliculé sécable
@@ -1077,8 +1077,8 @@ id	label	cis_code	generic_type	elt_number	drug_name
 314	TIMOLOL (MALEATE DE) équivalant à TIMOLOL 0,10 % - TIMOPTOL 0,10 %, collyre en solution.	61194121	1	2	TIMOLOL SANDOZ 0,10 POUR CENT, collyre en solution
 1384	CINACALCET (CHLORHYDRATE DE) équivalant à CINACALCET 60 mg - MIMPARA 60 mg, comprimé pelliculé	61194947	1	5	
 1027	LEVETIRACETAM 500 mg - KEPPRA 500 mg, comprimé pelliculé.	61196357	1	2	LEVETIRACETAM ACCORD 500 mg, comprimé pelliculé
-808	ROPINIROLE (CHLORHYDRATE DE) équivalant à ROPINIROLE 1 mg - ADARTREL 1 mg, comprimé pelliculé.	61197676	1	5	ROPINIROLE TEVA 1 mg, comprimé pelliculé
 675	ROPINIROLE (CHLORHYDRATE DE) équivalant à ROPINIROLE 1 mg - REQUIP 1 mg, comprimé pelliculé.	61197676	1	6	ROPINIROLE TEVA 1 mg, comprimé pelliculé
+808	ROPINIROLE (CHLORHYDRATE DE) équivalant à ROPINIROLE 1 mg - ADARTREL 1 mg, comprimé pelliculé.	61197676	1	5	ROPINIROLE TEVA 1 mg, comprimé pelliculé
 801	PRAMIPEXOLE (DICHLORHYDRATE DE) MONOHYDRATE équivalant à PRAMIPEXOLE 0,7 mg - SIFROL 0,7 mg, comprimé - MIRAPEXIN 0,7 mg, comprimé.	61198148	1	12	PRAMIPEXOLE ZYDUS 0,7 mg, comprimé sécable
 131	OXYBUTYNINE (CHLORHYDRATE D’) 5 mg - DITROPAN 5 mg, comprimé sécable	61198689	1	3	OXYBUTYNINE ACCORD 5 mg, comprimé sécable
 159	AMOXICILLINE + CLAVULANATE DE POTASSIUM équivalant à AMOXICILLINE + ACIDE CLAVULANIQUE 1 g + 125 mg ADULTES (Rapport amoxicilline/acide clavulanique : 8/1) - AUGMENTIN 1 g/125 mg ADULTES, poudre pour suspension buvable en sachet-dose (Rapport amoxicilline/acide clavulanique : 8/1) - CIBLOR 1 g/125 mg ADULTE, poudre pour suspension buvable en sachet-dose (Rapport amoxicilline/acide clavulanique : 8/1).	61198803	1	17	AMOXICILLINE/ACIDE CLAVULANIQUE ZYDUS 1 g/125 mg ADULTES, poudre pour suspension buvable en sachet-dose (rapport amoxicilline/acide clavulanique : 8/1)
@@ -1134,8 +1134,8 @@ id	label	cis_code	generic_type	elt_number	drug_name
 270	BROMAZEPAM 6 mg - LEXOMIL ROCHE COMPRIME BAGUETTE, comprimé quadrisécable.	61253160	1	8	BROMAZEPAM SANDOZ 6 mg, comprimé quadrisécable
 998	ETHINYLESTRADIOL 0,03 mg + DROSPIRENONE 3 mg - JASMINE 0,03 mg/3 mg, comprimé pelliculé	61254668	1	8	
 129	CYPROTERONE (ACETATE DE) 50 mg - ANDROCUR 50 mg, comprimé sécable.	61255738	0	1	ANDROCUR 50 mg, comprimé sécable
-987	TOPOTÉCANE (CHLORHYDRATE DE) équivalant à TOPOTECANE 4 mg/ml - HYCAMTIN 4 mg, poudre pour solution à diluer pour perfusion (FLACON de 4 mg).	61255791	1	4	
 986	TOPOTECANE (CHLORHYDRATE DE) équivalant à TOPOTECANE 1 mg/ml - HYCAMTIN 1 mg, poudre pour solution à diluer pour perfusion (FLACON de 1 mg).	61255791	1	4	
+987	TOPOTÉCANE (CHLORHYDRATE DE) équivalant à TOPOTECANE 4 mg/ml - HYCAMTIN 4 mg, poudre pour solution à diluer pour perfusion (FLACON de 4 mg).	61255791	1	4	
 29	LOPERAMIDE (CHLORHYDRATE DE) 2 mg - IMODIUM 2 mg, gélule - IMODIUMCAPS 2 mg, gélule	61257269	1	3	LOPERAMIDE ALMUS 2 mg, gélule
 1245	VALGANCICLOVIR (CHLORHYDRATE DE) équivalant à valganciclovir 450 mg - ROVALCYTE 450 mg, comprimé pelliculé	61258798	1	11	VALGANCICLOVIR ZENTIVA 450 mg, comprimé pelliculé
 521	PERINDOPRIL TERT-BUTYLAMINE 8 mg, équivalant à 6,73 mg de PERINDOPRIL - PERINDOPRIL ARROW GENERIQUES 8 mg, comprimé - PERINDOPRIL ARGININE 10 mg, équivalant à 6,73 mg de PERINDOPRIL - PERINDOPRILTOSILATE 10 mg, équivalant à 6,73 mg de PERINDOPRIL - COVERSYL 10 mg, comprimé pelliculé.	61259213	1	18	
@@ -1159,8 +1159,8 @@ id	label	cis_code	generic_type	elt_number	drug_name
 1412	SODIUM (FUSIDATE DE) 250 mg - FUCIDINE 250 mg, comprimé pelliculé	61282742	1	4	
 1182	ESCITALOPRAM (OXALATE D') équivalant à ESCITALOPRAM 20 mg/ml - SEROPLEX 20 mg/ml, solution buvable en gouttes	61285133	1	2	ESCITALOPRAM ZENTIVA LAB 20 mg/ml, solution buvable en gouttes
 225	KETOPROFENE 200 mg - PROFENID LP 200 mg, gélule à libération prolongée.	61285247	1	3	KETOPROFENE SANDOZ LP 200 mg, gélule à libération prolongée
-810	ROPINIROLE (CHLORHYDRATE DE) équivalant à ROPINIROLE 0,25 mg - ADARTREL 0,25 mg, comprimé pelliculé.	61285286	1	2	ROPINIROLE ARROW 0,25 mg, comprimé pelliculé
 674	ROPINIROLE (CHLORHYDRATE DE) équivalant à ROPINIROLE 0,25 mg - REQUIP 0,25 mg, comprimé pelliculé	61285286	1	2	ROPINIROLE ARROW 0,25 mg, comprimé pelliculé
+810	ROPINIROLE (CHLORHYDRATE DE) équivalant à ROPINIROLE 0,25 mg - ADARTREL 0,25 mg, comprimé pelliculé.	61285286	1	2	ROPINIROLE ARROW 0,25 mg, comprimé pelliculé
 63	NICERGOLINE 10 mg - SERMION 10 mg, gélule	61286317	1	3	NICERGOLINE MYLAN 10 mg, gélule
 1442	VARDENAFIL (CHLORHYDRATE DE) TRIHYDRATE équivalant VARDENAFIL 20 mg - LEVITRA 20 mg, comprimé pelliculé	61287248	1	5	
 1119	MEMANTINE (CHLORHYDRATE DE) 10 mg - EBIXA 10 mg, comprimé pelliculé - AXURA 10 mg, comprimé pelliculé	61288115	1	12	MEMANTINE MYLAN 10 mg, comprimé pelliculé
@@ -1920,8 +1920,8 @@ id	label	cis_code	generic_type	elt_number	drug_name
 1416	ENTECAVIR 1 mg - BARACLUDE 1 mg, comprimé pelliculé	62048799	0	1	BARACLUDE 1 mg, comprimé pelliculé
 734	CEFUROXIME SODIQUE équivalant à CEFUROXIME 1,5 g - ZINNAT 1,5 g, poudre pour solution pour perfusion.	62050519	1	2	CEFUROXIME KABI 1500 mg, poudre pour solution pour perfusion
 1461	ANAGRELIDE (CHLORHYDRATE D') MONOHYDRATE  équivalant à ANAGRELIDE 0,5 mg - XAGRID 0,5 mg, gélule	62051172	1	5	
-1027	LEVETIRACETAM 500 mg - KEPPRA 500 mg, comprimé pelliculé.	62053006	1	3	LEVETIRACETAM ACTAVIS 500 mg, comprimé pélliculé
 1025	LEVETIRACETAM 1000 mg - KEPPRA 1000 mg, comprimé pelliculé.	62053006	2	4	LEVETIRACETAM ACTAVIS 500 mg, comprimé pélliculé
+1027	LEVETIRACETAM 500 mg - KEPPRA 500 mg, comprimé pelliculé.	62053006	1	3	LEVETIRACETAM ACTAVIS 500 mg, comprimé pélliculé
 1249	PRÉGABALINE 25 mg - LYRICA 25 mg, gélule	62056600	1	2	PREGABALINE ARROW LAB 25 mg, gélule
 245	DIHYDROERGOTAMINE (MESILATE DE) 2 mg/ml - DIHYDROERGOTAMINE AMDIPHARM 2 mg/ml, solution buvable.	62058327	0	1	DIHYDROERGOTAMINE AMDIPHARM 2 mg/ml, solution buvable
 968	ESOMEPRAZOLE MAGNESIUM TRIHYDRATE équivalant à ESOMEPRAZOLE 20 mg  - INEXIUM 20 mg, comprimé gastro-résistant.	62059094	1	14	
@@ -2131,8 +2131,8 @@ id	label	cis_code	generic_type	elt_number	drug_name
 563	OCTREOTIDE (ACETATE D') équivalant à OCTREOTIDE 50 µg/1 ml - SANDOSTATINE 50 microgrammes/1 ml, solution injectable/pour perfusion.	62287824	1	3	OCTREOTIDE HOSPIRA 50 microgrammes/1 ml, solution injectable
 380	PRAVASTATINE SODIQUE 20 mg - ELISOR 20 mg, comprimé sécable - VASTEN 20 mg, comprimé sécable.	62288520	1	11	
 1251	PRÉGABALINE 75 mg - LYRICA 75 mg, gélule	62289597	1	3	PREGABALINE ARROW LAB 75 mg, gélule
-1027	LEVETIRACETAM 500 mg - KEPPRA 500 mg, comprimé pelliculé.	62290489	1	16	LEVETIRACETAM MYLAN 500 mg, comprimé pelliculé
 1025	LEVETIRACETAM 1000 mg - KEPPRA 1000 mg, comprimé pelliculé.	62290489	2	16	LEVETIRACETAM MYLAN 500 mg, comprimé pelliculé
+1027	LEVETIRACETAM 500 mg - KEPPRA 500 mg, comprimé pelliculé.	62290489	1	16	LEVETIRACETAM MYLAN 500 mg, comprimé pelliculé
 214	PIROXICAM 20 mg - FELDENE DISPERSIBLE 20 mg, comprimé sécable	62290603	1	3	PIROXICAM PFIZER DISPERSIBLE 20 mg, comprimé dispersible sécable
 1025	LEVETIRACETAM 1000 mg - KEPPRA 1000 mg, comprimé pelliculé.	62291534	2	35	
 1027	LEVETIRACETAM 500 mg - KEPPRA 500 mg, comprimé pelliculé.	62291534	1	35	
@@ -2268,9 +2268,9 @@ id	label	cis_code	generic_type	elt_number	drug_name
 795	MONTELUKAST SODIQUE équivalant à MONTELUKAST 10 mg - SINGULAIR 10 mg, comprimé pelliculé.	62423007	1	3	MONTELUKAST ALMUS 10 mg, comprimé pelliculé
 497	TOPIRAMATE 200 mg - EPITOMAX 200 mg, comprimé pelliculé.	62424739	1	8	
 473	MOXONIDINE 0,4 mg - PHYSIOTENS 0,4 mg, comprimé pelliculé.	62425307	1	5	MOXONIDINE TEVA SANTE 0,4 mg, comprimé pelliculé
+991	CISPLATINE 1 mg/ml - CISPLATYL 10 mg/10 ml, solution injectable pour perfusion (I.V.) en flacon (FLACON de 10 ml).	62426576	1	2	CISPLATINE ACCORD 1 mg/ml, solution à diluer pour perfusion
 992	CISPLATINE 1 mg/ml - CISPLATYL 25 mg/25 ml, solution injectable pour perfusion (I.V.) en flacon (FLACON de 25 ml).	62426576	1	2	CISPLATINE ACCORD 1 mg/ml, solution à diluer pour perfusion
 993	CISPLATINE 1 mg/ml - CISPLATYL 50 mg/50 ml, solution injectable pour perfusion (I.V.) en flacon (FLACON de 50 ml).	62426576	1	2	CISPLATINE ACCORD 1 mg/ml, solution à diluer pour perfusion
-991	CISPLATINE 1 mg/ml - CISPLATYL 10 mg/10 ml, solution injectable pour perfusion (I.V.) en flacon (FLACON de 10 ml).	62426576	1	2	CISPLATINE ACCORD 1 mg/ml, solution à diluer pour perfusion
 706	BENAZEPRIL (CHLORHYDRATE DE) 10 mg + HYDROCHLOROTHIAZIDE 12,5 mg - CIBADREX 10 mg/12,5 mg, comprimé pelliculé sécable - BRIAZIDE 10 mg/12,5 mg, comprimé pelliculé sécable	62428328	1	3	BENAZEPRIL HYDROCHLOROTHIAZIDE EG 10 mg/12,5 mg, comprimé pelliculé sécable
 207	DICLOFENAC SODIQUE 50 mg - VOLTARENE 50 mg, comprimé enrobé gastro-résistant	62431527	0	1	VOLTARENE 50 mg, comprimé enrobé gastro-résistant
 61	PENTOXIFYLLINE 400 mg - TORENTAL LP 400 mg, comprimé enrobé à libération prolongée	62431954	1	6	PENTOXIFYLLINE SANDOZ LP 400 mg, comprimé à libération prolongée
@@ -2509,8 +2509,8 @@ id	label	cis_code	generic_type	elt_number	drug_name
 900	LAMIVUDINE 150 mg - EPIVIR 150 mg, comprimé pelliculé.	62715513	0	1	EPIVIR 150 mg, comprimé pelliculé
 142	MINOCYCLINE (CHLORHYDRATE DE) équivalant à MINOCYCLINE 50 mg - MYNOCINE 50 mg, gélule	62716177	1	3	
 1308	DUTASTERIDE 0,5 mg - AVODART 0,5 mg, capsule molle	62716818	1	8	DUTASTERIDE EVOLUGEN 0,5 mg, capsule molle
-673	DOXORUBICINE (CHLORHYDRATE DE) 2 mg/ml - ADRIBLASTINE 50 mg, lyophilisat pour usage parentéral (perfusion) en flacon (FLACON de 50 mg)	62717382	1	2	DOXORUBICINE ARROW 2 mg/ml, poudre pour solution pour perfusion
 665	DOXORUBICINE (CHLORHYDRATE DE) 2 mg/ml - ADRIBLASTINE 10 mg, lyophilisat pour usage parentéral (perfusion) en flacon (FLACON de 10 mg)	62717382	1	2	DOXORUBICINE ARROW 2 mg/ml, poudre pour solution pour perfusion
+673	DOXORUBICINE (CHLORHYDRATE DE) 2 mg/ml - ADRIBLASTINE 50 mg, lyophilisat pour usage parentéral (perfusion) en flacon (FLACON de 50 mg)	62717382	1	2	DOXORUBICINE ARROW 2 mg/ml, poudre pour solution pour perfusion
 87	NITRENDIPINE 20 mg - BAYPRESS 20 mg, comprimé - NIDREL 20 mg, comprimé.	62717425	0	2	NIDREL 20 mg, comprimé
 938	RISEDRONATE MONOSODIQUE HEMIPENTAHYDRATE équivalant à  RISEDRONATE MONOSODIQUE 35 mg - ACTONEL 35 mg, comprimé pelliculé.	62717806	1	9	RISEDRONATE EVOLUGEN 35 mg, comprimé pelliculé
 723	PERINDOPRIL TERT-BUTYLAMINE 4 mg  équivalant à 3,35 mg de PERINDROPRIL + INDAPAMIDE 1,25 mg - PERINDOPRIL/INDAPAMIDE ARROW LAB 4 mg/1,25 mg, comprimé - PERINDOPRIL ARGININE 5 mg équivalant à 3,35 mg de PERINDOPRIL  + INDAPAMIDE 1,25 mg - BIPRETERAX 5 mg/1,25 mg, comprimé pelliculé.	62718331	1	12	PERINDOPRIL/INDAPAMIDE ZYDUS 4 mg/1,25 mg, comprimé
@@ -2573,8 +2573,8 @@ id	label	cis_code	generic_type	elt_number	drug_name
 872	IRBESARTAN 150 mg - APROVEL 150 mg, comprimé.	62782120	1	3	IRBESARTAN ARROW 150 mg, comprimé
 845	DORZOLAMIDE (CHLORHYDRATE DE) équivalant à DORZOLAMIDE 20 mg/ml + TIMOLOL (MALEATE DE) équivalant à TIMOLOL 5 mg/ml - COSOPT 20 mg/ml + 5 mg/ml, collyre en solution.	62782316	0	1	COSOPT 20 mg/ml + 5 mg/ml, collyre en solution
 309	CETIRIZINE (DICHLORHYDRATE DE) 10 mg - ZYRTEC 10 mg, comprimé pelliculé sécable - VIRLIX 10 mg, comprimé pelliculé sécable - REACTINE 10 mg, comprimé pelliculé sécable -  ZYRTECSET 10 mg, comprimé pelliculé sécable.	62783247	1	14	CETIRIZINE CRISTERS 10 mg, comprimé pelliculé sécable
-540	DOXORUBICINE (CHLORHYDRATE DE) 50 mg/25 ml - ADRIBLASTINE 50 mg/25 ml, solution injectable pour perfusion en flacon (FLACON de 25 ml).	62783375	1	2	DOXORUBICINE ACCORD 2 mg/ml, solution pour perfusion
 534	DOXORUBICINE (CHLORHYDRATE DE)  10 mg/5 ml - ADRIBLASTINE 10 mg/5 ml, solution injectable pour perfusion en flacon ( FLACON de 5 ml).	62783375	1	2	DOXORUBICINE ACCORD 2 mg/ml, solution pour perfusion
+540	DOXORUBICINE (CHLORHYDRATE DE) 50 mg/25 ml - ADRIBLASTINE 50 mg/25 ml, solution injectable pour perfusion en flacon (FLACON de 25 ml).	62783375	1	2	DOXORUBICINE ACCORD 2 mg/ml, solution pour perfusion
 903	ACÉTYLCYSTÉINE 200 mg - FLUIMUCIL EXPECTORANT ACETYLCYSTEINE 200 mg SANS SUCRE, granulés pour solution buvable en sachet édulcorés à l'aspartam et au sorbitol	62784356	1	2	ACETYLCYSTEINE BIOGARAN CONSEIL 200 mg, poudre pour solution buvable en sachet
 1086	ACIDE ZOLÉDRONIQUE MONOHYDRATÉ équivalant à ACIDE ZOLÉDRONIQUE 4 mg/5ml - ZOMETA 4 mg/5 ml, solution à diluer pour perfusion	62785629	0	1	ZOMETA 4 mg/5 ml, solution à diluer pour perfusion
 562	LOSARTAN POTASSIUM 100 mg - COZAAR 100 mg, comprimé pelliculé.	62786236	1	7	
@@ -2711,8 +2711,8 @@ id	label	cis_code	generic_type	elt_number	drug_name
 148	AMOXICILLINE 500 mg - CLAMOXYL 500 mg, gélule	62921011	1	25	NELMAUBERT 500 mg, gélule
 1055	AMISULPRIDE 100 mg/ml - SOLIAN 100 mg/ml, solution buvable	62921036	0	1	SOLIAN 100 mg/ml, solution buvable
 969	ESOMEPRAZOLE MAGNESIUM TRIHYDRATE équivalant à ESOMEPRAZOLE 40 mg - INEXIUM 40 mg, comprimé gastro-résistant.	62923852	1	28	
-428	VINORELBINE (TARTRATE DE) équivalant à VINORELBINE 50 mg/5 ml - NAVELBINE 50 mg/5 ml, solution injectable en flacon (FLACON de 5 ml).	62924833	1	2	VINORELBINE ARROW 10 mg/ml, solution à diluer pour perfusion
 427	VINORELBINE (TARTRATE DE) équivalant à VINORELBINE 10 mg/1 ml - NAVELBINE 10 mg/1 ml, solution injectable en flacon (FLACON de 1 ml).	62924833	1	2	VINORELBINE ARROW 10 mg/ml, solution à diluer pour perfusion
+428	VINORELBINE (TARTRATE DE) équivalant à VINORELBINE 50 mg/5 ml - NAVELBINE 50 mg/5 ml, solution injectable en flacon (FLACON de 5 ml).	62924833	1	2	VINORELBINE ARROW 10 mg/ml, solution à diluer pour perfusion
 1227	QUÉTIAPINE (FUMARATE DE) équivalant à QUETIAPINE 400 mg - XEROQUEL LP 400 mg, comprimé à libération prolongée	62925159	1	6	QUETIAPINE CRISTERS LP 400 mg, comprimé à libération prolongée
 848	VALSARTAN 80 mg - TAREG 80 mg, comprimé pelliculé - NISIS 80 mg, comprimé pelliculé .	62925789	1	17	VALSARTAN ZENTIVA 80 mg, comprimé pelliculé sécable
 1025	LEVETIRACETAM 1000 mg - KEPPRA 1000 mg, comprimé pelliculé.	62926745	1	14	LEVETIRACETAM KRKA 1000 mg, comprimé pelliculé sécable
@@ -3818,8 +3818,8 @@ id	label	cis_code	generic_type	elt_number	drug_name
 952	OXOMEMAZINE 0,33 mg/ml - TOPLEXIL 0,33 mg/ml SANS SUCRE, solution buvable édulcorée à l'acésulfame potassique.	64252505	1	15	OXOMEMAZINE UPSA 0,33 mg/ml SANS SUCRE, solution buvable édulcorée à l'acésulfame potassique
 310	LORATADINE 10 mg - CLARITYNE 10 mg, comprimé	64253639	1	14	LORATADINE RANBAXY 10 mg, comprimé
 387	CLARITHROMYCINE 500 mg - ZECLAR 500 mg, comprimé pelliculé	64255017	1	6	CLARITHROMYCINE EG 500 mg, comprimé pelliculé
-810	ROPINIROLE (CHLORHYDRATE DE) équivalant à ROPINIROLE 0,25 mg - ADARTREL 0,25 mg, comprimé pelliculé.	64255608	1	5	ROPINIROLE TEVA 0,25 mg, comprimé pelliculé
 674	ROPINIROLE (CHLORHYDRATE DE) équivalant à ROPINIROLE 0,25 mg - REQUIP 0,25 mg, comprimé pelliculé	64255608	1	6	ROPINIROLE TEVA 0,25 mg, comprimé pelliculé
+810	ROPINIROLE (CHLORHYDRATE DE) équivalant à ROPINIROLE 0,25 mg - ADARTREL 0,25 mg, comprimé pelliculé.	64255608	1	5	ROPINIROLE TEVA 0,25 mg, comprimé pelliculé
 1257	TADALAFIL 5 mg - CIALIS 5 mg, comprimé pelliculé	64256749	1	2	
 893	SILDENAFIL (CITRATE DE) équivalant à SILDENAFIL 100 mg - VIAGRA 100 mg, comprimé pelliculé.	64260345	1	17	VIZARSIN 100 mg, comprimé pelliculé
 938	RISEDRONATE MONOSODIQUE HEMIPENTAHYDRATE équivalant à  RISEDRONATE MONOSODIQUE 35 mg - ACTONEL 35 mg, comprimé pelliculé.	64260929	1	16	RISEDRONATE SANDOZ 35 mg, comprimé pelliculé
@@ -3862,8 +3862,8 @@ id	label	cis_code	generic_type	elt_number	drug_name
 1227	QUÉTIAPINE (FUMARATE DE) équivalant à QUETIAPINE 400 mg - XEROQUEL LP 400 mg, comprimé à libération prolongée	64296341	0	1	XEROQUEL LP 400 mg, comprimé à libération prolongée
 1037	DESLORATADINE 5 mg - AERIUS 5 mg, comprimé pelliculé -NEOCLARITYN 5 mg, comprimé pelliculé	64296722	1	18	
 185	ROXITHROMYCINE 100 mg - CLARAMID ENFANTS 100 mg, comprimé pelliculé - RULID 100 mg, comprimé pelliculé	64296793	1	3	ROXITHROMYCINE MYLAN 100 mg, comprimé pelliculé
-807	ROPINIROLE (CHLORHYDRATE DE) équivalant à ROPINIROLE 2 mg - ADARTREL 2 mg, comprimé pelliculé.	64298513	1	2	ROPINIROLE ARROW 2 mg, comprimé pelliculé
 678	ROPINIROLE (CHLORHYDRATE DE) équivalant à ROPINIROLE 2 mg - REQUIP 2 mg, comprimé pelliculé.	64298513	1	2	ROPINIROLE ARROW 2 mg, comprimé pelliculé
+807	ROPINIROLE (CHLORHYDRATE DE) équivalant à ROPINIROLE 2 mg - ADARTREL 2 mg, comprimé pelliculé.	64298513	1	2	ROPINIROLE ARROW 2 mg, comprimé pelliculé
 859	MOMETASONE (FUROATE DE) 1 mg/1 g - ELOCOME 0,1 POUR CENT, pommade.	64298641	1	2	
 1322	IMATINIB (MESILATE D') équivalant à IMATINIB 100 mg - GLIVEC 100 mg, comprimé pelliculé	64299857	1	4	IMATINIB BGR 100 mg, comprimé pelliculé
 883	REPAGLINIDE 1 mg - NOVONORM 1 mg, comprimé.	64300334	1	11	REPAGLINIDE MYLAN PHARMA 1 mg, comprimé
@@ -3910,10 +3910,10 @@ id	label	cis_code	generic_type	elt_number	drug_name
 1268	ÉLÉTRIPTAN (BROMHYDRATE D') équivalant à ÉLÉTRIPTAN 20 mg - RELPAX 20 mg, comprimé pelliculé	64350636	0	1	RELPAX 20 mg, comprimé pelliculé
 895	REMIFENTANIL (CHLORHYDRATE DE) équivalant à REMIFENTANIL 2 mg - ULTIVA 2 mg, poudre pour solution injectable ou pour perfusion.	64352719	1	2	REMIFENTANIL ARROW 2 mg, poudre pour solution injectable/pour perfusion
 1331	RUPATADINE (FUMARATE DE) équivalant à RUPATADINE 10 mg - WYSTAMM 10 mg, comprimé	64354271	1	3	
-599	EPIRUBICINE (CHLORHYDRATE D') 20 mg/10 ml - FARMORUBICINE 20 mg/10 ml, solution pour perfusion (FLACON de 10 ml).	64354517	1	5	EPIRUBICINE MYLAN 2 mg/ml, solution pour perfusion
-520	EPIRUBICINE (CHLORHYDRATE D') 50 mg/25 ml - FARMORUBICINE 50 mg/25 ml, solution pour perfusion (FLACON de 25 ml).	64354517	1	6	EPIRUBICINE MYLAN 2 mg/ml, solution pour perfusion
-519	EPIRUBICINE (CHLORHYDRATE D') 10 mg /5ml - FARMORUBICINE 10 mg/5 ml, solution pour perfusion (FLACON de 5 ml).	64354517	1	7	EPIRUBICINE MYLAN 2 mg/ml, solution pour perfusion
 432	EPIRUBICINE (CHLORHYDRATE D') 200 mg/100 ml - FARMORUBICINE 200 mg/100 ml, solution pour perfusion (FLACON de 100 ml).	64354517	1	8	EPIRUBICINE MYLAN 2 mg/ml, solution pour perfusion
+519	EPIRUBICINE (CHLORHYDRATE D') 10 mg /5ml - FARMORUBICINE 10 mg/5 ml, solution pour perfusion (FLACON de 5 ml).	64354517	1	7	EPIRUBICINE MYLAN 2 mg/ml, solution pour perfusion
+520	EPIRUBICINE (CHLORHYDRATE D') 50 mg/25 ml - FARMORUBICINE 50 mg/25 ml, solution pour perfusion (FLACON de 25 ml).	64354517	1	6	EPIRUBICINE MYLAN 2 mg/ml, solution pour perfusion
+599	EPIRUBICINE (CHLORHYDRATE D') 20 mg/10 ml - FARMORUBICINE 20 mg/10 ml, solution pour perfusion (FLACON de 10 ml).	64354517	1	5	EPIRUBICINE MYLAN 2 mg/ml, solution pour perfusion
 304	CARBOCISTEINE 2 % - RHINATHIOL EXPECTORANT CARBOCISTEINE 2 % ENFANTS SANS SUCRE, sirop édulcoré à la saccharine sodique et au maltitol liquide.	64357132	1	8	CARBOCISTEINE ZENTIVA CONSEIL 2 % ENFANTS SANS SUCRE, sirop édulcoré à la saccharine sodique et au maltitol liquide
 1493	LACOSAMIDE 100 mg - VIMPAT 100 mg, comprimé pelliculé	64357958	0	1	VIMPAT 100 mg, comprimé pelliculé
 864	CANDESARTAN CILEXETIL 8 mg - ATACAND 8 mg, comprimé sécable - KENZEN 8 mg, comprimé sécable	64358070	1	8	CANDESARTAN HCS 8 mg, comprimé
@@ -4017,8 +4017,8 @@ id	label	cis_code	generic_type	elt_number	drug_name
 593	LANSOPRAZOLE 15 mg - LANZOR 15 mg, gélule gastro-résistante - OGAST 15 mg, gélule gastro-résistante.	64463324	1	15	
 1294	FORMOTEROL (FUMARATE DE) DIHYDRATE 12 microgrammes - FORADIL 12 microgrammes, poudre pour inhalation en gélule	64463420	1	5	FORMOTEROL ZENTIVA 12 microgrammes, poudre pour inhalation en gélule
 1266	DULOXÉTINE (CHLORHYDRATE DE) équivalant à DULOXÉTINE 30 mg - CYMBALTA 30 mg, gélule gastro-résistante	64468759	1	2	
-809	ROPINIROLE (CHLORHYDRATE DE) équivalant à ROPINIROLE 0,50 mg - ADARTREL 0,50 mg, comprimé pelliculé.	64469583	1	5	ROPINIROLE TEVA 0,50 mg, comprimé pelliculé
 677	ROPINIROLE (CHLORHYDRATE DE) équivalant à ROPINIROLE 0,50 mg - REQUIP 0,50 mg, comprimé pelliculé.	64469583	1	6	ROPINIROLE TEVA 0,50 mg, comprimé pelliculé
+809	ROPINIROLE (CHLORHYDRATE DE) équivalant à ROPINIROLE 0,50 mg - ADARTREL 0,50 mg, comprimé pelliculé.	64469583	1	5	ROPINIROLE TEVA 0,50 mg, comprimé pelliculé
 150	AMOXICILLINE 1 g - CLAMOXYL 1 g, comprimé dispersible	64470824	1	12	AMOXICILLINE MYLAN PHARMA 1 g, comprimé dispersible
 237	ALLOPURINOL 300 mg - ZYLORIC 300 mg, comprimé	64472939	1	13	ALLOPURINOL ZYDUS 300 mg, comprimé
 384	AMOXICILLINE + CLAVULANATE DE POTASSIUM équivalant à AMOXICILLINE  + ACIDE CLAVULANIQUE 2 g + 200 mg ADULTES - AUGMENTIN 2 g/200 mg ADULTES, poudre pour solution pour perfusion	64473140	1	4	AMOXICILLINE/ACIDE CLAVULANIQUE PANPHARMA 2 g/200 mg ADULTES, poudre pour solution injectable
@@ -4133,9 +4133,9 @@ id	label	cis_code	generic_type	elt_number	drug_name
 103	SIMVASTATINE 40 mg - ZOCOR 40 mg, comprimé pelliculé - LODALES 40 mg, comprimé pelliculé.	64607301	0	1	ZOCOR 40 mg, comprimé pelliculé
 1099	CÉLÉCOXIB 100 mg - CELEBREX 100 mg, gélule	64610055	1	7	CELECOXIB EG 100 mg, gélule
 1033	ROPINIROLE (CHLORHYDRATE DE) équivalant à ROPINIROLE 4 mg - REQUIP LP 4 mg, comprimé à libération prolongée.	64610112	1	7	ROPINIROLE SANDOZ LP 4 mg, comprimé pelliculé à libération prolongée
-1218	BÉSILATE D'ATRACURIUM 10 mg/ml - TRACRIUM 250 mg/25 ml, solution injectable	64612088	1	2	ATRACURIUM HOSPIRA 10 mg/ml, solution injectable
-1217	BÉSILATE D'ATRACURIUM 10 mg/ml - TRACRIUM 50 mg/5 ml (1 POUR CENT), solution injectable en ampoule	64612088	1	2	ATRACURIUM HOSPIRA 10 mg/ml, solution injectable
 1216	BÉSILATE D'ATRACURIUM 10 mg/ml - TRACRIUM 25 mg/2,5 ml (1 POUR CENT), solution injectable en ampoule	64612088	1	2	ATRACURIUM HOSPIRA 10 mg/ml, solution injectable
+1217	BÉSILATE D'ATRACURIUM 10 mg/ml - TRACRIUM 50 mg/5 ml (1 POUR CENT), solution injectable en ampoule	64612088	1	2	ATRACURIUM HOSPIRA 10 mg/ml, solution injectable
+1218	BÉSILATE D'ATRACURIUM 10 mg/ml - TRACRIUM 250 mg/25 ml, solution injectable	64612088	1	2	ATRACURIUM HOSPIRA 10 mg/ml, solution injectable
 467	AMLODIPINE (BESILATE D') 10 mg - AMLOR 10 mg, gélule.	64612540	1	11	AMLODIPINE EVOLUGEN 10 mg, gélule
 478	NICORANDIL 10 mg - ADANCOR 10 mg, comprimé sécable - IKOREL 10 mg, comprimé sécable.	64614712	1	6	NICORANDIL EG 10 mg, comprimé sécable
 79	ATENOLOL 100 mg - TENORMINE 100 mg, comprimé enrobé sécable.	64615248	1	12	ATENOLOL ZENTIVA 100 mg, comprimé sécable
@@ -4399,9 +4399,9 @@ id	label	cis_code	generic_type	elt_number	drug_name
 1068	EBASTINE 10 mg - KESTINLYO 10 mg, lyophilisat oral	64894972	1	3	EBASTINE BIOGARAN 10 mg, comprimé orodispersible
 1495	MEPIVACAINE (CHLORHYDRATE DE) 10 mg/mL - CARBOCAINE 10 mg/ml, solution injectable	64895394	0	1	CARBOCAINE 10 mg/ml, solution injectable
 711	PANTOPRAZOLE SODIQUE SESQUIHYDRATE équivalant à PANTOPRAZOLE 20 mg - EUPANTOL 20 mg, comprimé gastro-résistant - INIPOMP 20 mg, comprimé gastro-résistant - PANTIPP 20 mg, comprimé gastro-résistant - PANTOZOL CONTROL 20 mg, comprimé gastro-résistant	64895526	1	26	PANTOPRAZOLE MYLAN PHARMA 20 mg, comprimé gastro-résistant
-452	MITOXANTRONE (CHLORHYDRATE DE) équivalant à MITOXANTRONE 25 mg/12,5 ml - NOVANTRONE 25 mg/12,5 ml, solution à diluer pour perfusion (FLACON de 12,5 ml).	64896051	1	2	MITOXANTRONE EBEWE 2 mg/ml, solution à diluer pour perfusion
-400	MITOXANTRONE (CHLORHYDRATE DE) équivalant à MITOXANTRONE 20 mg/10 ml - NOVANTRONE 20 mg/10 ml, solution à diluer pour perfusion (FLACON de 10 ml).	64896051	1	2	MITOXANTRONE EBEWE 2 mg/ml, solution à diluer pour perfusion
 398	MITOXANTRONE (CHLORHYDRATE DE) équivalant à MITOXANTRONE 10 mg/5 ml - NOVANTRONE 10 mg/5 ml, solution à diluer pour perfusion (FLACON de 5 ml).	64896051	1	3	MITOXANTRONE EBEWE 2 mg/ml, solution à diluer pour perfusion
+400	MITOXANTRONE (CHLORHYDRATE DE) équivalant à MITOXANTRONE 20 mg/10 ml - NOVANTRONE 20 mg/10 ml, solution à diluer pour perfusion (FLACON de 10 ml).	64896051	1	2	MITOXANTRONE EBEWE 2 mg/ml, solution à diluer pour perfusion
+452	MITOXANTRONE (CHLORHYDRATE DE) équivalant à MITOXANTRONE 25 mg/12,5 ml - NOVANTRONE 25 mg/12,5 ml, solution à diluer pour perfusion (FLACON de 12,5 ml).	64896051	1	2	MITOXANTRONE EBEWE 2 mg/ml, solution à diluer pour perfusion
 1313	ROSUVASTATINE CALCIQUE équivalant à ROSUVASTATINE 10 mg - ROSUVASTATINE ZINCIQUE équivalant à ROSUVASTATINE 10 mg - CRESTOR 10 mg, comprimé pelliculé	64896343	1	9	ROSUVASTATINE EVOLUGEN 10 mg, comprimé pelliculé
 1119	MEMANTINE (CHLORHYDRATE DE) 10 mg - EBIXA 10 mg, comprimé pelliculé - AXURA 10 mg, comprimé pelliculé	64898084	0	1	EBIXA 10 mg, comprimé pelliculé
 72	TROXERUTINE 3500 mg - RHEOFLUX 3500 mg, poudre pour solution buvable en sachet - VEINAMITOL 3500 mg, poudre pour solution buvable en sachet-dose.	64899898	1	4	TROXERUTINE MYLAN 3,5 g, poudre pour solution buvable en sachet-dose.
@@ -4737,8 +4737,8 @@ id	label	cis_code	generic_type	elt_number	drug_name
 1223	QUÉTIAPINE (FUMARATE DE) équivalant à QUETIAPINE 50 mg - XEROQUEL LP 50 mg, comprimé à libération prolongée	65269571	1	6	
 1464	CLOFARABINE 1 mg/1 mL - EVOLTRA 1 mg/ml, solution à diluer pour perfusion	65270506	0	1	EVOLTRA 1 mg/ml, solution à diluer pour perfusion
 1371	EMTRICITABINE 200 mg + TENOFOVIR DISOPROXIL (FUMARATE DE) équivalant à TENOFOVIR DISOPROXIL 245 mg - EMTRICITABINE 200 mg + TENOFOVIR DISOPROXIL (SUCCINATE DE) équivalant à TENOFOVIR DISOPROXIL 245 mg - EMTRICITABINE 200 mg + TENOFOVIR DISOPROXIL (PHOSPHATE DE) équivalant à TENOFOVIR DISOPROXIL 245 mg - TRUVADA 200 mg/245 mg, comprimé pelliculé	65271985	1	2	EMTRICITABINE TENOFOVIR DISOPROXIL MYLAN 200 mg/245 mg, comprimé pelliculé
-400	MITOXANTRONE (CHLORHYDRATE DE) équivalant à MITOXANTRONE 20 mg/10 ml - NOVANTRONE 20 mg/10 ml, solution à diluer pour perfusion (FLACON de 10 ml).	65272375	1	3	
 398	MITOXANTRONE (CHLORHYDRATE DE) équivalant à MITOXANTRONE 10 mg/5 ml - NOVANTRONE 10 mg/5 ml, solution à diluer pour perfusion (FLACON de 5 ml).	65272375	1	4	
+400	MITOXANTRONE (CHLORHYDRATE DE) équivalant à MITOXANTRONE 20 mg/10 ml - NOVANTRONE 20 mg/10 ml, solution à diluer pour perfusion (FLACON de 10 ml).	65272375	1	3	
 425	MELOXICAM 15 mg - MOBIC 15 mg, comprimé sécable.	65274084	1	4	MELOXICAM SANDOZ 15 mg, comprimé sécable
 645	VENLAFAXINE (CHLORHYDRATE DE) équivalant à VENLAFAXINE 50 mg - EFFEXOR 50 mg, comprimé.	65274166	0	1	
 382	RAMIPRIL 10 mg - TRIATEC 10 mg, comprimé sécable.	65274629	1	4	RAMIPRIL ARROW GENERIQUES 10 mg, comprimé sécable
@@ -4915,8 +4915,8 @@ id	label	cis_code	generic_type	elt_number	drug_name
 1262	RASAGILINE (MÉSILATE DE) équivalant à RASAGILINE 1 mg - AZILECT 1 mg, comprimé	65462218	1	5	RASAGILINE BIOGARAN 1 mg, comprimé
 629	VENLAFAXINE (CHLORHYDRATE DE) équivalant à VENLAFAXINE 75 mg - EFFEXOR L.P. 75 mg, gélule à libération prolongée.	65462588	1	9	VENLAFAXINE CRISTERS LP 75 mg, gélule à libération prolongée
 294	BETAHISTINE (DICHLORHYDRATE DE) 8 mg - SERC 8 mg, comprimé.	65463708	1	11	BETAHISTINE ZENTIVA 8 mg, comprimé
-731	IMIPÉNEM MONOHYDRATÉ + CILASTATINE SODIQUE équivalant à IMIPENEM ANHYDRE 500 mg + CILASTATINE ANHYDRE 500 mg - TIENAM 500 mg/500 mg, poudre pour perfusion avec système de transfert pour poche	65465495	1	3	IMIPENEM CILASTATINE RANBAXY 500 mg/500 mg, poudre pour solution pour perfusion
 726	IMIPENEM MONOHYDRATE + CILASTATINE SODIQUE équivalant à IMIPENEM ANHYDRE 500 mg + CILASTATINE ANHYDRE 500 mg - TIENAM 500 mg/500 mg, poudre pour solution pour perfusion	65465495	1	5	IMIPENEM CILASTATINE RANBAXY 500 mg/500 mg, poudre pour solution pour perfusion
+731	IMIPÉNEM MONOHYDRATÉ + CILASTATINE SODIQUE équivalant à IMIPENEM ANHYDRE 500 mg + CILASTATINE ANHYDRE 500 mg - TIENAM 500 mg/500 mg, poudre pour perfusion avec système de transfert pour poche	65465495	1	3	IMIPENEM CILASTATINE RANBAXY 500 mg/500 mg, poudre pour solution pour perfusion
 654	CIPROFLOXACINE (CHLORHYDRATE DE) équivalant à CIPROFLOXACINE 200 mg/100 ml - CIFLOX 200 mg/100 ml, solution pour perfusion en poche.	65466309	1	3	CIPROFLOXACINE MACOPHARMA 200 mg/100 ml, solution pour perfusion
 348	PINAVERIUM (BROMURE DE) 100 mg - DICETEL 100 mg, comprimé pelliculé.	65466316	1	6	PINAVERIUM MYLAN 100 mg, comprimé pelliculé
 62	NICERGOLINE 5 mg - SERMION 5 mg, gélule	65469223	1	2	NICERGOLINE EG 5 mg, gélule
@@ -4946,9 +4946,9 @@ id	label	cis_code	generic_type	elt_number	drug_name
 493	PERINDOPRIL TERT-BUTYLAMINE 2 mg, équivalant à 1,67 mg de PERINDOPRIL - PERINDOPRIL ARROW GENERIQUES 2 mg, comprimé - PERINDOPRIL ARGININE 2,5 mg, équivalant à 1,67 mg de PERINDOPRIL - PERINDOPRIL TOSILATE  2,5 mg, équivalant à 1,67 mg de PERINDOPRIL - COVERSYL 2,5 mg, comprimé pelliculé.	65499145	1	12	
 31	METFORMINE (CHLORHYDRATE DE) 500 mg - GLUCOPHAGE 500 mg, comprimé pelliculé	65501475	1	9	METFORMINE EG 500 mg, comprimé pelliculé
 1105	ESCITALOPRAM (OXALATE D') équivalant à ESCITALOPRAM 20 mg - SEROPLEX 20 mg, comprimé pelliculé sécable	65502004	1	5	ESCITALOPRAM BIOGARAN 20 mg, comprimé pelliculé sécable
-830	FLUOROURACILE 50 mg/ml - FLUOROURACILE MEDA PHARMA 50 mg/ml, solution injectable en flacon	65502207	1	2	FLUOROURACILE ACCORD 50 mg/ml, solution à diluer pour perfusion
-829	FLUOROURACILE 50 mg/ml  - FLUOROURACILE MEDA PHARMA 500 mg/10 ml,  solution pour perfusion (FLACON de 10 ml)	65502207	1	2	FLUOROURACILE ACCORD 50 mg/ml, solution à diluer pour perfusion
 410	FLUOROURACILE 50 mg/ml - FLUORO-URACILE MEDA PHARMA 250 mg/5 ml, solution injectable en flacon (FLACON de 5 ml).	65502207	1	2	FLUOROURACILE ACCORD 50 mg/ml, solution à diluer pour perfusion
+829	FLUOROURACILE 50 mg/ml  - FLUOROURACILE MEDA PHARMA 500 mg/10 ml,  solution pour perfusion (FLACON de 10 ml)	65502207	1	2	FLUOROURACILE ACCORD 50 mg/ml, solution à diluer pour perfusion
+830	FLUOROURACILE 50 mg/ml - FLUOROURACILE MEDA PHARMA 50 mg/ml, solution injectable en flacon	65502207	1	2	FLUOROURACILE ACCORD 50 mg/ml, solution à diluer pour perfusion
 1094	CAPÉCITABINE 150 mg - XELODA 150 mg, comprimé pelliculé	65502762	1	2	CAPECITABINE ACCORD 150 mg, comprimé pelliculé
 137	PREDNISONE 20 mg - CORTANCYL 20 mg, comprimé sécable	65502933	1	8	PREDNISONE TEVA 20 mg, comprimé sécable
 394	LAMOTRIGINE 25 mg - LAMICTAL 25 mg, comprimé dispersible ou à croquer.	65503120	1	8	LAMOTRIGINE TEVA 25 mg, comprimé dispersible ou à croquer
@@ -4961,8 +4961,8 @@ id	label	cis_code	generic_type	elt_number	drug_name
 1119	MEMANTINE (CHLORHYDRATE DE) 10 mg - EBIXA 10 mg, comprimé pelliculé - AXURA 10 mg, comprimé pelliculé	65511373	1	18	MEMANTINE ZENTIVA 10 mg, comprimé pelliculé sécable
 1373	IVABRADINE (CHLORHYDRATE D') équivalant à IVABRADINE 7,5 mg - PROCORALAN 7,5 mg, comprimé pelliculé	65511544	1	14	IVABRADINE TEVA SANTE 7,5 mg, comprimé pelliculé
 26	LACTULOSE 10 g - DUPHALAC 10 g/15 ml, solution buvable en sachet.	65512799	1	10	LACTULOSE ZENTIVA 10 g, solution buvable en sachet-dose
-505	MIRTAZAPINE 15 mg - NORSET 15 mg, comprimé orodispersible.	65512856	1	2	MIRTAZAPINE ALMUS 15 mg, comprimé orodispersible
 413	MIRTAZAPINE 15 mg - NORSET 15 mg, comprimé pelliculé.	65512856	1	2	MIRTAZAPINE ALMUS 15 mg, comprimé orodispersible
+505	MIRTAZAPINE 15 mg - NORSET 15 mg, comprimé orodispersible.	65512856	1	2	MIRTAZAPINE ALMUS 15 mg, comprimé orodispersible
 827	IRBESARTAN 75 mg - APROVEL 75 mg, comprimé pelliculé	65513666	1	9	IRBESARTAN EVOLUGEN 75 mg, comprimé pelliculé
 1372	IVABRADINE (CHLORHYDRATE D') équivalant à IVABRADINE 5 mg - PROCORALAN 5 mg, comprimé pelliculé	65514241	1	10	IVABRADINE MYLAN 5 mg, comprimé pelliculé
 272	ALPRAZOLAM 0,50 mg - XANAX 0,50 mg, comprimé sécable.	65515119	1	7	ALPRAZOLAM EVOLUGEN 0,50 mg, comprimé sécable
@@ -5022,8 +5022,8 @@ id	label	cis_code	generic_type	elt_number	drug_name
 1255	PRÉGABALINE 300 mg - LYRICA 300 mg, gélule	65565474	1	13	PREGABALINE RANBAXY 300 mg, gélule
 90	DILTIAZEM (CHLORHYDRATE DE) 60 mg - TILDIEM 60 mg, comprimé	65565798	1	4	DILTIAZEM CRISTERS 60 mg, comprimé
 133	TERAZOSINE (CHLORHYDRATE DE) équivalant à TERAZOSINE 5 mg - DYSALFA 5 mg, comprimé - HYTRINE 5 mg, comprimé.	65566430	1	4	TERAZOSINE MYLAN 5 mg, comprimé
-807	ROPINIROLE (CHLORHYDRATE DE) équivalant à ROPINIROLE 2 mg - ADARTREL 2 mg, comprimé pelliculé.	65569273	1	5	ROPINIROLE TEVA 2 mg, comprimé pelliculé
 678	ROPINIROLE (CHLORHYDRATE DE) équivalant à ROPINIROLE 2 mg - REQUIP 2 mg, comprimé pelliculé.	65569273	1	6	ROPINIROLE TEVA 2 mg, comprimé pelliculé
+807	ROPINIROLE (CHLORHYDRATE DE) équivalant à ROPINIROLE 2 mg - ADARTREL 2 mg, comprimé pelliculé.	65569273	1	5	ROPINIROLE TEVA 2 mg, comprimé pelliculé
 1423	ENALAPRIL (MALEATE D')  20 mg + LERCANIDIPINE (CHLORHYDRATE DE) 10 mg - LERCAPRESS 20 mg/10 mg, comprimé pelliculé	65569348	1	2	ENALAPRIL/LERCANIDIPINE KRKA 20 mg/10 mg, comprimé pelliculé
 107	FENOFIBRATE 200 mg - LIPANTHYL 200 micronisé, gélule	65569444	0	1	LIPANTHYL 200 micronisé, gélule
 1022	GLICLAZIDE 60 mg - DIAMICRON 60 mg, comprimé sécable à libération modifiée.	65571438	1	11	GLICLAZIDE MYLAN PHARMA 60 mg, comprimé à libération modifiée
@@ -5276,8 +5276,8 @@ id	label	cis_code	generic_type	elt_number	drug_name
 717	FENTANYL 50 microgrammes/heure - DUROGESIC 50 microgrammes/heure, dispositif transdermique.	65850530	1	4	FENTANYL BIOGARAN 50 microgrammes/heure, dispositif transdermique
 865	CANDESARTAN CILEXETIL 16 mg - ATACAND 16 mg, comprimé sécable - KENZEN 16 mg, comprimé sécable.	65851109	1	16	CANDESARTAN ZYDUS 16 mg, comprimé sécable
 382	RAMIPRIL 10 mg - TRIATEC 10 mg, comprimé sécable.	65851454	1	3	RAMIPRIL ALTER 10 mg, comprimé sécable
-359	SUFENTANIL (CITRATE DE) équivalant à SUFENTANIL 50 µg/10 ml - SUFENTA 50 microgrammes/10 ml, solution injectable (I.V. ou péridurale) (AMPOULE de 10 ml).	65851721	1	4	SUFENTANIL PANPHARMA 5 microgrammes/ml, solution injectable (IV ou péridurale)
 358	SUFENTANIL (CITRATE DE) équivalant à SUFENTANIL 10 µg/2 ml - SUFENTA 10 microgrammes/2 ml, solution injectable (I.V. ou péridurale) (AMPOULE de 2 ml).	65851721	1	4	SUFENTANIL PANPHARMA 5 microgrammes/ml, solution injectable (IV ou péridurale)
+359	SUFENTANIL (CITRATE DE) équivalant à SUFENTANIL 50 µg/10 ml - SUFENTA 50 microgrammes/10 ml, solution injectable (I.V. ou péridurale) (AMPOULE de 10 ml).	65851721	1	4	SUFENTANIL PANPHARMA 5 microgrammes/ml, solution injectable (IV ou péridurale)
 424	MELOXICAM 7,5 mg - MOBIC 7,5 mg, comprimé.	65855762	1	5	MELOXICAM ZENTIVA 7,5 mg, comprimé
 280	FLUOXETINE (CHLORHYDRATE DE) équivalant à FLUOXETINE 20 mg - PROZAC 20 mg, gélule.	65857496	1	5	FLUOXETINE ARROW 20 mg, gélule
 147	AMOXICILLINE 500 mg/5 ml - CLAMOXYL 500 mg/5 ml, poudre pour suspension buvable.	65857681	1	4	AMOXICILLINE ARROW 500 mg/5 ml, poudre pour suspension buvable
@@ -5362,8 +5362,8 @@ id	label	cis_code	generic_type	elt_number	drug_name
 863	CANDESARTAN CILEXETIL 4 mg - ATACAND 4 mg, comprimé sécable - KENZEN 4 mg, comprimé sécable.	65969730	0	1	ATACAND 4 mg, comprimé sécable
 294	BETAHISTINE (DICHLORHYDRATE DE) 8 mg - SERC 8 mg, comprimé.	65970533	1	7	BETAHISTINE EG 8 mg, comprimé
 1095	CAPÉCITABINE 500 mg - XELODA 500 mg, comprimé pelliculé	65970775	1	2	CAPECITABINE ACCORD 500 mg, comprimé pelliculé
-349	SIMVASTATINE 10 mg - ZOCOR 10 mg, comprimé enrobé - LODALES 10 mg, comprimé enrobé.	65973262	1	15	
 102	SIMVASTATINE 20 mg - ZOCOR 20 mg, comprimé pelliculé sécable - LODALES 20 mg, comprimé pelliculé.	65973262	2	21	
+349	SIMVASTATINE 10 mg - ZOCOR 10 mg, comprimé enrobé - LODALES 10 mg, comprimé enrobé.	65973262	1	15	
 566	ONDANSETRON 8 mg - ZOPHREN 8 mg, lyophilisat oral.	65973903	1	7	
 1420	FEBUXOSTAT 120 mg - ADENURIC 120 mg, comprimé pelliculé	65981266	1	8	
 298	SALBUTAMOL (SULFATE DE) équivalant à  SALBUTAMOL 5 mg - VENTOLINE 5 mg/2,5 ml, solution pour inhalation par nébuliseur en récipient unidose.	65981280	1	2	SALBUTAMOL ARROW 5 mg/2,5 ml, solution pour inhalation par nébuliseur en récipient unidose
@@ -5548,8 +5548,8 @@ id	label	cis_code	generic_type	elt_number	drug_name
 722	BETAMETHASONE 2 mg - CELESTENE 2 mg, comprimé dispersible sécable.	66171354	0	1	CELESTENE 2 mg, comprimé dispersible sécable
 1403	AMLODIPINE (BESILATE D') équivalant à AMLODIPINE 10 mg + VALSARTAN 160 mg - EXFORGE 10 mg/160 mg, comprimé pelliculé	66171532	1	5	
 1176	DEXPANTHÉNOL 5% - BEPANTHEN 5 %, pommade	66172278	1	11	DEXPANTHENOL ZENTIVA CONSEIL 5 %, pommade
-1138	ENALAPRIL (MALEATE D’) 2,5 mg - RENITEC 2,5 mg, comprimé sécable	66173533	1	2	
 96	ENALAPRIL (MALEATE D') 5 mg - RENITEC 5 mg, comprimé.	66173533	2	9	
+1138	ENALAPRIL (MALEATE D’) 2,5 mg - RENITEC 2,5 mg, comprimé sécable	66173533	1	2	
 825	IRBESARTAN 150 mg - APROVEL 150 mg, comprimé pelliculé	66173953	1	15	IRBESARTAN ZENTIVA 150 mg, comprimé pelliculé
 284	PAROXETINE (CHLORHYDRATE DE) équivalant à PAROXETINE 20 mg - DEROXAT 20 mg, comprimé pelliculé sécable.	66176497	1	7	PAROXETINE EG 20 mg, comprimé pelliculé sécable
 382	RAMIPRIL 10 mg - TRIATEC 10 mg, comprimé sécable.	66177542	1	14	RAMIPRIL RPG 10 mg, comprimé sécable
@@ -5767,8 +5767,8 @@ id	label	cis_code	generic_type	elt_number	drug_name
 23	DOMPERIDONE 10 mg - MOTILIUM 10 mg, comprimé pelliculé - PERIDYS 10 mg, comprimé pelliculé.	66398576	1	8	DOMPERIDONE MYLAN 10 mg, comprimé pelliculé
 103	SIMVASTATINE 40 mg - ZOCOR 40 mg, comprimé pelliculé - LODALES 40 mg, comprimé pelliculé.	66399710	1	10	SIMVASTATINE EG 40 mg, comprimé pelliculé
 623	LOSARTAN POTASSIUM 100 mg + HYDROCHLOROTHIAZIDE 25 mg - HYZAAR 100 mg/25 mg, comprimé pelliculé - FORTZAAR 100 mg/25 mg, comprimé pelliculé	66401403	1	9	LOSARTAN/HYDROCHLOROTHIAZIDE BOUCHARA-RECORDATI 100 mg/25 mg, comprimé pelliculé
-505	MIRTAZAPINE 15 mg - NORSET 15 mg, comprimé orodispersible.	66402996	1	4	MIRTAZAPINE BIOGARAN 15 mg, comprimé orodispersible
 413	MIRTAZAPINE 15 mg - NORSET 15 mg, comprimé pelliculé.	66402996	1	6	MIRTAZAPINE BIOGARAN 15 mg, comprimé orodispersible
+505	MIRTAZAPINE 15 mg - NORSET 15 mg, comprimé orodispersible.	66402996	1	4	MIRTAZAPINE BIOGARAN 15 mg, comprimé orodispersible
 1100	CÉLÉCOXIB 200 mg - CELEBREX 200 mg, gélule	66403692	1	14	CELECOXIB SANDOZ 200 mg, gélule
 58	SPIRONOLACTONE 75 mg - ALDACTONE 75 mg, comprimé sécable.	66404851	1	3	SPIRONOLACTONE ARROW LAB 75 mg, comprimé pelliculé sécable
 1409	ALENDRONATE MONOSODIQUE TRIHYDRATE équivalant à ACIDE ALENDRONIQUE 70 mg + CHOLECALCIFEROL 2800 UI - ALENDRONATE DE SODIUM MONOHYDRATE équivalant à ACIDE ALENDRONIQUE 70 mg + CHOLECALCIFEROL 2800 UI - FOSAVANCE 70 mg/2800 UI, comprimé	66407826	1	6	ACIDE ALENDRONIQUE/VITAMINE D3 BGR 70 mg/2800 UI, comprimé
@@ -5921,8 +5921,8 @@ id	label	cis_code	generic_type	elt_number	drug_name
 460	TRIMEBUTINE (MALEATE DE) 200 mg - DEBRIDAT 200 mg, comprimé pelliculé.	66596686	1	10	TRIMEBUTINE PFIZER 200 mg, comprimé pelliculé
 657	DONEPEZIL (CHLORHYDRATE DE) 5 mg - ARICEPT 5 mg, comprimé pelliculé - ARICEPT 5 mg, comprimé orodispersible	66596864	1	3	DONEPEZIL ACCORD 5 mg, comprimé pelliculé
 979	IRBESARTAN 150 mg + HYDROCHLOROTHIAZIDE 12,5 mg - COAPROVEL 150 mg/12,5 mg, comprimé pelliculé.	66598146	1	9	IRBESARTAN/HYDROCHLOROTHIAZIDE CRISTERS 150 mg/12,5 mg, comprimé pelliculé
-848	VALSARTAN 80 mg - TAREG 80 mg, comprimé pelliculé - NISIS 80 mg, comprimé pelliculé .	66599839	1	11	VALSARTAN MYLAN PHARMA 80 mg, comprimé pelliculé
 846	VALSARTAN 160 mg - TAREG 160 mg, comprimé pelliculé - NISIS 160 mg, comprimé pelliculé.	66599839	2	12	VALSARTAN MYLAN PHARMA 80 mg, comprimé pelliculé
+848	VALSARTAN 80 mg - TAREG 80 mg, comprimé pelliculé - NISIS 80 mg, comprimé pelliculé .	66599839	1	11	VALSARTAN MYLAN PHARMA 80 mg, comprimé pelliculé
 236	ALLOPURINOL 200 mg - ZYLORIC 200 mg, comprimé	66603383	1	3	ALLOPURINOL BIOGARAN 200 mg, comprimé
 329	LEVOCETIRIZINE (DICHLORHYDRATE DE) 5 mg – XYZALL 5 mg, comprimé pelliculé.	66603508	1	4	LEVOCETIRIZINE CRISTERS 5 mg, comprimé pelliculé
 1508	VARDENAFIL (CHLORHYDRATE DE) TRIHYDRATE équivalant à VARDENAFIL 10 mg - LEVITRA 10 mg, comprimé orodispersible	66604318	0	1	LEVITRA 10 mg, comprimé orodispersible
@@ -6242,8 +6242,8 @@ id	label	cis_code	generic_type	elt_number	drug_name
 364	GABAPENTINE 100 mg – NEURONTIN 100 mg, gélule.	66971613	1	11	GABAPENTINE ZENTIVA 100 mg, gélule
 662	TRANDOLAPRIL 2 mg - ODRIK 2 mg, gélule.	66972380	1	3	TRANDOLAPRIL BIOGARAN 2 mg, gélule
 943	MEROPENEM TRIHYDRATE équivalant à MEROPENEM 500 mg - MERONEM 500 mg,  poudre pour solution injectable ou pour perfusion.	66973016	1	7	MEROPENEM PANPHARMA 500 mg, poudre pour solution injectable ou pour perfusion
-808	ROPINIROLE (CHLORHYDRATE DE) équivalant à ROPINIROLE 1 mg - ADARTREL 1 mg, comprimé pelliculé.	66973468	1	2	ROPINIROLE ARROW 1 mg, comprimé pelliculé
 675	ROPINIROLE (CHLORHYDRATE DE) équivalant à ROPINIROLE 1 mg - REQUIP 1 mg, comprimé pelliculé.	66973468	1	2	ROPINIROLE ARROW 1 mg, comprimé pelliculé
+808	ROPINIROLE (CHLORHYDRATE DE) équivalant à ROPINIROLE 1 mg - ADARTREL 1 mg, comprimé pelliculé.	66973468	1	2	ROPINIROLE ARROW 1 mg, comprimé pelliculé
 952	OXOMEMAZINE 0,33 mg/ml - TOPLEXIL 0,33 mg/ml SANS SUCRE, solution buvable édulcorée à l'acésulfame potassique.	66974004	1	2	HUMEX TOUX SECHE OXOMEMAZINE 0,33 mg/ml SANS SUCRE, solution buvable édulcorée à l'acésulfame potassique
 629	VENLAFAXINE (CHLORHYDRATE DE) équivalant à VENLAFAXINE 75 mg - EFFEXOR L.P. 75 mg, gélule à libération prolongée.	66976215	1	2	VENLAFAXINE ALMUS LP 75 mg, gélule à libération prolongée
 111	ECONAZOLE (NITRATE D') 1 % - PEVARYL 1 POUR CENT, poudre pour application locale en flacon poudreur.	66977744	0	1	PEVARYL 1 POUR CENT, poudre pour application locale en flacon poudreur
@@ -6317,8 +6317,8 @@ id	label	cis_code	generic_type	elt_number	drug_name
 1359	BIMATOPROST 0,3 mg/mL - LUMIGAN 0,3 mg/ml, collyre en solution	67042647	1	2	BIMATOPROST EG 0,3 mg/ml, collyre en solution
 424	MELOXICAM 7,5 mg - MOBIC 7,5 mg, comprimé.	67044235	0	1	MOBIC 7,5 mg, comprimé
 257	CLOZAPINE 25 mg - LEPONEX 25 mg, comprimé sécable	67045967	1	3	CLOZAPINE MYLAN 25 mg, comprimé sécable
-1027	LEVETIRACETAM 500 mg - KEPPRA 500 mg, comprimé pelliculé.	67049047	1	27	LEVETIRACETAM TEVA 500 mg, comprimé pelliculé
 1025	LEVETIRACETAM 1000 mg - KEPPRA 1000 mg, comprimé pelliculé.	67049047	2	27	LEVETIRACETAM TEVA 500 mg, comprimé pelliculé
+1027	LEVETIRACETAM 500 mg - KEPPRA 500 mg, comprimé pelliculé.	67049047	1	27	LEVETIRACETAM TEVA 500 mg, comprimé pelliculé
 1063	ZOFÉNOPRIL CALCIQUE 30 mg - ZOFENIL 30 mg, comprimé pelliculé	67049435	0	1	ZOFENIL 30 mg, comprimé pelliculé
 1258	TADALAFIL 10 mg - CIALIS 10 mg, comprimé pelliculé	67050149	1	14	TADALAFIL ZYDUS 10 mg, comprimé pelliculé
 963	RALOXIFENE (CHLORHYDRATE DE) 60 mg - EVISTA 60 mg, comprimé pelliculé - OPTRUMA 60 mg, comprimé pelliculé	67050747	1	11	RALOXIFENE TEVA 60 mg, comprimé pelliculé
@@ -6416,8 +6416,8 @@ id	label	cis_code	generic_type	elt_number	drug_name
 1345	ATAZANAVIR (SULFATE D') équivalant à ATAZANAVIR 300 mg - REYATAZ 300 mg, gélule	67167309	1	3	
 309	CETIRIZINE (DICHLORHYDRATE DE) 10 mg - ZYRTEC 10 mg, comprimé pelliculé sécable - VIRLIX 10 mg, comprimé pelliculé sécable - REACTINE 10 mg, comprimé pelliculé sécable -  ZYRTECSET 10 mg, comprimé pelliculé sécable.	67168998	1	15	CETIRIZINE CRISTERS CONSEIL 10 mg, comprimé pelliculé sécable
 940	TELMISARTAN 40 mg - MICARDIS 40 mg, comprimé - PRITOR 40 mg, comprimé.	67169534	1	15	TELMISARTAN TEVA SANTE 40 mg, comprimé
-1027	LEVETIRACETAM 500 mg - KEPPRA 500 mg, comprimé pelliculé.	67174271	1	7	LEVETIRACETAM ALTER 500 mg, comprimé pelliculé
 1025	LEVETIRACETAM 1000 mg - KEPPRA 1000 mg, comprimé pelliculé.	67174271	2	8	LEVETIRACETAM ALTER 500 mg, comprimé pelliculé
+1027	LEVETIRACETAM 500 mg - KEPPRA 500 mg, comprimé pelliculé.	67174271	1	7	LEVETIRACETAM ALTER 500 mg, comprimé pelliculé
 367	GABAPENTINE 800 mg – NEURONTIN 800 mg, comprimé pelliculé.	67175074	1	10	
 1355	OXYCODONE (CHLORHYDRATE D') 10 mg - OXYNORM 10 mg, gélule	67175964	1	2	OXYCODONE ARROW 10 mg, gélule
 269	LORAZEPAM 2,5 mg - TEMESTA 2,5 mg, comprimé sécable	67177709	0	1	TEMESTA 2,5 mg, comprimé sécable
@@ -6539,8 +6539,8 @@ id	label	cis_code	generic_type	elt_number	drug_name
 1383	CINACALCET (CHLORHYDRATE DE) équivalant à CINACALCET 30 mg - MIMPARA 30 mg, comprimé pelliculé	67298098	1	2	
 365	GABAPENTINE 300 mg – NEURONTIN 300 mg, gélule.	67298504	0	1	NEURONTIN 300 mg, gélule
 835	TOBRAMYCINE 0.3% - TOBREX 0,3 %, collyre en solution	67299307	0	1	TOBREX 0,3 %, collyre en solution
-519	EPIRUBICINE (CHLORHYDRATE D') 10 mg /5ml - FARMORUBICINE 10 mg/5 ml, solution pour perfusion (FLACON de 5 ml).	67299638	1	3	EPIRUBICINE ARROW 2 mg/ml, solution pour perfusion
 432	EPIRUBICINE (CHLORHYDRATE D') 200 mg/100 ml - FARMORUBICINE 200 mg/100 ml, solution pour perfusion (FLACON de 100 ml).	67299638	1	3	EPIRUBICINE ARROW 2 mg/ml, solution pour perfusion
+519	EPIRUBICINE (CHLORHYDRATE D') 10 mg /5ml - FARMORUBICINE 10 mg/5 ml, solution pour perfusion (FLACON de 5 ml).	67299638	1	3	EPIRUBICINE ARROW 2 mg/ml, solution pour perfusion
 520	EPIRUBICINE (CHLORHYDRATE D') 50 mg/25 ml - FARMORUBICINE 50 mg/25 ml, solution pour perfusion (FLACON de 25 ml).	67299638	1	3	EPIRUBICINE ARROW 2 mg/ml, solution pour perfusion
 599	EPIRUBICINE (CHLORHYDRATE D') 20 mg/10 ml - FARMORUBICINE 20 mg/10 ml, solution pour perfusion (FLACON de 10 ml).	67299638	1	3	EPIRUBICINE ARROW 2 mg/ml, solution pour perfusion
 1471	PALONOSETRON (CHLORHYDRATE DE) équivalent à PALONOSETRON 50 microgrammes/mL - ALOXI 250 microgrammes, solution injectable	67300396	1	2	PALONOSETRON ACCORD 250 microgrammes, solution injectable
@@ -6932,8 +6932,8 @@ id	label	cis_code	generic_type	elt_number	drug_name
 189	CIPROFLOXACINE (CHLORHYDRATE DE) équivalant à CIPROFLOXACINE 500 mg - CIFLOX 500 mg, comprimé pelliculé sécable.	67706265	1	7	CIPROFLOXACINE BIOGARAN 500 mg, comprimé pelliculé sécable
 148	AMOXICILLINE 500 mg - CLAMOXYL 500 mg, gélule	67707794	0	1	CLAMOXYL 500 mg, gélule
 630	VENLAFAXINE (CHLORHYDRATE DE) équivalant à VENLAFAXINE  37,5 mg - EFFEXOR L.P. 37,5 mg, gélule à libération prolongée.	67708686	1	24	
-349	SIMVASTATINE 10 mg - ZOCOR 10 mg, comprimé enrobé - LODALES 10 mg, comprimé enrobé.	67709496	1	14	SIMVASTATINE TEVA 10 mg, comprimé pelliculé sécable
 102	SIMVASTATINE 20 mg - ZOCOR 20 mg, comprimé pelliculé sécable - LODALES 20 mg, comprimé pelliculé.	67709496	2	19	SIMVASTATINE TEVA 10 mg, comprimé pelliculé sécable
+349	SIMVASTATINE 10 mg - ZOCOR 10 mg, comprimé enrobé - LODALES 10 mg, comprimé enrobé.	67709496	1	14	SIMVASTATINE TEVA 10 mg, comprimé pelliculé sécable
 942	MEROPENEM TRIHYDRATE équivalant à MEROPENEM 1 g - MERONEM 1 g,  poudre pour solution injectable ou pour perfusion.	67710121	1	8	MEROPENEM PANPHARMA 1 g, poudre pour solution injectable ou pour perfusion
 1074	LÉFLUNOMIDE 100 mg - ARAVA 100 mg, comprimé pelliculé	67710406	1	3	
 350	OMEPRAZOLE 10 mg - MOPRAL 10 mg, gélule gastro-résistante - ZOLTUM 10 mg, gélule gastro-résistante	67710783	1	11	OMEPRAZOLE CRISTERS 10 mg, gélule gastro-résistante
@@ -7315,13 +7315,13 @@ id	label	cis_code	generic_type	elt_number	drug_name
 1262	RASAGILINE (MÉSILATE DE) équivalant à RASAGILINE 1 mg - AZILECT 1 mg, comprimé	68099640	1	9	
 371	FLUCONAZOLE 2 mg/ml - TRIFLUCAN 2 mg/ml, solution pour perfusion.	68100263	1	8	FLUCONAZOLE TEVA 2 mg/ml, solution pour perfusion
 1418	EZETIMIBE 10 mg + SIMVASTATINE 40 mg - INEGY 10 mg/40 mg, comprimé	68100377	1	11	
-481	FLUMAZENIL 0,5 mg/5 ml - ANEXATE 0,5 mg/5 ml, solution injectable (I.V.) (AMPOULE de 5 ml).	68101988	1	3	FLUMAZENIL PANPHARMA 0,1 mg/ml, solution injectable
 433	FLUMAZENIL 1 mg/10 ml - ANEXATE 1 mg/10 ml, solution injectable IV (AMPOULE de 10 ml).	68101988	1	4	FLUMAZENIL PANPHARMA 0,1 mg/ml, solution injectable
+481	FLUMAZENIL 0,5 mg/5 ml - ANEXATE 0,5 mg/5 ml, solution injectable (I.V.) (AMPOULE de 5 ml).	68101988	1	3	FLUMAZENIL PANPHARMA 0,1 mg/ml, solution injectable
 36	TICLOPIDINE (CHLORHYDRATE DE) 250 mg - TICLID 250 mg, comprimé pelliculé	68103010	1	4	TICLOPIDINE MYLAN 250 mg, comprimé pelliculé
 732	ALPROSTADIL 0,5 mg/ml - PROSTINE VR 0,5 mg/ml, solution injectable.	68103252	0	1	PROSTINE VR 0,5 mg/ml, solution injectable
 146	AMOXICILLINE 250 mg/5 ml - CLAMOXYL 250 mg/5 ml, poudre pour suspension buvable.	68104607	1	16	
-1016	FENTANYL (CITRATE DE) équivalant à FENTANYL 500 microgrammes/10 ml - FENTANYL JANSSEN 500 microgrammes/10 ml, solution injectable en ampoule (AMPOULE DE 10 ml).	68104646	1	2	FENTANYL RENAUDIN 50 microgrammes/mL, solution injectable en ampoule (IV et péridurale)
 1015	FENTANYL (CITRATE DE) équivalant à FENTANYL 100 microgrammes/2 ml - FENTANYL JANSSEN 100 microgrammes/2 ml, solution injectable en ampoule (AMPOULE DE 2 ml).	68104646	1	2	FENTANYL RENAUDIN 50 microgrammes/mL, solution injectable en ampoule (IV et péridurale)
+1016	FENTANYL (CITRATE DE) équivalant à FENTANYL 500 microgrammes/10 ml - FENTANYL JANSSEN 500 microgrammes/10 ml, solution injectable en ampoule (AMPOULE DE 10 ml).	68104646	1	2	FENTANYL RENAUDIN 50 microgrammes/mL, solution injectable en ampoule (IV et péridurale)
 681	CABERGOLINE  0,5 mg, - DOSTINEX 0,5 mg, comprimé.	68105965	1	2	CABERGOLINE SANDOZ 0,5 mg, comprimé sécable
 242	TRAMADOL (CHLORHYDRATE DE) 50 mg - CONTRAMAL 50 mg, gélule - TOPALGIC 50 mg, gélule.	68106394	1	3	BIODALGIC 50 mg, comprimé effervescent
 1419	FEBUXOSTAT 80 mg - ADENURIC 80 mg, comprimé pelliculé	68106558	1	7	
@@ -7449,8 +7449,8 @@ id	label	cis_code	generic_type	elt_number	drug_name
 414	CEFTAZIDIME 500 mg - FORTUM 500 mg ENFANTS ET NOURRISSONS, poudre pour solution injectable (IM, IV).	68250156	1	6	CEFTAZIDIME PANPHARMA ENFANTS ET NOURRISSONS 500 mg, poudre pour solution injectable
 111	ECONAZOLE (NITRATE D') 1 % - PEVARYL 1 POUR CENT, poudre pour application locale en flacon poudreur.	68250551	1	3	ECONAZOLE ARROW 1 %, poudre pour application cutanée
 825	IRBESARTAN 150 mg - APROVEL 150 mg, comprimé pelliculé	68251475	1	5	IRBESARTAN BGR 150 mg, comprimé pelliculé
-1027	LEVETIRACETAM 500 mg - KEPPRA 500 mg, comprimé pelliculé.	68253978	1	5	
 1025	LEVETIRACETAM 1000 mg - KEPPRA 1000 mg, comprimé pelliculé.	68253978	2	6	
+1027	LEVETIRACETAM 500 mg - KEPPRA 500 mg, comprimé pelliculé.	68253978	1	5	
 690	GLICLAZIDE 30 mg - DIAMICRON 30 mg, comprimé à libération modifiée.	68255559	1	6	
 1254	PRÉGABALINE 200 mg - LYRICA 200 mg, gélule	68256084	1	11	PREGABALINE PFIZER 200 mg, gélule
 729	OLANZAPINE 10 mg - ZYPREXA VELOTAB 10 mg, comprimé orodispersible.	68256216	1	15	ZALASTA 10 mg, comprimé orodispersible
@@ -7549,10 +7549,10 @@ id	label	cis_code	generic_type	elt_number	drug_name
 691	INDAPAMIDE 1,5 mg - FLUDEX 1,5 mg, comprimé pelliculé à libération prolongée.	68356857	1	4	INDAPAMIDE EG LP 1,5 mg, comprimé pelliculé à libération prolongée
 1088	DROPÉRIDOL 5 mg/2 ml - DROLEPTAN 5 mg/2 ml, solution injectable (I.M.)	68358114	0	1	DROLEPTAN 5 mg/2 ml, solution injectable (I.M.)
 1075	RAMIPRIL  5 mg +  HYDROCHLOROTHIAZIDE 12,5 mg - COTRIATEC 5 mg/12,5 mg, comprimé	68359312	1	2	RAMIPRIL / HYDROCHLOROTHIAZIDE BIOGARAN 5 mg / 12,5 mg, comprimé
-519	EPIRUBICINE (CHLORHYDRATE D') 10 mg /5ml - FARMORUBICINE 10 mg/5 ml, solution pour perfusion (FLACON de 5 ml).	68360453	1	2	EPIRUBICINE ACCORD 2 mg/ml, solution injectable ou pour perfusion
 432	EPIRUBICINE (CHLORHYDRATE D') 200 mg/100 ml - FARMORUBICINE 200 mg/100 ml, solution pour perfusion (FLACON de 100 ml).	68360453	1	2	EPIRUBICINE ACCORD 2 mg/ml, solution injectable ou pour perfusion
-599	EPIRUBICINE (CHLORHYDRATE D') 20 mg/10 ml - FARMORUBICINE 20 mg/10 ml, solution pour perfusion (FLACON de 10 ml).	68360453	1	2	EPIRUBICINE ACCORD 2 mg/ml, solution injectable ou pour perfusion
+519	EPIRUBICINE (CHLORHYDRATE D') 10 mg /5ml - FARMORUBICINE 10 mg/5 ml, solution pour perfusion (FLACON de 5 ml).	68360453	1	2	EPIRUBICINE ACCORD 2 mg/ml, solution injectable ou pour perfusion
 520	EPIRUBICINE (CHLORHYDRATE D') 50 mg/25 ml - FARMORUBICINE 50 mg/25 ml, solution pour perfusion (FLACON de 25 ml).	68360453	1	2	EPIRUBICINE ACCORD 2 mg/ml, solution injectable ou pour perfusion
+599	EPIRUBICINE (CHLORHYDRATE D') 20 mg/10 ml - FARMORUBICINE 20 mg/10 ml, solution pour perfusion (FLACON de 10 ml).	68360453	1	2	EPIRUBICINE ACCORD 2 mg/ml, solution injectable ou pour perfusion
 432	EPIRUBICINE (CHLORHYDRATE D') 200 mg/100 ml - FARMORUBICINE 200 mg/100 ml, solution pour perfusion (FLACON de 100 ml).	68361352	1	5	
 730	OLANZAPINE 5 mg - ZYPREXA VELOTAB 5 mg, comprimé orodispersible.	68362319	1	3	OLANZAPINE ARROW GENERIQUES 5 mg, comprimé orodispersible
 1002	TIANEPTINE SODIQUE 12,5 mg - STABLON 12,5 mg, comprimé enrobé.	68363595	1	3	TIANEPTINE MYLAN PHARMA 12,5 mg, comprimé enrobé
@@ -7665,14 +7665,14 @@ id	label	cis_code	generic_type	elt_number	drug_name
 939	TELMISARTAN 20 mg - MICARDIS 20 mg, comprimé - PRITOR 20 mg, comprimé.	68467430	1	6	
 521	PERINDOPRIL TERT-BUTYLAMINE 8 mg, équivalant à 6,73 mg de PERINDOPRIL - PERINDOPRIL ARROW GENERIQUES 8 mg, comprimé - PERINDOPRIL ARGININE 10 mg, équivalant à 6,73 mg de PERINDOPRIL - PERINDOPRILTOSILATE 10 mg, équivalant à 6,73 mg de PERINDOPRIL - COVERSYL 10 mg, comprimé pelliculé.	68467964	1	16	
 310	LORATADINE 10 mg - CLARITYNE 10 mg, comprimé	68468589	1	20	LORATADINE ZENTIVA 10 mg, comprimé
-1027	LEVETIRACETAM 500 mg - KEPPRA 500 mg, comprimé pelliculé.	68468710	1	32	LEVETIRACETAM ZENTIVA LAB 500 mg, comprimé pelliculé
 1025	LEVETIRACETAM 1000 mg - KEPPRA 1000 mg, comprimé pelliculé.	68468710	2	32	LEVETIRACETAM ZENTIVA LAB 500 mg, comprimé pelliculé
+1027	LEVETIRACETAM 500 mg - KEPPRA 500 mg, comprimé pelliculé.	68468710	1	32	LEVETIRACETAM ZENTIVA LAB 500 mg, comprimé pelliculé
 106	FENOFIBRATE 67 mg - LIPANTHYL 67 micronisé, gélule	68470444	1	4	FENOFIBRATE CRISTERS 67 mg, gélule
 1242	BOSENTAN MONOHYDRATÉ équivalant à BOSENTAN 125 mg - TRACLEER 125 mg, comprimé pelliculé	68470729	1	12	BOSENTAN TEVA 125 mg, comprimé pelliculé
 1360	BIMATOPROST 0,1 mg/mL - LUMIGAN 0,1 mg/ml, collyre en solution	68472160	1	3	
 656	DONEPEZIL (CHLORHYDRATE DE) 10 mg - ARICEPT 10 mg, comprimé pelliculé - ARICEPT 10 mg, comprimé orodispersible	68474250	1	21	DONEPEZIL SANDOZ 10 mg, comprimé orodispersible
-326	CARVEDILOL 6,25 mg - KREDEX 6,25 mg, comprimé sécable.	68474364	1	7	CARVEDILOL TEVA 6,25 mg, comprimé sécable
 317	CARVEDILOL 12,5 mg - KREDEX 12,5 mg, comprimé sécable.	68474364	2	8	CARVEDILOL TEVA 6,25 mg, comprimé sécable
+326	CARVEDILOL 6,25 mg - KREDEX 6,25 mg, comprimé sécable.	68474364	1	7	CARVEDILOL TEVA 6,25 mg, comprimé sécable
 310	LORATADINE 10 mg - CLARITYNE 10 mg, comprimé	68474421	1	23	ZAPRILIS 10 mg, comprimé
 532	CEFPODOXIME PROXETIL 40 mg/5 ml - ORELOX ENFANTS ET NOURRISSONS 40 mg/5 ml, granulés pour suspension buvable.	68474866	1	6	Cefpodoxime Mylan enfants et nourissons 40 mg/5 ml, poudre pour suspension buvable
 1038	DESLORATADINE 0,5 mg/ml - AERIUS 0,5 mg/ml, solution buvable.	68476319	1	5	DESLORATADINE GNR 0,5 mg/ml, solution buvable
@@ -7824,16 +7824,16 @@ id	label	cis_code	generic_type	elt_number	drug_name
 413	MIRTAZAPINE 15 mg - NORSET 15 mg, comprimé pelliculé.	68645947	1	14	MIRTAZAPINE ZENTIVA 15 mg, comprimé pelliculé
 1383	CINACALCET (CHLORHYDRATE DE) équivalant à CINACALCET 30 mg - MIMPARA 30 mg, comprimé pelliculé	68645993	1	3	
 998	ETHINYLESTRADIOL 0,03 mg + DROSPIRENONE 3 mg - JASMINE 0,03 mg/3 mg, comprimé pelliculé	68646198	1	3	DROSPIBEL 0,03 mg/3 mg, comprimé pelliculé
-880	EPIRUBICINE (CHLORHYDRATE D') 150 mg/75 ml - FARMORUBICINE 150 mg/75 ml, solution pour perfusion (FLACON de 75 ml).	68646248	1	2	EPIRUBICINE TEVA CLASSICS 2 mg/ml, solution injectable et pour perfusion
-599	EPIRUBICINE (CHLORHYDRATE D') 20 mg/10 ml - FARMORUBICINE 20 mg/10 ml, solution pour perfusion (FLACON de 10 ml).	68646248	1	6	EPIRUBICINE TEVA CLASSICS 2 mg/ml, solution injectable et pour perfusion
-520	EPIRUBICINE (CHLORHYDRATE D') 50 mg/25 ml - FARMORUBICINE 50 mg/25 ml, solution pour perfusion (FLACON de 25 ml).	68646248	1	7	EPIRUBICINE TEVA CLASSICS 2 mg/ml, solution injectable et pour perfusion
-519	EPIRUBICINE (CHLORHYDRATE D') 10 mg /5ml - FARMORUBICINE 10 mg/5 ml, solution pour perfusion (FLACON de 5 ml).	68646248	1	8	EPIRUBICINE TEVA CLASSICS 2 mg/ml, solution injectable et pour perfusion
 432	EPIRUBICINE (CHLORHYDRATE D') 200 mg/100 ml - FARMORUBICINE 200 mg/100 ml, solution pour perfusion (FLACON de 100 ml).	68646248	1	9	EPIRUBICINE TEVA CLASSICS 2 mg/ml, solution injectable et pour perfusion
+519	EPIRUBICINE (CHLORHYDRATE D') 10 mg /5ml - FARMORUBICINE 10 mg/5 ml, solution pour perfusion (FLACON de 5 ml).	68646248	1	8	EPIRUBICINE TEVA CLASSICS 2 mg/ml, solution injectable et pour perfusion
+520	EPIRUBICINE (CHLORHYDRATE D') 50 mg/25 ml - FARMORUBICINE 50 mg/25 ml, solution pour perfusion (FLACON de 25 ml).	68646248	1	7	EPIRUBICINE TEVA CLASSICS 2 mg/ml, solution injectable et pour perfusion
+599	EPIRUBICINE (CHLORHYDRATE D') 20 mg/10 ml - FARMORUBICINE 20 mg/10 ml, solution pour perfusion (FLACON de 10 ml).	68646248	1	6	EPIRUBICINE TEVA CLASSICS 2 mg/ml, solution injectable et pour perfusion
+880	EPIRUBICINE (CHLORHYDRATE D') 150 mg/75 ml - FARMORUBICINE 150 mg/75 ml, solution pour perfusion (FLACON de 75 ml).	68646248	1	2	EPIRUBICINE TEVA CLASSICS 2 mg/ml, solution injectable et pour perfusion
 93	DILTIAZEM (CHLORHYDRATE DE) 300 mg - DILRENE L.P. 300 mg, gélule à libération prolongée.	68649319	1	2	DILTIAZEM BIOGARAN LP 300 mg, gélule à libération prolongée
 1122	LIDOCAÏNE (CHLORHYDRATE DE)  équivalant à LIDOCAÏNE 10 mg/ml +  ADRÉNALINE (TARTRATE D') équivalant à ADRÉNALINE 0,005 mg/ml - XYLOCAINE 10 mg/ml ADRENALINE 0,005 mg/ml, solution injectable	68649778	0	1	XYLOCAINE 10 mg/ml ADRENALINE 0,005 mg/ml, solution injectable
 21	TRIMEBUTINE (MALEATE DE) 100 mg - DEBRIDAT 100 mg, comprimé pelliculé	68650944	1	6	TRIMEBUTINE ARROW GENERIQUES 100 mg, comprimé
-1134	SERTRALINE (CHLORHYDRATE DE) équivalant à SERTRALINE 50 mg - ZOLOFT 50 mg, comprimé pelliculé sécable	68652347	1	2	
 411	SERTRALINE (CHLORHYDRATE DE) équivalant à SERTRALINE 50 mg - ZOLOFT 50 mg, gélule.	68652347	1	11	
+1134	SERTRALINE (CHLORHYDRATE DE) équivalant à SERTRALINE 50 mg - ZOLOFT 50 mg, comprimé pelliculé sécable	68652347	1	2	
 468	AMLODIPINE (BESILATE D') 5 mg - AMLOR 5 mg, gélule.	68653367	1	17	AMLODIPINE TEVA 5 mg, gélule
 526	AZITHROMYCINE DIHYDRATE équivalant à AZITHROMYCINE 250 mg - ZITHROMAX 250 mg, comprimé pelliculé.	68654914	1	13	AZITHROMYCINE TEVA 250 mg, comprimé pelliculé
 442	TAMSULOSINE (CHLORHYDRATE DE) équivalant à TAMSULOSINE 0,4 mg - OMIX LP 0,4 mg, microgranules à libération prolongée en gélule - JOSIR L.P. 0,4 mg, microgranules à libération prolongée en gélule.	68655083	1	11	TAMSULOSINE TEVA LP 0,4 mg, gélule à libération prolongée
@@ -8011,8 +8011,8 @@ id	label	cis_code	generic_type	elt_number	drug_name
 354	SPIRAMYCINE 1,5 M.UI + METRONIDAZOLE 250 mg - BIRODOGYL, comprimé pelliculé.	68872941	1	3	SPIRAMYCINE METRONIDAZOLE GERDA 1,5 M.U.I./250 mg, comprimé pelliculé
 764	LERCANIDIPINE (CHLORHYDRATE DE) 20 mg - ZANIDIP 20 mg, comprimé pelliculé - LERCAN 20 mg, comprimé pelliculé.	68873833	1	20	LERCANIDIPINE ZYDUS 20 mg, comprimé pelliculé sécable
 915	ATORVASTATINE CALCIQUE TRIHYDRATEE équivalant à 40 mg ATORVASTATINE  - TAHOR 40 mg, comprimé pelliculé.	68875019	0	2	
-349	SIMVASTATINE 10 mg - ZOCOR 10 mg, comprimé enrobé - LODALES 10 mg, comprimé enrobé.	68875268	1	10	
 102	SIMVASTATINE 20 mg - ZOCOR 20 mg, comprimé pelliculé sécable - LODALES 20 mg, comprimé pelliculé.	68875268	2	15	
+349	SIMVASTATINE 10 mg - ZOCOR 10 mg, comprimé enrobé - LODALES 10 mg, comprimé enrobé.	68875268	1	10	
 270	BROMAZEPAM 6 mg - LEXOMIL ROCHE COMPRIME BAGUETTE, comprimé quadrisécable.	68876142	1	2	BROMAZEPAM ARROW 6 mg, comprimé quadrisécable
 1207	D,L-HYDROGENOMALATE D'ALMOTRIPTAN équivalant à ALMOTRIPTAN 12,5 mg - ALMOGRAN 12,5 mg, comprimé pelliculé	68877714	1	8	ALMOTRIPTAN TEVA 12,5 mg, comprimé pelliculé
 1207	D,L-HYDROGENOMALATE D'ALMOTRIPTAN équivalant à ALMOTRIPTAN 12,5 mg - ALMOGRAN 12,5 mg, comprimé pelliculé	68878773	1	5	ALMOTRIPTAN MYLAN 12,5 mg, comprimé pelliculé
@@ -8241,8 +8241,8 @@ id	label	cis_code	generic_type	elt_number	drug_name
 146	AMOXICILLINE 250 mg/5 ml - CLAMOXYL 250 mg/5 ml, poudre pour suspension buvable.	69119124	1	6	AMOXICILLINE CRISTERS 250 mg/5 ml, poudre pour suspension buvable
 29	LOPERAMIDE (CHLORHYDRATE DE) 2 mg - IMODIUM 2 mg, gélule - IMODIUMCAPS 2 mg, gélule	69119195	1	14	LOPERAMIDE SANDOZ 2 mg, gélule
 526	AZITHROMYCINE DIHYDRATE équivalant à AZITHROMYCINE 250 mg - ZITHROMAX 250 mg, comprimé pelliculé.	69119544	1	11	AZITHROMYCINE RATIOPHARM 250 mg, comprimé pelliculé
-1109	IDARUBICINE (CHLORHYDRATE D') 1 mg/ml - ZAVEDOS 10 mg/10 ml, solution pour perfusion (flacon de 10 ml)	69122316	1	2	IDARUBICINE MYLAN 1 mg/ml, solution pour perfusion
 1023	IDARUBICINE (CHLORHYDRATE D') 1 mg/ml - ZAVEDOS 5 mg/5 ml, solution pour perfusion (FLACON de 5 ml).	69122316	1	2	IDARUBICINE MYLAN 1 mg/ml, solution pour perfusion
+1109	IDARUBICINE (CHLORHYDRATE D') 1 mg/ml - ZAVEDOS 10 mg/10 ml, solution pour perfusion (flacon de 10 ml)	69122316	1	2	IDARUBICINE MYLAN 1 mg/ml, solution pour perfusion
 1110	IDARUBICINE (CHLORHYDRATE D') 1 mg/ml - ZAVEDOS 20 mg/20 ml, solution pour perfusion (flacon de 20 ml)	69122316	1	2	IDARUBICINE MYLAN 1 mg/ml, solution pour perfusion
 491	GESTODENE 0,075 mg + ETHINYLESTRADIOL 0,020 mg - MELIANE, comprimé enrobé - HARMONET, comprimé enrobé.	69122540	1	4	GESTODENE/ETHINYLESTRADIOL BIOGARAN 75 microgrammes/20 microgrammes, comprimé enrobé
 1303	MESNA 100 mg/mL - UROMITEXAN 200 mg, solution injectable IV	69123382	0	1	
@@ -8516,13 +8516,13 @@ id	label	cis_code	generic_type	elt_number	drug_name
 1245	VALGANCICLOVIR (CHLORHYDRATE DE) équivalant à valganciclovir 450 mg - ROVALCYTE 450 mg, comprimé pelliculé	69423935	1	9	VALGANCICLOVIR SANDOZ 450 mg, comprimé pelliculé
 711	PANTOPRAZOLE SODIQUE SESQUIHYDRATE équivalant à PANTOPRAZOLE 20 mg - EUPANTOL 20 mg, comprimé gastro-résistant - INIPOMP 20 mg, comprimé gastro-résistant - PANTIPP 20 mg, comprimé gastro-résistant - PANTOZOL CONTROL 20 mg, comprimé gastro-résistant	69424492	1	5	IPRAALOX 20 mg, comprimé gastro-résistant
 200	TAMOXIFENE (CITRATE DE) équivalant à TAMOXIFENE 10 mg - NOLVADEX 10 mg, comprimé pelliculé.	69424909	1	5	TAMOXIFENE SANDOZ 10 mg, comprimé pelliculé
-731	IMIPÉNEM MONOHYDRATÉ + CILASTATINE SODIQUE équivalant à IMIPENEM ANHYDRE 500 mg + CILASTATINE ANHYDRE 500 mg - TIENAM 500 mg/500 mg, poudre pour perfusion avec système de transfert pour poche	69426034	1	2	IMIPENEM CILASTATINE MYLAN 500 mg/500 mg, poudre pour solution pour perfusion
 726	IMIPENEM MONOHYDRATE + CILASTATINE SODIQUE équivalant à IMIPENEM ANHYDRE 500 mg + CILASTATINE ANHYDRE 500 mg - TIENAM 500 mg/500 mg, poudre pour solution pour perfusion	69426034	1	3	IMIPENEM CILASTATINE MYLAN 500 mg/500 mg, poudre pour solution pour perfusion
+731	IMIPÉNEM MONOHYDRATÉ + CILASTATINE SODIQUE équivalant à IMIPENEM ANHYDRE 500 mg + CILASTATINE ANHYDRE 500 mg - TIENAM 500 mg/500 mg, poudre pour perfusion avec système de transfert pour poche	69426034	1	2	IMIPENEM CILASTATINE MYLAN 500 mg/500 mg, poudre pour solution pour perfusion
 552	FEXOFENADINE (CHLORHYDRATE DE) 120 mg - TELFAST 120 mg, comprimé pelliculé.	69426155	1	3	FEXOFENADINE MYLAN 120 mg, comprimé pelliculé
 630	VENLAFAXINE (CHLORHYDRATE DE) équivalant à VENLAFAXINE  37,5 mg - EFFEXOR L.P. 37,5 mg, gélule à libération prolongée.	69427168	1	5	VENLAFAXINE BIOGARAN LP 37,5 mg, gélule à libération prolongée
 16	SUCRALFATE 1 g - ULCAR 1 g, comprimé	69428971	1	2	KEAL 1 g, comprimé sécable
-1027	LEVETIRACETAM 500 mg - KEPPRA 500 mg, comprimé pelliculé.	69429557	1	12	LEVETIRACETAM EG 500 mg, comprimé pelliculé
 1025	LEVETIRACETAM 1000 mg - KEPPRA 1000 mg, comprimé pelliculé.	69429557	2	13	LEVETIRACETAM EG 500 mg, comprimé pelliculé
+1027	LEVETIRACETAM 500 mg - KEPPRA 500 mg, comprimé pelliculé.	69429557	1	12	LEVETIRACETAM EG 500 mg, comprimé pelliculé
 801	PRAMIPEXOLE (DICHLORHYDRATE DE) MONOHYDRATE équivalant à PRAMIPEXOLE 0,7 mg - SIFROL 0,7 mg, comprimé - MIRAPEXIN 0,7 mg, comprimé.	69431234	1	13	
 967	KETAMINE (CHLORHYDRATE DE) équivalant à KETAMINE 250 mg5 ml - KETALAR 50 mg/ml, solution injectable.	69431444	0	1	
 413	MIRTAZAPINE 15 mg - NORSET 15 mg, comprimé pelliculé.	69431946	1	11	MIRTAZAPINE RATIOPHARM 15 mg, comprimé pelliculé
@@ -8594,8 +8594,8 @@ id	label	cis_code	generic_type	elt_number	drug_name
 851	VALSARTAN 160 mg + HYDROCHLOROTHIAZIDE 25 mg - COTAREG 160 mg/25 mg, comprimé pelliculé - NISISCO 160 mg/25 mg, comprimé pelliculé.	69492664	1	7	VALSARTAN/HYDROCHLOROTHIAZIDE ARROW LAB 160 mg/25 mg, comprimé pelliculé
 561	LOSARTAN POTASSIUM 50 mg - COZAAR 50 mg, comprimé pelliculé sécable.	69492739	2	14	
 324	AMOXICILLINE + CLAVULANATE DE POTASSIUM équivalant à AMOXICILLINE  + ACIDE CLAVULANIQUE 1 g + 200 mg - AUGMENTIN 1 g/200 mg, poudre pour solution injectable/pour perfusion (IV).	69493182	1	4	AMOXICILLINE/ACIDE CLAVULANIQUE PANPHARMA 1 g/200 mg ADULTES, poudre pour solution injectable
-579	CYTARABINE 100 mg/5 ml - CYTARABINE EBEWE 20 mg/ml, solution injectable (FLACON de 5 ml).	69493862	1	2	CYTARABINE EG 20 mg/ml, solution injectable
 558	CYTARABINE 40 mg/2 ml - CYTARBEL 40 mg/2 ml, solution injectable (FLACON de 2 ml).	69493862	1	2	CYTARABINE EG 20 mg/ml, solution injectable
+579	CYTARABINE 100 mg/5 ml - CYTARABINE EBEWE 20 mg/ml, solution injectable (FLACON de 5 ml).	69493862	1	2	CYTARABINE EG 20 mg/ml, solution injectable
 1160	NICOTINE (RÉSINATE DE) équivalant à NICOTINE 1,5 mg - NIQUITINMINIS MENTHE FRAÎCHE 1,5 mg SANS SUCRE, comprimé à sucer édulcoré à l'acésulfame potassique	69495532	1	4	
 263	TIAPRIDE (CHLORHYDRATE DE) équivalant à TIAPRIDE 100 mg - TIAPRIDAL 100 mg, comprimé sécable.	69497921	1	3	TIAPRIDE SANDOZ 100 mg, comprimé sécable
 1033	ROPINIROLE (CHLORHYDRATE DE) équivalant à ROPINIROLE 4 mg - REQUIP LP 4 mg, comprimé à libération prolongée.	69498222	1	9	ROPINIROLE TEVA LP 4 mg, comprimé à libération prolongée
@@ -8759,8 +8759,8 @@ id	label	cis_code	generic_type	elt_number	drug_name
 698	TRAMADOL (CHLORHYDRATE DE) 100 mg - CONTRAMAL L.P. 100  mg, comprimé à libération prolongée - TOPALGIC L.P. 100 mg, comprimé à libération prolongée.	69701943	4	4	TRAMADOL ARROW L.P. 100 mg, gélule à libération prolongée
 756	LETROZOLE 2,5 mg - FEMARA 2,5 mg, comprimé pelliculé.	69706470	1	10	LETROZOLE RANBAXY 2,5 mg, comprimé pelliculé
 1025	LEVETIRACETAM 1000 mg - KEPPRA 1000 mg, comprimé pelliculé.	69707978	1	7	
-1133	SERTRALINE (CHLORHYDRATE DE) équivalant à SERTRALINE 25 mg - ZOLOFT 25 mg, comprimé pelliculé	69708254	1	2	
 455	SERTRALINE (CHLORHYDRATE DE) équivalant à SERTRALINE 25 mg - ZOLOFT 25 mg, gélule.	69708254	1	8	
+1133	SERTRALINE (CHLORHYDRATE DE) équivalant à SERTRALINE 25 mg - ZOLOFT 25 mg, comprimé pelliculé	69708254	1	2	
 1259	TADALAFIL 20 mg - CIALIS 20 mg, comprimé pelliculé	69709274	1	14	TADALAFIL TEVA 20 mg, comprimé pelliculé
 843	TOPIRAMATE 50 mg - EPITOMAX 50 mg, gélule	69710351	0	1	EPITOMAX 50 mg, gélule
 448	BISOPROLOL (HEMIFUMARATE DE) 3,75 mg - CARDENSIEL 3,75 mg, comprimé pelliculé sécable - CARDIOCOR 3,75 mg, comprimé pelliculé sécable	69710789	1	5	BISOPROLOL BGR 3,75 mg, comprimé pelliculé sécable
@@ -8842,8 +8842,8 @@ id	label	cis_code	generic_type	elt_number	drug_name
 1278	VORICONAZOLE 200 mg - VFEND 200 mg, poudre pour solution pour perfusion	69816080	1	3	VORICONAZOLE ARROW 200 mg, poudre pour solution pour perfusion
 33	METFORMINE (CHLORHYDRATE DE) 1000 mg - GLUCOPHAGE 1000 mg, comprimé pelliculé sécable.	69816582	1	16	METFORMINE SANDOZ 1000 mg, comprimé pelliculé sécable
 750	DORZOLAMIDE (CHLORHYDRATE DE) équivalant à DORZOLAMIDE 20 mg/ml - TRUSOPT 20 mg/ml, collyre en solution.	69817200	1	4	DORZOLAMIDE EG 20 mg/mL, collyre en solution
-359	SUFENTANIL (CITRATE DE) équivalant à SUFENTANIL 50 µg/10 ml - SUFENTA 50 microgrammes/10 ml, solution injectable (I.V. ou péridurale) (AMPOULE de 10 ml).	69819023	1	5	SUFENTANIL RENAUDIN 5 microgrammes/ml, solution injectable (IV ou péridurale)
 358	SUFENTANIL (CITRATE DE) équivalant à SUFENTANIL 10 µg/2 ml - SUFENTA 10 microgrammes/2 ml, solution injectable (I.V. ou péridurale) (AMPOULE de 2 ml).	69819023	1	5	SUFENTANIL RENAUDIN 5 microgrammes/ml, solution injectable (IV ou péridurale)
+359	SUFENTANIL (CITRATE DE) équivalant à SUFENTANIL 50 µg/10 ml - SUFENTA 50 microgrammes/10 ml, solution injectable (I.V. ou péridurale) (AMPOULE de 10 ml).	69819023	1	5	SUFENTANIL RENAUDIN 5 microgrammes/ml, solution injectable (IV ou péridurale)
 1367	ERYTHROMYCINE (LACTOBIONATE D') équivalant à ERYTHROMYCINE 1 g - ERYTHROCINE 1 g I.V., lyophilisat pour préparation injectable	69820901	1	2	ERYTHROMYCINE PANPHARMA 1 g, poudre pour solution à diluer pour perfusion
 235	ALLOPURINOL 100 mg - ZYLORIC 100 mg, comprimé	69822457	1	9	ALLOPURINOL SET 100 mg, comprimé
 70	DIOSMINE 600 mg - DIOVENOR 600 mg, comprimé pelliculé	69823317	1	6	DIOSMINE EG LABO CONSEIL 600 mg, comprimé pelliculé
