@@ -5411,7 +5411,7 @@
 62597431	3169828	6 ampoule(s) en verre de 2 ml	Présentation active	Déclaration de commercialisation	09/03/1998	3400931698289	oui	30%	2,51	3,53	1,02	
 62597926	3720663	plaquette(s) polyamide aluminium PVC-Aluminium de 30 comprimé(s)	Présentation active	Déclaration de commercialisation	19/12/2006	3400937206631	non					
 62597926	3720692	plaquette(s) polyamide aluminium PVC-Aluminium de 90 comprimé(s)	Présentation active	Déclaration de commercialisation	11/10/2006	3400937206921	non					
-62598280	3007785	7 plaquette(s) PVC polyéthylène polychlortrifluoroéthylène unidose(s) de 2 comprimé(s)	Présentation active	Déclaration de commercialisation	15/02/2017	3400930077856	oui	100 %	79,97	1,02		
+62598280	3007785	7 plaquette(s) PVC polyéthylène polychlortrifluoroéthylène unidose(s) de 2 comprimé(s)	Présentation active	Déclaration de commercialisation	15/02/2017	3400930077856	oui	100 %	79,97	80,99	1,02	
 62600742	3921574	10 ampoule(s) en verre de 1 ml	Présentation active	Déclaration de commercialisation	02/02/2011	3400939215747	oui	65%	2,65	3,67	1,02	
 62601043	2764374	3 plaquette(s) thermoformée(s) aluminium polyamide PVC de 10 comprimé(s)	Présentation active	Déclaration de commercialisation	18/01/2016	3400927643743	oui	100%	2,850,07	2,851,09	1,02	
 62602914	3926815	plaquette(s) thermoformée(s) PVC PVDC aluminium de 30 comprimé(s)	Présentation active	Déclaration de commercialisation	22/12/2009	3400939268156	oui	65%	5,48	6,50	1,02	
@@ -7661,9 +7661,9 @@
 63692245	3238179	plaquette(s) thermoformée(s) PVC-aluminium de 30 comprimé(s)	Présentation active	Déclaration de commercialisation	19/06/1980	3400932381791	oui	65%	1,99	3,01	1,02	
 63692245	5631314	plaquette(s) thermoformée(s) PVC-aluminium de 100 comprimé(s)	Présentation active	Déclaration d'arrêt de commercialisation	03/03/2014	3400956313143	non					
 63696425	3209686	1 flacon(s) en verre de 10  ml - 1 flacon(s) pulvérisateur(s) polyéthylène de 10  ml avec embout nasal et tube plongeur polyethylène	Présentation active	Déclaration de commercialisation	19/08/1969	3400932096862	non					
-63696471	3007789	7 plaquette(s) PVC polyéthylène polychlortrifluoroéthylène unidose(s) de 1 comprimé(s)	Présentation active	Déclaration de commercialisation	15/02/2017	3400930077894	oui	100 %	384,12	1,02		
-63696471	3007790	7 plaquette(s) PVC polyéthylène polychlortrifluoroéthylène unidose(s) de 2 comprimé(s)	Présentation active	Déclaration de commercialisation	15/02/2017	3400930077900	oui	100 %	747,55	1,02		
-63696471	3007791	4 plaquette(s) PVC polyéthylène polychlortrifluoroéthylène multidose(s) de 28 comprimé(s)	Présentation active	Déclaration de commercialisation	15/02/2017	3400930077917	oui	100 %	5,490,37	1,02		
+63696471	3007789	7 plaquette(s) PVC polyéthylène polychlortrifluoroéthylène unidose(s) de 1 comprimé(s)	Présentation active	Déclaration de commercialisation	15/02/2017	3400930077894	oui	100 %	384,12	385,14	1,02	
+63696471	3007790	7 plaquette(s) PVC polyéthylène polychlortrifluoroéthylène unidose(s) de 2 comprimé(s)	Présentation active	Déclaration de commercialisation	15/02/2017	3400930077900	oui	100 %	747,55	748,57	1,02	
+63696471	3007791	4 plaquette(s) PVC polyéthylène polychlortrifluoroéthylène multidose(s) de 28 comprimé(s)	Présentation active	Déclaration de commercialisation	15/02/2017	3400930077917	oui	100 %	5,490,37	5,491,39	1,02	
 63696610	3460498	1 flacon(s) en verre de 263 mg	Présentation active	Déclaration de commercialisation	01/05/2012	3400934604980	oui					
 63696610	5830114	10 flacon(s) en verre de 263 mg	Présentation active	Déclaration de commercialisation	01/02/2013	3400958301148	non					
 63697872	3322081	6 ampoule(s) en verre de 4  ml	Présentation active	Déclaration de commercialisation	19/01/1990	3400933220815	oui					
@@ -9106,7 +9106,7 @@
 64448518	3852956	plaquette(s) PVC PVDC aluminium de 90 comprimé(s)	Présentation active	Déclaration de commercialisation	03/03/2010	3400938529562	oui	65%	13,19	15,95	2,76	
 64449709	3904334	plaquette(s) thermoformée(s) aluminium de 30 comprimé(s)	Présentation active	Déclaration d'arrêt de commercialisation	27/05/2015	3400939043340	non	65%	4,57	5,59	1,02	
 64449709	3904357	plaquette(s) thermoformée(s) aluminium de 90 comprimé(s)	Présentation active	Déclaration d'arrêt de commercialisation	22/04/2015	3400939043579	non	65%	13,19	15,95	2,76	
-64449755	3007788	7 plaquette(s) PVC polyéthylène polychlortrifluoroéthylène unidose(s) de 1 comprimé(s)	Présentation active	Déclaration de commercialisation	15/02/2017	3400930077887	oui	100 %	195,38	1,02		
+64449755	3007788	7 plaquette(s) PVC polyéthylène polychlortrifluoroéthylène unidose(s) de 1 comprimé(s)	Présentation active	Déclaration de commercialisation	15/02/2017	3400930077887	oui	100 %	195,38	196,40	1,02	
 64450063	3000790	12 sachet(s) papier kraft aluminium polyéthylène de 3,76 g	Présentation active	Déclaration de commercialisation	02/09/2015	3400930007907	non					
 64450234	3003109	12 flacon(s) en verre de 0,45 ml	Présentation active	Déclaration de commercialisation	18/01/2018	3400930031094	oui	65%	12,054,50	12,055,52	1,02	
 64450234	3003112	12 flacon(s) en verre de 0,7 ml	Présentation active	Déclaration de commercialisation	18/01/2018	3400930031124	oui	65%	18,679,16	18,680,18	1,02	
